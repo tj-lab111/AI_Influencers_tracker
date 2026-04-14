@@ -103,4 +103,184 @@ def send_to_feishu(webhook_url: str, content: str):
 
 
 def generate_feishu_content(data: dict) -> str:
-    """ ▉
+    """生成飞书消息内容"""
+    lines = []
+    
+    for influencer, tweets in data.items():
+        if tweets:
+            lines.append(f"### 🎯 {influencer}")
+            lines.append("")
+            for tweet in tweets:
+                lines.append(f"- [{tweet['text'][:100]}...]({tweet['url']})")
+                lines.append(f"  💬 {tweet.get('replies', 0)} | 🔁 {tweet.get('retweets', 0)} | ❤️ {tweet.get('likes', 0)}")
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+    
+    return "\n".join(lines)
+
+
+# ============ Twitter 抓取 ============
+
+async def scrape_twitter():
+    """使用 Playwright 抓取 Twitter"""
+    results = {}
+    
+    async with async_playwright() as p:
+        # 启动浏览器 - GitHub Actions 需要特殊参数
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+            ]
+        )
+        
+        context = await browser.new_context(
+            viewport={'width': 1280, 'height': 720},
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        )
+        
+        page = await context.new_page()
+        
+        for influencer in INFLUENCERS:
+            name = influencer["name"]
+            handle = influencer["handle"]
+            url = f"https://twitter.com/{handle}"
+            
+            print(f"📊 正在抓取: {name} (@{handle})")
+            
+            try:
+                await page.goto(url, timeout=30000, wait_until='domcontentloaded')
+                await page.wait_for_timeout(2000)  # 等待页面加载
+                
+                # 尝试获取推文
+                tweets = []
+                
+                # 等待推文容器
+                try:
+                    await page.wait_for_selector('[data-testid="tweet"]', timeout=10000)
+                except:
+                    print(f"  ⚠️ 无法加载 @{handle} 的推文，可能需要登录")
+                    results[name] = []
+                    continue
+                
+                # 获取推文元素
+                tweet_elements = await page.query_selector_all('[data-testid="tweet"]')
+                
+                for i, tweet_el in enumerate(tweet_elements[:MAX_TWEETS_PER_USER]):
+                    try:
+                        # 获取推文文本
+                        text_el = await tweet_el.query_selector('[data-testid="tweetText"]')
+                        text = await text_el.inner_text() if text_el else ""
+                        
+                        # 获取推文链接
+                        link_el = await tweet_el.query_selector('a[href*="/status/"]')
+                        tweet_url = ""
+                        if link_el:
+                            href = await link_el.get_attribute('href')
+                            if href:
+                                tweet_url = f"https://twitter.com{href}"
+                        
+                        # 获取互动数据
+                        replies = retweets = likes = 0
+                        
+                        # 尝试获取回复数
+                        reply_el = await tweet_el.query_selector('[data-testid="reply"]')
+                        if reply_el:
+                            reply_text = await reply_el.inner_text()
+                            try:
+                                replies = int(reply_text.replace(',', '').replace('K', '000').replace('M', '000000'))
+                            except:
+                                pass
+                        
+                        # 尝试获取转推数
+                        retweet_el = await tweet_el.query_selector('[data-testid="retweet"]')
+                        if retweet_el:
+                            retweet_text = await retweet_el.inner_text()
+                            try:
+                                retweets = int(retweet_text.replace(',', '').replace('K', '000').replace('M', '000000'))
+                            except:
+                                pass
+                        
+                        # 尝试获取点赞数
+                        like_el = await tweet_el.query_selector('[data-testid="like"]')
+                        if like_el:
+                            like_text = await like_el.inner_text()
+                            try:
+                                likes = int(like_text.replace(',', '').replace('K', '000').replace('M', '000000'))
+                            except:
+                                pass
+                        
+                        if text and tweet_url:
+                            tweets.append({
+                                "text": text,
+                                "url": tweet_url,
+                                "replies": replies,
+                                "retweets": retweets,
+                                "likes": likes
+                            })
+                    except Exception as e:
+                        print(f"  ⚠️ 解析推文错误: {e}")
+                        continue
+                
+                results[name] = tweets
+                print(f"  ✅ 获取了 {len(tweets)} 条推文")
+                
+                # 延迟，避免请求过快
+                await page.wait_for_timeout(DELAY_BETWEEN_USERS * 1000)
+                
+            except Exception as e:
+                print(f"  ❌ 抓取 @{handle} 失败: {e}")
+                results[name] = []
+        
+        await browser.close()
+    
+    return results
+
+
+def save_report(data: dict):
+    """保存报告到文件"""
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    filename = OUTPUT_DIR / f"report_{timestamp}.json"
+    
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print(f"📄 报告已保存: {filename}")
+    return filename
+
+
+async def main():
+    """主函数"""
+    print("=" * 50)
+    print("🐦 AI Influencers Twitter Tracker")
+    print(f"📅 开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 50)
+    
+    # 抓取数据
+    data = await scrape_twitter()
+    
+    # 保存报告
+    save_report(data)
+    
+    # 推送到飞书
+    webhook_url = os.getenv("FEISHU_WEBHOOK", "")
+    content = generate_feishu_content(data)
+    
+    if webhook_url:
+        send_to_feishu(webhook_url, content)
+    else:
+        print("⚠️ 未设置 FEISHU_WEBHOOK 环境变量，跳过飞书推送")
+    
+    print("=" * 50)
+    print("✅ 完成!")
+    print("=" * 50)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
