@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Twitter AI Influencers Tracker
-使用 Playwright 浏览器自动化抓取 AI 大牛的推文，并推送到飞书
+使用 Playwright 浏览器自动化抓取 AI 大牛的最新推文，并推送到飞书
 
 GitHub Actions 自动运行版本
 """
@@ -10,7 +10,8 @@ import asyncio
 import json
 import os
 import urllib.request
-from datetime import datetime
+import re
+from datetime import datetime, timedelta
 from pathlib import Path
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
@@ -45,6 +46,58 @@ OUTPUT_DIR = Path("reports")
 MAX_TWEETS_PER_USER = 5
 DELAY_BETWEEN_USERS = 2
 
+# 只抓取最近多少小时内的推文
+MAX_TWEET_AGE_HOURS = 24
+
+# ============ 时间解析 ============
+
+def parse_tweet_time(time_str: str) -> datetime:
+    """
+    解析 Twitter 时间格式
+    支持: "2h", "3m", "1d", "Apr 14", "Dec 25, 2023"
+    """
+    now = datetime.utcnow()
+    
+    if not time_str:
+        return now - timedelta(days=365)  # 默认返回很久以前
+    
+    time_str = time_str.strip().lower()
+    
+    # 相对时间: "2h", "3m", "1d"
+    match = re.match(r'^(\d+)([hmd])$', time_str)
+    if match:
+        num = int(match.group(1))
+        unit = match.group(2)
+        if unit == 'm':
+            return now - timedelta(minutes=num)
+        elif unit == 'h':
+            return now - timedelta(hours=num)
+        elif unit == 'd':
+            return now - timedelta(days=num)
+    
+    # 绝对时间: "Apr 14" 或 "Dec 25, 2023"
+    try:
+        # 尝试解析带年份的格式
+        if ',' in time_str:
+            return datetime.strptime(time_str, '%b %d, %Y')
+        else:
+            # 没有年份，假设是今年
+            parsed = datetime.strptime(time_str, '%b %d')
+            return parsed.replace(year=now.year)
+    except:
+        pass
+    
+    return now - timedelta(days=365)  # 无法解析则返回很久以前
+
+
+def is_recent_tweet(time_str: str, max_age_hours: int = MAX_TWEET_AGE_HOURS) -> bool:
+    """检查推文是否在指定时间内"""
+    tweet_time = parse_tweet_time(time_str)
+    now = datetime.utcnow()
+    age = now - tweet_time
+    return age.total_seconds() <= max_age_hours * 3600
+
+
 # ============ 飞书推送 ============
 
 def send_to_feishu(webhook_url: str, content: str):
@@ -74,7 +127,7 @@ def send_to_feishu(webhook_url: str, content: str):
                     "elements": [
                         {
                             "tag": "plain_text",
-                            "content": f"📅 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC"
+                            "content": f"📅 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC | 仅显示最近 {MAX_TWEET_AGE_HOURS} 小时内的推文"
                         }
                     ]
                 }
@@ -105,17 +158,23 @@ def send_to_feishu(webhook_url: str, content: str):
 def generate_feishu_content(data: dict) -> str:
     """生成飞书消息内容"""
     lines = []
+    total_tweets = 0
     
     for influencer, tweets in data.items():
         if tweets:
+            total_tweets += len(tweets)
             lines.append(f"### 🎯 {influencer}")
             lines.append("")
             for tweet in tweets:
-                lines.append(f"- [{tweet['text'][:100]}...]({tweet['url']})")
+                time_info = tweet.get('time', '')
+                lines.append(f"- {time_info}: [{tweet['text'][:80]}...]({tweet['url']})")
                 lines.append(f"  💬 {tweet.get('replies', 0)} | 🔁 {tweet.get('retweets', 0)} | ❤️ {tweet.get('likes', 0)}")
             lines.append("")
             lines.append("---")
             lines.append("")
+    
+    if total_tweets == 0:
+        return f"**今日暂无新推文**\n\n在过去 {MAX_TWEET_AGE_HOURS} 小时内，所有监控的 AI 大牛都没有发布新推文。"
     
     return "\n".join(lines)
 
@@ -154,10 +213,11 @@ async def scrape_twitter():
             
             try:
                 await page.goto(url, timeout=30000, wait_until='domcontentloaded')
-                await page.wait_for_timeout(2000)  # 等待页面加载
+                await page.wait_for_timeout(3000)  # 等待页面加载
                 
                 # 尝试获取推文
-                tweets = []
+                all_tweets = []
+                recent_tweets = []
                 
                 # 等待推文容器
                 try:
@@ -170,11 +230,17 @@ async def scrape_twitter():
                 # 获取推文元素
                 tweet_elements = await page.query_selector_all('[data-testid="tweet"]')
                 
-                for i, tweet_el in enumerate(tweet_elements[:MAX_TWEETS_PER_USER]):
+                for i, tweet_el in enumerate(tweet_elements[:15]):  # 多获取一些，然后过滤
                     try:
                         # 获取推文文本
                         text_el = await tweet_el.query_selector('[data-testid="tweetText"]')
                         text = await text_el.inner_text() if text_el else ""
+                        
+                        # 获取推文时间
+                        time_el = await tweet_el.query_selector('time')
+                        time_str = ""
+                        if time_el:
+                            time_str = await time_el.inner_text()
                         
                         # 获取推文链接
                         link_el = await tweet_el.query_selector('a[href*="/status/"]')
@@ -215,19 +281,29 @@ async def scrape_twitter():
                                 pass
                         
                         if text and tweet_url:
-                            tweets.append({
+                            tweet_data = {
                                 "text": text,
                                 "url": tweet_url,
+                                "time": time_str,
                                 "replies": replies,
                                 "retweets": retweets,
                                 "likes": likes
-                            })
+                            }
+                            all_tweets.append(tweet_data)
+                            
+                            # 只保留最近的推文
+                            if is_recent_tweet(time_str):
+                                recent_tweets.append(tweet_data)
+                                if len(recent_tweets) >= MAX_TWEETS_PER_USER:
+                                    break
+                                    
                     except Exception as e:
                         print(f"  ⚠️ 解析推文错误: {e}")
                         continue
                 
-                results[name] = tweets
-                print(f"  ✅ 获取了 {len(tweets)} 条推文")
+                # 使用过滤后的最近推文
+                results[name] = recent_tweets
+                print(f"  ✅ 获取了 {len(recent_tweets)} 条最近 {MAX_TWEET_AGE_HOURS}h 内的推文 (共 {len(all_tweets)} 条)")
                 
                 # 延迟，避免请求过快
                 await page.wait_for_timeout(DELAY_BETWEEN_USERS * 1000)
@@ -260,6 +336,7 @@ async def main():
     print("=" * 50)
     print("🐦 AI Influencers Twitter Tracker")
     print(f"📅 开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"⏰ 只抓取最近 {MAX_TWEET_AGE_HOURS} 小时内的推文")
     print("=" * 50)
     
     # 抓取数据
@@ -277,8 +354,10 @@ async def main():
     else:
         print("⚠️ 未设置 FEISHU_WEBHOOK 环境变量，跳过飞书推送")
     
+    # 统计
+    total = sum(len(tweets) for tweets in data.values())
     print("=" * 50)
-    print("✅ 完成!")
+    print(f"✅ 完成! 共获取 {total} 条最新推文")
     print("=" * 50)
 
 
