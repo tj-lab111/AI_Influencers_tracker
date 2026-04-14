@@ -1,0 +1,15 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+# Reports
+reports/*.json
+reports/*.md
+!.gitkeep
+# OS
+.DS_Store
+Thumbs.db
