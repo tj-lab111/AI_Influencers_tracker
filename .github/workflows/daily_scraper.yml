@@ -1,0 +1,37 @@
+name: Twitter AI Influencers Tracker
+
+on:
+  schedule:
+    # 每天 UTC 0:00 运行（北京时间 8:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium          
+      
+      - name: Run Twitter scraper
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: python twitter_scraper.py
+      
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-report
+          path: reports/
+          retention-days: 30
