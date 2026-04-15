@@ -5,6 +5,7 @@ Twitter AI Influencers Tracker
 
 GitHub Actions 自动运行版本
 支持 AI 摘要功能（OpenAI 兼容 API，包括智谱、DeepSeek 等）
+支持保存报告到 reports 目录并自动清理过期报告
 """
 
 import asyncio
@@ -12,6 +13,7 @@ import json
 import os
 import urllib.request
 import re
+import glob
 from datetime import datetime, timedelta
 from pathlib import Path
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
@@ -110,16 +112,57 @@ ORGANIZATIONS = [
 ]
 
 OUTPUT_DIR = Path("reports")
-MAX_TWEETS_PER_USER = 3  # 减少每个主体的推文数量
+MAX_TWEETS_PER_USER = 3
 DELAY_BETWEEN_USERS = 2
 
 # 只抓取最近多少小时内的推文
 MAX_TWEET_AGE_HOURS = 24
 
+# 报告保留天数（超过此天数的报告将被自动删除）
+REPORT_RETENTION_DAYS = 30
+
 # AI 摘要配置（支持 OpenAI 兼容 API）
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
 AI_MODEL = os.getenv("AI_MODEL", "glm-4-flash")
+
+# ============ 报告清理 ============
+
+def cleanup_old_reports():
+    """删除超过保留天数的旧报告"""
+    if not OUTPUT_DIR.exists():
+        return 0
+    
+    cutoff_date = datetime.now() - timedelta(days=REPORT_RETENTION_DAYS)
+    deleted_count = 0
+    
+    # 查找所有报告文件
+    patterns = ["report_*.json", "report_*.md"]
+    for pattern in patterns:
+        for file_path in OUTPUT_DIR.glob(pattern):
+            try:
+                # 从文件名提取日期 (report_YYYY-MM-DD_HH-MM-SS.json)
+                filename = file_path.name
+                date_str = filename.replace("report_", "").rsplit(".", 1)[0]
+                file_date = datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
+                
+                if file_date < cutoff_date:
+                    file_path.unlink()
+                    deleted_count += 1
+                    print(f"🗑️ 已删除过期报告: {filename}")
+            except Exception as e:
+                # 如果无法解析日期，检查文件修改时间
+                file_mtime = datetime.fromtimestamp(file_path.stat().st_mtime)
+                if file_mtime < cutoff_date:
+                    file_path.unlink()
+                    deleted_count += 1
+                    print(f"🗑️ 已删除过期报告: {file_path.name}")
+    
+    if deleted_count > 0:
+        print(f"✅ 共清理 {deleted_count} 个过期报告（保留期：{REPORT_RETENTION_DAYS} 天）")
+    
+    return deleted_count
+
 
 # ============ 时间解析 ============
 
@@ -360,6 +403,151 @@ def format_tweet(tweet: dict) -> str:
     return "\n".join(lines)
 
 
+# ============ 报告保存 ============
+
+def save_report(personal_data: dict, org_data: dict):
+    """保存报告到文件（JSON + Markdown）"""
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    
+    # 保存 JSON 格式
+    json_filename = OUTPUT_DIR / f"report_{timestamp}.json"
+    json_data = {
+        "date": date_str,
+        "generated_at": datetime.now().isoformat(),
+        "personal": personal_data,
+        "organizations": org_data
+    }
+    
+    with open(json_filename, 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"📄 JSON 报告已保存: {json_filename}")
+    
+    # 保存 Markdown 格式（与飞书内容一致）
+    md_filename = OUTPUT_DIR / f"report_{timestamp}.md"
+    md_content = generate_markdown_report(personal_data, org_data)
+    
+    with open(md_filename, 'w', encoding='utf-8') as f:
+        f.write(md_content)
+    
+    print(f"📄 Markdown 报告已保存: {md_filename}")
+    
+    return json_filename, md_filename
+
+
+def generate_markdown_report(personal_tweets: dict, org_tweets: dict) -> str:
+    """生成 Markdown 格式的完整报告"""
+    lines = []
+    
+    # 标题
+    lines.append(f"# 🐦 AI 动态日报")
+    lines.append("")
+    lines.append(f"**日期**: {datetime.now().strftime('%Y-%m-%d')}")
+    lines.append(f"**生成时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC")
+    lines.append("")
+    
+    # 统计信息
+    personal_total = sum(len(tweets) for tweets in personal_tweets.values())
+    org_total = sum(len(tweets) for tweets in org_tweets.values())
+    total = personal_total + org_total
+    
+    lines.append("## 📊 统计概览")
+    lines.append("")
+    lines.append(f"- **总推文数**: {total} 条")
+    lines.append(f"- **AI 大牛**: {personal_total} 条")
+    lines.append(f"- **AI 机构**: {org_total} 条")
+    lines.append(f"- **时间范围**: 最近 {MAX_TWEET_AGE_HOURS} 小时")
+    lines.append("")
+    
+    if total == 0:
+        lines.append("---")
+        lines.append("")
+        lines.append("*今日暂无新推文*")
+        return "\n".join(lines)
+    
+    lines.append("---")
+    lines.append("")
+    
+    # AI 大牛动态
+    if personal_tweets:
+        lines.append("## 👤 AI 大牛动态")
+        lines.append("")
+        for entity, tweets in personal_tweets.items():
+            if tweets:
+                lines.append(f"### {entity}")
+                lines.append("")
+                for tweet in tweets:
+                    lines.extend(format_tweet_markdown(tweet))
+                lines.append("")
+    
+    # AI 机构动态
+    if org_tweets:
+        lines.append("---")
+        lines.append("")
+        lines.append("## 🏢 AI 机构动态")
+        lines.append("")
+        for entity, tweets in org_tweets.items():
+            if tweets:
+                lines.append(f"### {entity}")
+                lines.append("")
+                for tweet in tweets:
+                    lines.extend(format_tweet_markdown(tweet))
+                lines.append("")
+    
+    # 页脚
+    lines.append("---")
+    lines.append("")
+    lines.append(f"*本报告由 AI Influencers Tracker 自动生成*")
+    lines.append(f"*监控 {len(INFLUENCERS)} 位 AI 大牛 + {len(ORGANIZATIONS)} 家 AI 机构*")
+    
+    return "\n".join(lines)
+
+
+def format_tweet_markdown(tweet: dict) -> list:
+    """格式化单条推文为 Markdown"""
+    lines = []
+    
+    time_info = tweet.get('time', '')
+    summary = tweet.get('summary', '')
+    key_data = tweet.get('key_data', [])
+    keywords = tweet.get('keywords', [])
+    text = tweet.get('text', '')
+    
+    # 时间和链接
+    lines.append(f"#### [{time_info}] {tweet['url']}")
+    lines.append("")
+    
+    # 推文原文（截取前 200 字符）
+    if text:
+        display_text = text[:200] + "..." if len(text) > 200 else text
+        lines.append(f"> {display_text}")
+        lines.append("")
+    
+    # AI 摘要
+    if summary:
+        lines.append(f"**摘要**: {summary}")
+    
+    # 关键数据
+    if key_data and any(key_data):
+        data_str = " | ".join([d for d in key_data if d])
+        if data_str:
+            lines.append(f"**数据**: {data_str}")
+    
+    # 关键词
+    if keywords:
+        keywords_str = ", ".join([f"`{k}`" for k in keywords])
+        lines.append(f"**关键词**: {keywords_str}")
+    
+    # 互动数据
+    lines.append(f"**互动**: 💬 {tweet.get('replies', 0)} | 🔁 {tweet.get('retweets', 0)} | ❤️ {tweet.get('likes', 0)}")
+    lines.append("")
+    
+    return lines
+
+
 # ============ Twitter 抓取 ============
 
 async def scrape_entity(page, entity: dict) -> list:
@@ -523,25 +711,6 @@ async def scrape_twitter():
     return personal_results, org_results
 
 
-def save_report(personal_data: dict, org_data: dict):
-    """保存报告到文件"""
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = OUTPUT_DIR / f"report_{timestamp}.json"
-    
-    data = {
-        "personal": personal_data,
-        "organizations": org_data
-    }
-    
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    
-    print(f"📄 报告已保存: {filename}")
-    return filename
-
-
 async def main():
     """主函数"""
     print("=" * 50)
@@ -550,24 +719,36 @@ async def main():
     print(f"👤 大牛: {len(INFLUENCERS)} 位")
     print(f"🏢 机构: {len(ORGANIZATIONS)} 家")
     print(f"⏰ 只抓取最近 {MAX_TWEET_AGE_HOURS} 小时内的推文")
+    print(f"🗑️ 报告保留期: {REPORT_RETENTION_DAYS} 天")
     print("=" * 50)
     
+    # 清理过期报告
+    print("\n📁 检查并清理过期报告...")
+    cleanup_old_reports()
+    
+    # 抓取数据
     personal_data, org_data = await scrape_twitter()
+    
+    # 保存报告
+    print("\n📄 保存报告...")
     save_report(personal_data, org_data)
     
+    # 推送到飞书
     webhook_url = os.getenv("FEISHU_WEBHOOK", "")
     content = generate_feishu_content(personal_data, org_data)
     
     if webhook_url:
+        print("\n📤 推送到飞书...")
         send_to_feishu(webhook_url, content)
     else:
         print("⚠️ 未设置 FEISHU_WEBHOOK 环境变量")
     
+    # 统计
     personal_total = sum(len(tweets) for tweets in personal_data.values())
     org_total = sum(len(tweets) for tweets in org_data.values())
     total = personal_total + org_total
     
-    print("=" * 50)
+    print("\n" + "=" * 50)
     print(f"✅ 完成! 共获取 {total} 条最新推文 (大牛 {personal_total} + 机构 {org_total})")
     print("=" * 50)
 
