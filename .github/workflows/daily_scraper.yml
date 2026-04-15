@@ -2,9 +2,11 @@ name: Twitter AI Influencers Tracker
 
 on:
   schedule:
-    # 每天 UTC 0:00 运行（北京时间 8:00）
     - cron: '0 0 * * *'
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 允许提交代码
 
 jobs:
   scrape:
@@ -46,4 +48,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add reports/*.json reports/*.md 2>/dev/null || true
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: Add daily report $(date '+%Y-%m-%d')"
-          git push    
+          git push 
