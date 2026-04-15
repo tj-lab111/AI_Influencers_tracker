@@ -344,11 +344,11 @@ def generate_feishu_content(personal_tweets: dict, org_tweets: dict) -> str:
     
     # ===== 第一部分：AI 大牛 =====
     if personal_tweets:
-        lines.append("## 👤 AI 大牛动态")
+        lines.append("**━━━ 👤 AI 大牛动态 ━━━**")
         lines.append("")
         for entity, tweets in personal_tweets.items():
             if tweets:
-                lines.append(f"### {entity}")
+                lines.append(f"**{entity}**")
                 for tweet in tweets:
                     lines.append(format_tweet(tweet))
                 lines.append("")
@@ -358,11 +358,11 @@ def generate_feishu_content(personal_tweets: dict, org_tweets: dict) -> str:
         if personal_tweets:
             lines.append("---")
             lines.append("")
-        lines.append("## 🏢 AI 机构动态")
+        lines.append("**━━━ 🏢 AI 机构动态 ━━━**")
         lines.append("")
         for entity, tweets in org_tweets.items():
             if tweets:
-                lines.append(f"### {entity}")
+                lines.append(f"**{entity}**")
                 for tweet in tweets:
                     lines.append(format_tweet(tweet))
                 lines.append("")
