@@ -28,6 +28,9 @@ jobs:
       - name: Run Twitter scraper
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: https://open.bigmodel.cn/api/paas/v4/
+          AI_MODEL: glm-4-flash
         run: python twitter_scraper.py
       
       - name: Upload report
