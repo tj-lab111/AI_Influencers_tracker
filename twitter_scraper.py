@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Twitter AI Influencers Tracker
-使用 Playwright 浏览器自动化抓取 AI 大牛的最新推文，并推送到飞书
+使用 Playwright 浏览器自动化抓取 AI 大牛和机构的最新推文，并推送到飞书
 
 GitHub Actions 自动运行版本
 支持 AI 摘要功能（OpenAI 兼容 API，包括智谱、DeepSeek 等）
@@ -18,33 +18,99 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 # ============ 配置区域 ============
 
+# AI 大牛（个人）
 INFLUENCERS = [
-    # AI 研究领袖
-    {"name": "Sam Altman", "handle": "sama", "desc": "OpenAI CEO"},
-    {"name": "Elon Musk", "handle": "elonmusk", "desc": "xAI 创始人"},
-    {"name": "Demis Hassabis", "handle": "demishassabis", "desc": "DeepMind CEO"},
-    {"name": "Yann LeCun", "handle": "ylecun", "desc": "Meta AI 首席科学家"},
-    {"name": "Andrej Karpathy", "handle": "karpathy", "desc": "AI 教育网红"},
-    {"name": "Ilya Sutskever", "handle": "ilyasut", "desc": "OpenAI 联合创始人"},
+    # OpenAI
+    {"name": "Sam Altman", "handle": "sama", "title": "OpenAI CEO"},
     
-    # 架构创新者
-    {"name": "Ashish Vaswani", "handle": "avaswani", "desc": "Transformer 作者"},
-    {"name": "Aidan Gomez", "handle": "aidangomez", "desc": "Cohere CEO"},
+    # xAI
+    {"name": "Elon Musk", "handle": "elonmusk", "title": "xAI 创始人"},
     
-    # 开源 AI
-    {"name": "Clement Delangue", "handle": "clementdelangue", "desc": "Hugging Face CEO"},
-    {"name": "Thomas Wolf", "handle": "Thom_Wolf", "desc": "Hugging Face 联合创始人"},
+    # DeepMind
+    {"name": "Demis Hassabis", "handle": "demishassabis", "title": "DeepMind CEO"},
+    {"name": "Sergey Levine", "handle": "SergeyI Levine4", "title": "DeepMind 研究员"},
     
-    # AI 研究
-    {"name": "Jim Fan", "handle": "DrJimFan", "desc": "NVIDIA 高级科学家"},
+    # Meta AI
+    {"name": "Yann LeCun", "handle": "ylecun", "title": "Meta AI 首席科学家"},
+    
+    # AI 教育
+    {"name": "Andrej Karpathy", "handle": "karpathy", "title": "AI 教育网红"},
+    
+    # OpenAI 系
+    {"name": "Ilya Sutskever", "handle": "ilyasut", "title": "OpenAI 联合创始人"},
+    
+    # Transformer 作者
+    {"name": "Ashish Vaswani", "handle": "avaswani", "title": "Transformer 作者"},
+    {"name": "Aidan Gomez", "handle": "aidangomez", "title": "Cohere CEO"},
+    
+    # Hugging Face
+    {"name": "Clement Delangue", "handle": "clementdelangue", "title": "Hugging Face CEO"},
+    {"name": "Thomas Wolf", "handle": "Thom_Wolf", "title": "Hugging Face 联合创始人"},
+    
+    # NVIDIA
+    {"name": "Jim Fan", "handle": "DrJimFan", "title": "NVIDIA 高级科学家"},
     
     # AI 媒体
-    {"name": "Rowan Cheung", "handle": "rowancheung", "desc": "The Rundown AI"},
-    {"name": "Matt Shumer", "handle": "mshumer_", "desc": "AI 产品开发者"},
+    {"name": "Rowan Cheung", "handle": "rowancheung", "title": "The Rundown AI 创始人"},
+    {"name": "Matt Shumer", "handle": "mshumer_", "title": "AI 产品开发者"},
+    
+    # 其他
+    {"name": "Geoffrey Hinton", "handle": "geoffreyhinton", "title": "AI 教父、诺贝尔奖得主"},
+    {"name": "Andrew Ng", "handle": "AndrewYNg", "title": "DeepLearning.AI 创始人"},
+    {"name": "Pieter Levels", "handle": "levelsio", "title": "独立开发者"},
+]
+
+# AI 机构
+ORGANIZATIONS = [
+    # ===== 国外大模型公司 =====
+    {"name": "OpenAI", "handle": "OpenAI", "title": "GPT、ChatGPT、DALL-E"},
+    {"name": "Anthropic", "handle": "AnthropicAI", "title": "Claude 模型"},
+    {"name": "Google DeepMind", "handle": "DeepMind", "title": "AlphaGo、Gemini"},
+    {"name": "Google AI", "handle": "GoogleAI", "title": "Google AI 研究"},
+    {"name": "Meta AI", "handle": "MetaAI", "title": "LLaMA、PyTorch"},
+    {"name": "xAI", "handle": "xaboratory", "title": "Grok 模型"},
+    {"name": "Mistral AI", "handle": "MistralAI", "title": "Mistral、Mixtral"},
+    {"name": "Cohere", "handle": "CohereForAI", "title": "企业大模型"},
+    {"name": "Hugging Face", "handle": "huggingface", "title": "开源 AI 社区"},
+    {"name": "Stability AI", "handle": "StabilityAI", "title": "Stable Diffusion"},
+    
+    # ===== 国外 AI 基础设施 =====
+    {"name": "NVIDIA AI", "handle": "NVIDIAAI", "title": "GPU、CUDA、AI 芯片"},
+    {"name": "AWS AI", "handle": "AWS_AI", "title": "云端 AI 服务"},
+    
+    # ===== 国外 AI 应用 =====
+    {"name": "Midjourney", "handle": "midjourney", "title": "AI 绘图"},
+    {"name": "Runway", "handle": "runwayml", "title": "AI 视频"},
+    {"name": "Perplexity", "handle": "perplexity_ai", "title": "AI 搜索引擎"},
+    {"name": "Character.AI", "handle": "character_ai", "title": "AI 虚拟角色"},
+    
+    # ===== 国内大模型创业 =====
+    {"name": "智谱 AI", "handle": "ZhipuAI", "title": "GLM 模型"},
+    {"name": "月之暗面", "handle": "MoonshotAI_", "title": "Kimi"},
+    {"name": "MiniMax", "handle": "MiniMax_AI", "title": "海螺 AI"},
+    {"name": "百川智能", "handle": "baichuan_ai", "title": "Baichuan 模型"},
+    {"name": "阶跃星辰", "handle": "StepFunAI", "title": "Step 模型"},
+    {"name": "01.AI", "handle": "01AI_official", "title": "Yi 模型"},
+    
+    # ===== 国内互联网大厂 =====
+    {"name": "百度 AI", "handle": "BaiduAI", "title": "文心一言"},
+    {"name": "阿里通义", "handle": "AlibabaTongyi", "title": "通义千问"},
+    {"name": "腾讯混元", "handle": "TencentHY", "title": "混元大模型"},
+    {"name": "字节豆包", "handle": "doubao_ai", "title": "豆包、云雀"},
+    {"name": "华为云", "handle": "HuaweiCloud", "title": "盘古大模型"},
+    {"name": "科大讯飞", "handle": "iflytek", "title": "星火大模型"},
+    
+    # ===== 国内新势力车企 =====
+    {"name": "理想汽车", "handle": "LiAutoInc", "title": "理想 AD 智驾"},
+    {"name": "小鹏汽车", "handle": "XPengMotors", "title": "XNGP 智驾"},
+    {"name": "蔚来", "handle": "NIOGlobal", "title": "NIO Pilot"},
+    
+    # ===== 国内 AI 其他 =====
+    {"name": "商汤科技", "handle": "SenseTime", "title": "商汤大模型"},
 ]
 
 OUTPUT_DIR = Path("reports")
-MAX_TWEETS_PER_USER = 5
+MAX_TWEETS_PER_USER = 3  # 减少每个主体的推文数量
 DELAY_BETWEEN_USERS = 2
 
 # 只抓取最近多少小时内的推文
@@ -53,15 +119,12 @@ MAX_TWEET_AGE_HOURS = 24
 # AI 摘要配置（支持 OpenAI 兼容 API）
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
-AI_MODEL = os.getenv("AI_MODEL", "glm-4-flash")  # 智谱默认模型
+AI_MODEL = os.getenv("AI_MODEL", "glm-4-flash")
 
 # ============ 时间解析 ============
 
 def parse_tweet_time(time_str: str) -> datetime:
-    """
-    解析 Twitter 时间格式
-    支持: "2h", "3m", "1d", "Apr 14", "Dec 25, 2023"
-    """
+    """解析 Twitter 时间格式"""
     now = datetime.utcnow()
     
     if not time_str:
@@ -69,7 +132,6 @@ def parse_tweet_time(time_str: str) -> datetime:
     
     time_str = time_str.strip().lower()
     
-    # 相对时间: "2h", "3m", "1d"
     match = re.match(r'^(\d+)([hmd])$', time_str)
     if match:
         num = int(match.group(1))
@@ -81,7 +143,6 @@ def parse_tweet_time(time_str: str) -> datetime:
         elif unit == 'd':
             return now - timedelta(days=num)
     
-    # 绝对时间: "Apr 14" 或 "Dec 25, 2023"
     try:
         if ',' in time_str:
             return datetime.strptime(time_str, '%b %d, %Y')
@@ -105,14 +166,7 @@ def is_recent_tweet(time_str: str, max_age_hours: int = MAX_TWEET_AGE_HOURS) -> 
 # ============ AI 摘要 ============
 
 def generate_tweet_summary(tweet_text: str, author_name: str) -> dict:
-    """
-    使用 AI 生成推文摘要
-    返回: {
-        "summary": "一句话介绍",
-        "key_data": ["数据1", "数据2"],
-        "keywords": ["关键词1", "关键词2", "关键词3"]
-    }
-    """
+    """使用 AI 生成推文摘要"""
     if not OPENAI_API_KEY:
         return {"summary": "", "key_data": [], "keywords": []}
     
@@ -126,25 +180,19 @@ def generate_tweet_summary(tweet_text: str, author_name: str) -> dict:
     "summary": "一句话中文介绍这条推文的核心内容（20字以内）",
     "key_data": ["关键数据1（如有数字、指标等）", "关键数据2（没有则留空）"],
     "keywords": ["关键词1", "关键词2", "关键词3"]
-}}
-
-注意：
-- 如果推文中没有明确的数字/数据，key_data 可以为空数组
-- 关键词要准确反映推文主题
-- summary 要简洁有力"""
+}}"""
 
     try:
         data = {
             "model": AI_MODEL,
             "messages": [
-                {"role": "system", "content": "你是一个专业的推文分析助手，擅长提取关键信息。只返回 JSON，不要有其他内容。"},
+                {"role": "system", "content": "你是一个专业的推文分析助手。只返回 JSON。"},
                 {"role": "user", "content": prompt}
             ],
             "temperature": 0.3,
             "max_tokens": 200
         }
         
-        # 使用自定义 Base URL（支持智谱、DeepSeek 等）
         api_url = f"{OPENAI_BASE_URL.rstrip('/')}/chat/completions"
         
         req = urllib.request.Request(
@@ -160,11 +208,9 @@ def generate_tweet_summary(tweet_text: str, author_name: str) -> dict:
             result = json.loads(response.read().decode('utf-8'))
             content = result['choices'][0]['message']['content'].strip()
             
-            # 尝试解析 JSON
-            # 有时 AI 会返回 ```json ... ```，需要清理
             if content.startswith('```'):
-                content = content.split('\n', 1)[1]  # 去掉第一行
-                content = content.rsplit('```', 1)[0]  # 去掉最后的 ```
+                content = content.split('\n', 1)[1]
+                content = content.rsplit('```', 1)[0]
             
             parsed = json.loads(content)
             return {
@@ -192,7 +238,7 @@ def send_to_feishu(webhook_url: str, content: str):
             "header": {
                 "title": {
                     "tag": "plain_text",
-                    "content": f"🐦 AI 大牛 Twitter 动态日报 - {datetime.now().strftime('%Y-%m-%d')}"
+                    "content": f"🐦 AI 动态日报 - {datetime.now().strftime('%Y-%m-%d')}"
                 },
                 "template": "blue"
             },
@@ -206,7 +252,7 @@ def send_to_feishu(webhook_url: str, content: str):
                     "elements": [
                         {
                             "tag": "plain_text",
-                            "content": f"📅 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC | 仅显示最近 {MAX_TWEET_AGE_HOURS} 小时内的推文"
+                            "content": f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M')} UTC | 仅显示最近 {MAX_TWEET_AGE_HOURS} 小时内的推文"
                         }
                     ]
                 }
@@ -234,64 +280,195 @@ def send_to_feishu(webhook_url: str, content: str):
         return False
 
 
-def generate_feishu_content(data: dict) -> str:
-    """生成飞书消息内容（带 AI 摘要）"""
+def generate_feishu_content(personal_tweets: dict, org_tweets: dict) -> str:
+    """生成飞书消息内容（优化版面布局）"""
     lines = []
-    total_tweets = 0
     
-    for influencer, tweets in data.items():
-        if tweets:
-            total_tweets += len(tweets)
-            lines.append(f"### 🎯 {influencer}")
-            lines.append("")
-            
-            for tweet in tweets:
-                time_info = tweet.get('time', '')
-                summary = tweet.get('summary', '')
-                key_data = tweet.get('key_data', [])
-                keywords = tweet.get('keywords', [])
-                
-                # 推文链接
-                lines.append(f"**[{time_info}]** [查看原文]({tweet['url']})")
-                
-                # 一句话介绍
-                if summary:
-                    lines.append(f"> 💡 {summary}")
-                
-                # 关键数据
-                if key_data and any(key_data):
-                    data_str = " | ".join([d for d in key_data if d])
-                    if data_str:
-                        lines.append(f"📊 **关键数据**: {data_str}")
-                
-                # 关键词
-                if keywords:
-                    keywords_str = " ".join([f"`{k}`" for k in keywords])
-                    lines.append(f"🏷️ **关键词**: {keywords_str}")
-                
-                # 互动数据
-                lines.append(f"💬 {tweet.get('replies', 0)} | 🔁 {tweet.get('retweets', 0)} | ❤️ {tweet.get('likes', 0)}")
+    # ===== 统计信息 =====
+    personal_total = sum(len(tweets) for tweets in personal_tweets.values())
+    org_total = sum(len(tweets) for tweets in org_tweets.values())
+    total = personal_total + org_total
+    
+    if total == 0:
+        return f"**今日暂无新推文**\n\n在过去 {MAX_TWEET_AGE_HOURS} 小时内，所有监控的主体都没有发布新推文。"
+    
+    lines.append(f"📊 **今日统计**: {total} 条新推文 | 👤 大牛 {personal_total} 条 | 🏢 机构 {org_total} 条")
+    lines.append("---")
+    lines.append("")
+    
+    # ===== 第一部分：AI 大牛 =====
+    if personal_tweets:
+        lines.append("## 👤 AI 大牛动态")
+        lines.append("")
+        for entity, tweets in personal_tweets.items():
+            if tweets:
+                lines.append(f"### {entity}")
+                for tweet in tweets:
+                    lines.append(format_tweet(tweet))
                 lines.append("")
-            
+    
+    # ===== 第二部分：AI 机构 =====
+    if org_tweets:
+        if personal_tweets:
             lines.append("---")
             lines.append("")
+        lines.append("## 🏢 AI 机构动态")
+        lines.append("")
+        for entity, tweets in org_tweets.items():
+            if tweets:
+                lines.append(f"### {entity}")
+                for tweet in tweets:
+                    lines.append(format_tweet(tweet))
+                lines.append("")
     
-    if total_tweets == 0:
-        return f"**今日暂无新推文**\n\n在过去 {MAX_TWEET_AGE_HOURS} 小时内，所有监控的 AI 大牛都没有发布新推文。"
+    return "\n".join(lines)
+
+
+def format_tweet(tweet: dict) -> str:
+    """格式化单条推文（紧凑布局）"""
+    lines = []
     
-    header = f"📊 **今日统计**: 共 {total_tweets} 条新推文\n\n"
-    return header + "\n".join(lines)
+    time_info = tweet.get('time', '')
+    summary = tweet.get('summary', '')
+    key_data = tweet.get('key_data', [])
+    keywords = tweet.get('keywords', [])
+    
+    # 第一行：时间 + 链接
+    lines.append(f"**[{time_info}]** [查看原文]({tweet['url']})")
+    
+    # 第二行：AI 摘要（如有）
+    if summary:
+        lines.append(f"> {summary}")
+    
+    # 第三行：关键数据 + 关键词（合并）
+    info_parts = []
+    if key_data and any(key_data):
+        data_str = " | ".join([d for d in key_data if d])
+        if data_str:
+            info_parts.append(f"📊 {data_str}")
+    if keywords:
+        keywords_str = " ".join([f"`{k}`" for k in keywords])
+        info_parts.append(f"🏷️ {keywords_str}")
+    
+    if info_parts:
+        lines.append(" | ".join(info_parts))
+    
+    # 第四行：互动数据
+    lines.append(f"💬{tweet.get('replies', 0)} 🔁{tweet.get('retweets', 0)} ❤️{tweet.get('likes', 0)}")
+    lines.append("")
+    
+    return "\n".join(lines)
 
 
 # ============ Twitter 抓取 ============
 
+async def scrape_entity(page, entity: dict) -> list:
+    """抓取单个主体的推文"""
+    name = entity["name"]
+    handle = entity["handle"]
+    title = entity.get("title", "")
+    display_name = f"{name} ({title})" if title else name
+    url = f"https://twitter.com/{handle}"
+    
+    print(f"📊 正在抓取: {display_name}")
+    
+    try:
+        await page.goto(url, timeout=30000, wait_until='domcontentloaded')
+        await page.wait_for_timeout(3000)
+        
+        recent_tweets = []
+        
+        try:
+            await page.wait_for_selector('[data-testid="tweet"]', timeout=10000)
+        except:
+            print(f"  ⚠️ 无法加载 @{handle} 的推文")
+            return []
+        
+        tweet_elements = await page.query_selector_all('[data-testid="tweet"]')
+        
+        for tweet_el in tweet_elements[:15]:
+            try:
+                text_el = await tweet_el.query_selector('[data-testid="tweetText"]')
+                text = await text_el.inner_text() if text_el else ""
+                
+                time_el = await tweet_el.query_selector('time')
+                time_str = ""
+                if time_el:
+                    time_str = await time_el.inner_text()
+                
+                link_el = await tweet_el.query_selector('a[href*="/status/"]')
+                tweet_url = ""
+                if link_el:
+                    href = await link_el.get_attribute('href')
+                    if href:
+                        tweet_url = f"https://twitter.com{href}"
+                
+                replies = retweets = likes = 0
+                
+                reply_el = await tweet_el.query_selector('[data-testid="reply"]')
+                if reply_el:
+                    reply_text = await reply_el.inner_text()
+                    try:
+                        replies = int(reply_text.replace(',', '').replace('K', '000').replace('M', '000000'))
+                    except:
+                        pass
+                
+                retweet_el = await tweet_el.query_selector('[data-testid="retweet"]')
+                if retweet_el:
+                    retweet_text = await retweet_el.inner_text()
+                    try:
+                        retweets = int(retweet_text.replace(',', '').replace('K', '000').replace('M', '000000'))
+                    except:
+                        pass
+                
+                like_el = await tweet_el.query_selector('[data-testid="like"]')
+                if like_el:
+                    like_text = await like_el.inner_text()
+                    try:
+                        likes = int(like_text.replace(',', '').replace('K', '000').replace('M', '000000'))
+                    except:
+                        pass
+                
+                if text and tweet_url:
+                    tweet_data = {
+                        "text": text,
+                        "url": tweet_url,
+                        "time": time_str,
+                        "replies": replies,
+                        "retweets": retweets,
+                        "likes": likes
+                    }
+                    
+                    if is_recent_tweet(time_str):
+                        if OPENAI_API_KEY:
+                            print(f"  🤖 生成摘要中...")
+                            summary_data = generate_tweet_summary(text, name)
+                            tweet_data.update(summary_data)
+                            await asyncio.sleep(0.3)
+                        
+                        recent_tweets.append(tweet_data)
+                        if len(recent_tweets) >= MAX_TWEETS_PER_USER:
+                            break
+                            
+            except Exception as e:
+                continue
+        
+        print(f"  ✅ 获取了 {len(recent_tweets)} 条最近推文")
+        return recent_tweets
+        
+    except Exception as e:
+        print(f"  ❌ 抓取失败: {e}")
+        return []
+
+
 async def scrape_twitter():
     """使用 Playwright 抓取 Twitter"""
-    results = {}
-    use_ai_summary = bool(OPENAI_API_KEY)
+    personal_results = {}
+    org_results = {}
     
+    use_ai_summary = bool(OPENAI_API_KEY)
     if use_ai_summary:
-        print(f"🤖 AI 摘要已启用 (模型: {AI_MODEL}, API: {OPENAI_BASE_URL})")
+        print(f"🤖 AI 摘要已启用 (模型: {AI_MODEL})")
     else:
         print("⚠️ 未配置 OPENAI_API_KEY，跳过 AI 摘要")
     
@@ -313,118 +490,50 @@ async def scrape_twitter():
         
         page = await context.new_page()
         
-        for influencer in INFLUENCERS:
-            name = influencer["name"]
-            handle = influencer["handle"]
-            url = f"https://twitter.com/{handle}"
+        # 抓取 AI 大牛
+        print("\n" + "="*50)
+        print("👤 开始抓取 AI 大牛...")
+        print("="*50)
+        for entity in INFLUENCERS:
+            name = entity["name"]
+            title = entity.get("title", "")
+            display_name = f"{name} ({title})" if title else name
             
-            print(f"📊 正在抓取: {name} (@{handle})")
+            tweets = await scrape_entity(page, entity)
+            personal_results[display_name] = tweets
             
-            try:
-                await page.goto(url, timeout=30000, wait_until='domcontentloaded')
-                await page.wait_for_timeout(3000)
-                
-                all_tweets = []
-                recent_tweets = []
-                
-                try:
-                    await page.wait_for_selector('[data-testid="tweet"]', timeout=10000)
-                except:
-                    print(f"  ⚠️ 无法加载 @{handle} 的推文")
-                    results[name] = []
-                    continue
-                
-                tweet_elements = await page.query_selector_all('[data-testid="tweet"]')
-                
-                for i, tweet_el in enumerate(tweet_elements[:15]):
-                    try:
-                        text_el = await tweet_el.query_selector('[data-testid="tweetText"]')
-                        text = await text_el.inner_text() if text_el else ""
-                        
-                        time_el = await tweet_el.query_selector('time')
-                        time_str = ""
-                        if time_el:
-                            time_str = await time_el.inner_text()
-                        
-                        link_el = await tweet_el.query_selector('a[href*="/status/"]')
-                        tweet_url = ""
-                        if link_el:
-                            href = await link_el.get_attribute('href')
-                            if href:
-                                tweet_url = f"https://twitter.com{href}"
-                        
-                        replies = retweets = likes = 0
-                        
-                        reply_el = await tweet_el.query_selector('[data-testid="reply"]')
-                        if reply_el:
-                            reply_text = await reply_el.inner_text()
-                            try:
-                                replies = int(reply_text.replace(',', '').replace('K', '000').replace('M', '000000'))
-                            except:
-                                pass
-                        
-                        retweet_el = await tweet_el.query_selector('[data-testid="retweet"]')
-                        if retweet_el:
-                            retweet_text = await retweet_el.inner_text()
-                            try:
-                                retweets = int(retweet_text.replace(',', '').replace('K', '000').replace('M', '000000'))
-                            except:
-                                pass
-                        
-                        like_el = await tweet_el.query_selector('[data-testid="like"]')
-                        if like_el:
-                            like_text = await like_el.inner_text()
-                            try:
-                                likes = int(like_text.replace(',', '').replace('K', '000').replace('M', '000000'))
-                            except:
-                                pass
-                        
-                        if text and tweet_url:
-                            tweet_data = {
-                                "text": text,
-                                "url": tweet_url,
-                                "time": time_str,
-                                "replies": replies,
-                                "retweets": retweets,
-                                "likes": likes
-                            }
-                            all_tweets.append(tweet_data)
-                            
-                            if is_recent_tweet(time_str):
-                                # 生成 AI 摘要
-                                if use_ai_summary:
-                                    print(f"  🤖 生成摘要中...")
-                                    summary_data = generate_tweet_summary(text, name)
-                                    tweet_data.update(summary_data)
-                                    await asyncio.sleep(0.5)  # 避免 API 限流
-                                
-                                recent_tweets.append(tweet_data)
-                                if len(recent_tweets) >= MAX_TWEETS_PER_USER:
-                                    break
-                                    
-                    except Exception as e:
-                        continue
-                
-                results[name] = recent_tweets
-                print(f"  ✅ 获取了 {len(recent_tweets)} 条最近推文 (共 {len(all_tweets)} 条)")
-                
-                await page.wait_for_timeout(DELAY_BETWEEN_USERS * 1000)
-                
-            except Exception as e:
-                print(f"  ❌ 抓取 @{handle} 失败: {e}")
-                results[name] = []
+            await page.wait_for_timeout(DELAY_BETWEEN_USERS * 1000)
+        
+        # 抓取 AI 机构
+        print("\n" + "="*50)
+        print("🏢 开始抓取 AI 机构...")
+        print("="*50)
+        for entity in ORGANIZATIONS:
+            name = entity["name"]
+            title = entity.get("title", "")
+            display_name = f"{name} ({title})" if title else name
+            
+            tweets = await scrape_entity(page, entity)
+            org_results[display_name] = tweets
+            
+            await page.wait_for_timeout(DELAY_BETWEEN_USERS * 1000)
         
         await browser.close()
     
-    return results
+    return personal_results, org_results
 
 
-def save_report(data: dict):
+def save_report(personal_data: dict, org_data: dict):
     """保存报告到文件"""
     OUTPUT_DIR.mkdir(exist_ok=True)
     
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     filename = OUTPUT_DIR / f"report_{timestamp}.json"
+    
+    data = {
+        "personal": personal_data,
+        "organizations": org_data
+    }
     
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -436,25 +545,30 @@ def save_report(data: dict):
 async def main():
     """主函数"""
     print("=" * 50)
-    print("🐦 AI Influencers Twitter Tracker")
+    print("🐦 AI Influencers & Organizations Twitter Tracker")
     print(f"📅 开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"👤 大牛: {len(INFLUENCERS)} 位")
+    print(f"🏢 机构: {len(ORGANIZATIONS)} 家")
     print(f"⏰ 只抓取最近 {MAX_TWEET_AGE_HOURS} 小时内的推文")
     print("=" * 50)
     
-    data = await scrape_twitter()
-    save_report(data)
+    personal_data, org_data = await scrape_twitter()
+    save_report(personal_data, org_data)
     
     webhook_url = os.getenv("FEISHU_WEBHOOK", "")
-    content = generate_feishu_content(data)
+    content = generate_feishu_content(personal_data, org_data)
     
     if webhook_url:
         send_to_feishu(webhook_url, content)
     else:
         print("⚠️ 未设置 FEISHU_WEBHOOK 环境变量")
     
-    total = sum(len(tweets) for tweets in data.values())
+    personal_total = sum(len(tweets) for tweets in personal_data.values())
+    org_total = sum(len(tweets) for tweets in org_data.values())
+    total = personal_total + org_total
+    
     print("=" * 50)
-    print(f"✅ 完成! 共获取 {total} 条最新推文")
+    print(f"✅ 完成! 共获取 {total} 条最新推文 (大牛 {personal_total} + 机构 {org_total})")
     print("=" * 50)
 
 
