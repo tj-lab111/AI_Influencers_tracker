@@ -41,6 +41,9 @@ INFLUENCERS = [
     # OpenAI 系
     {"name": "Ilya Sutskever", "handle": "ilyasut", "title": "OpenAI 联合创始人"},
     
+    # Anthropic
+    {"name": "Dario Amodei", "handle": "dario_amodei", "title": "Anthropic CEO"},
+    
     # Transformer 作者
     {"name": "Ashish Vaswani", "handle": "avaswani", "title": "Transformer 作者"},
     {"name": "Aidan Gomez", "handle": "aidangomez", "title": "Cohere CEO"},
