@@ -125,9 +125,15 @@ MAX_TWEET_AGE_HOURS = 24
 REPORT_RETENTION_DAYS = 30
 
 # AI 摘要配置（支持 OpenAI 兼容 API）
+# 主模型配置
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
 AI_MODEL = os.getenv("AI_MODEL", "glm-4-flash")
+
+# 备用模型配置（主模型失败时自动降级）
+BACKUP_API_KEY = os.getenv("BACKUP_API_KEY", "")
+BACKUP_BASE_URL = os.getenv("BACKUP_BASE_URL", "https://open.bigmodel.cn/api/paas/v4/")
+BACKUP_MODEL = os.getenv("BACKUP_MODEL", "glm-4-flash")
 
 # ============ 报告清理 ============
 
@@ -211,8 +217,47 @@ def is_recent_tweet(time_str: str, max_age_hours: int = MAX_TWEET_AGE_HOURS) -> 
 
 # ============ AI 摘要 ============
 
+def _call_ai_api(prompt: str, api_key: str, base_url: str, model: str) -> dict:
+    """调用 AI API 生成摘要"""
+    data = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": "你是一个专业的推文分析助手。只返回 JSON。"},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.3,
+        "max_tokens": 200
+    }
+    
+    api_url = f"{base_url.rstrip('/')}/chat/completions"
+    
+    req = urllib.request.Request(
+        api_url,
+        data=json.dumps(data).encode('utf-8'),
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}"
+        }
+    )
+    
+    with urllib.request.urlopen(req, timeout=30) as response:
+        result = json.loads(response.read().decode('utf-8'))
+        content = result['choices'][0]['message']['content'].strip()
+        
+        if content.startswith('```'):
+            content = content.split('\n', 1)[1]
+            content = content.rsplit('```', 1)[0]
+        
+        parsed = json.loads(content)
+        return {
+            "summary": parsed.get("summary", ""),
+            "key_data": parsed.get("key_data", []),
+            "keywords": parsed.get("keywords", [])
+        }
+
+
 def generate_tweet_summary(tweet_text: str, author_name: str) -> dict:
-    """使用 AI 生成推文摘要"""
+    """使用 AI 生成推文摘要（支持主备降级）"""
     if not OPENAI_API_KEY:
         return {"summary": "", "key_data": [], "keywords": []}
     
@@ -228,45 +273,24 @@ def generate_tweet_summary(tweet_text: str, author_name: str) -> dict:
     "keywords": ["关键词1", "关键词2", "关键词3"]
 }}"""
 
+    # 尝试主模型
     try:
-        data = {
-            "model": AI_MODEL,
-            "messages": [
-                {"role": "system", "content": "你是一个专业的推文分析助手。只返回 JSON。"},
-                {"role": "user", "content": prompt}
-            ],
-            "temperature": 0.3,
-            "max_tokens": 200
-        }
-        
-        api_url = f"{OPENAI_BASE_URL.rstrip('/')}/chat/completions"
-        
-        req = urllib.request.Request(
-            api_url,
-            data=json.dumps(data).encode('utf-8'),
-            headers={
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {OPENAI_API_KEY}"
-            }
-        )
-        
-        with urllib.request.urlopen(req, timeout=30) as response:
-            result = json.loads(response.read().decode('utf-8'))
-            content = result['choices'][0]['message']['content'].strip()
-            
-            if content.startswith('```'):
-                content = content.split('\n', 1)[1]
-                content = content.rsplit('```', 1)[0]
-            
-            parsed = json.loads(content)
-            return {
-                "summary": parsed.get("summary", ""),
-                "key_data": parsed.get("key_data", []),
-                "keywords": parsed.get("keywords", [])
-            }
-            
+        result = _call_ai_api(prompt, OPENAI_API_KEY, OPENAI_BASE_URL, AI_MODEL)
+        print(f"  ✅ AI 摘要成功 ({AI_MODEL})")
+        return result
     except Exception as e:
-        print(f"  ⚠️ AI 摘要失败: {e}")
+        print(f"  ⚠️ 主模型 {AI_MODEL} 失败: {e}")
+        
+        # 尝试备用模型
+        if BACKUP_API_KEY:
+            try:
+                print(f"  🔄 切换到备用模型 {BACKUP_MODEL}...")
+                result = _call_ai_api(prompt, BACKUP_API_KEY, BACKUP_BASE_URL, BACKUP_MODEL)
+                print(f"  ✅ AI 摘要成功 ({BACKUP_MODEL})")
+                return result
+            except Exception as e2:
+                print(f"  ❌ 备用模型 {BACKUP_MODEL} 也失败: {e2}")
+        
         return {"summary": "", "key_data": [], "keywords": []}
 
 
