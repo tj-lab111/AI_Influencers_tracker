@@ -6,10 +6,6 @@ __pycache__/
 .env
 .venv/
 venv/
-# Reports
-reports/*.json
-reports/*.md
-!.gitkeep
 # OS
 .DS_Store
 Thumbs.db
