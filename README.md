@@ -9,14 +9,16 @@
 - 📊 **飞书推送** — 每日自动推送格式化报告到飞书群
 - ⏰ **定时运行** — GitHub Actions 每天北京时间 8:00 自动执行
 - 🌐 **双语监控** — 同时监控国内外 AI 领军人物和机构
+- 📁 **报告存档** — 自动保存报告到仓库，30 天自动清理
 
 ## 👥 监控对象
 
-### 👤 AI 大牛（18 位）
+### 👤 AI 大牛（19 位）
 
 | 姓名 | 职位 | Twitter |
 |------|------|---------|
 | Sam Altman | OpenAI CEO | [@sama](https://twitter.com/sama) |
+| Dario Amodei | Anthropic CEO | [@dario_amodei](https://twitter.com/dario_amodei) |
 | Elon Musk | xAI 创始人 | [@elonmusk](https://twitter.com/elonmusk) |
 | Demis Hassabis | DeepMind CEO | [@demishassabis](https://twitter.com/demishassabis) |
 | Yann LeCun | Meta AI 首席科学家 | [@ylecun](https://twitter.com/ylecun) |
@@ -134,6 +136,7 @@
 ```python
 INFLUENCERS = [
     {"name": "Sam Altman", "handle": "sama", "title": "OpenAI CEO"},
+    {"name": "Dario Amodei", "handle": "dario_amodei", "title": "Anthropic CEO"},
     # 添加更多...
 ]
 
@@ -181,10 +184,13 @@ AI_Influencers_tracker/
 ├── .github/
 │   └── workflows/
 │       └── daily_scraper.yml    # GitHub Actions 工作流
-├── reports/                     # 报告输出目录
+├── reports/                     # 报告输出目录（30天自动清理）
+│   ├── report_YYYY-MM-DD.json   # JSON 格式报告
+│   └── report_YYYY-MM-DD.md     # Markdown 格式报告
 ├── twitter_scraper.py           # 主脚本
 ├── .gitignore
-└── README.md
+├── README.md                    # 中文文档
+└── README_EN.md                 # English Documentation
 ```
 
 ## 🛠️ 技术栈
@@ -200,18 +206,19 @@ AI_Influencers_tracker/
 2. **API 免费额度** — 智谱 GLM-4-Flash 完全免费无限调用
 3. **运行时间** — 每次运行约 5-10 分钟，取决于监控账号数量
 4. **时区设置** — GitHub Actions 使用 UTC 时间，已配置为北京时间 8:00
+5. **报告清理** — reports 目录下超过 30 天的报告会被自动删除
 
 ## 📝 更新日志
 
 ### 2026-04-15
-- ✨ 添加 36 家 AI 机构监控
-- ✨ 大牛添加 title 介绍
-- 🎨 优化飞书报告版面（分两大板块）
-- 🎨 每个主体最多显示 3 条推文
+- ✨ 添加 Dario Amodei（Anthropic CEO）到监控名单
+- ✨ 添加报告自动保存到 reports 目录功能
+- ✨ 添加 30 天自动清理过期报告功能
+- 📝 更新 README 文档
 
 ### 2026-04-14
 - 🎉 项目初始化
-- ✨ 支持 13 位 AI 大牛监控
+- ✨ 支持 AI 大牛监控
 - ✨ 集成智谱 GLM-4-Flash AI 摘要
 - ✨ 飞书推送功能
 
