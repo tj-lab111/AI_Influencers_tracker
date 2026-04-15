@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 允许提交代码
+  contents: write
 
 jobs:
   scrape:
@@ -30,9 +30,14 @@ jobs:
       - name: Run Twitter scraper
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_BASE_URL: https://open.bigmodel.cn/api/paas/v4/
-          AI_MODEL: glm-4-flash
+          # 主模型：qwen3.6-plus（PolarDB AI Gateway）
+          OPENAI_API_KEY: ${{ secrets.POLARDB_AI_KEY }}
+          OPENAI_BASE_URL: http://pg-uf66xw7c1r4xx52sl-pub.polardbaigateway.rds.aliyuncs.com:8000/dev/v1
+          AI_MODEL: qwen3.6-plus
+          # 备用模型：glm-4-flash（智谱，免费无限）
+          BACKUP_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          BACKUP_BASE_URL: https://open.bigmodel.cn/api/paas/v4/
+          BACKUP_MODEL: glm-4-flash
         run: python twitter_scraper.py
       
       - name: Upload report artifacts
@@ -48,4 +53,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add reports/*.json reports/*.md 2>/dev/null || true
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: Add daily report $(date '+%Y-%m-%d')"
-          git push 
+          git push    
