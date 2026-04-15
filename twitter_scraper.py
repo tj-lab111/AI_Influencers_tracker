@@ -4,6 +4,7 @@ Twitter AI Influencers Tracker
 使用 Playwright 浏览器自动化抓取 AI 大牛的最新推文，并推送到飞书
 
 GitHub Actions 自动运行版本
+支持 AI 摘要功能（需要配置 OPENAI_API_KEY）
 """
 
 import asyncio
@@ -49,6 +50,10 @@ DELAY_BETWEEN_USERS = 2
 # 只抓取最近多少小时内的推文
 MAX_TWEET_AGE_HOURS = 24
 
+# AI 摘要配置
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+AI_MODEL = os.getenv("AI_MODEL", "gpt-4o-mini")  # 可选: gpt-4o, gpt-3.5-turbo
+
 # ============ 时间解析 ============
 
 def parse_tweet_time(time_str: str) -> datetime:
@@ -59,7 +64,7 @@ def parse_tweet_time(time_str: str) -> datetime:
     now = datetime.utcnow()
     
     if not time_str:
-        return now - timedelta(days=365)  # 默认返回很久以前
+        return now - timedelta(days=365)
     
     time_str = time_str.strip().lower()
     
@@ -77,17 +82,15 @@ def parse_tweet_time(time_str: str) -> datetime:
     
     # 绝对时间: "Apr 14" 或 "Dec 25, 2023"
     try:
-        # 尝试解析带年份的格式
         if ',' in time_str:
             return datetime.strptime(time_str, '%b %d, %Y')
         else:
-            # 没有年份，假设是今年
             parsed = datetime.strptime(time_str, '%b %d')
             return parsed.replace(year=now.year)
     except:
         pass
     
-    return now - timedelta(days=365)  # 无法解析则返回很久以前
+    return now - timedelta(days=365)
 
 
 def is_recent_tweet(time_str: str, max_age_hours: int = MAX_TWEET_AGE_HOURS) -> bool:
@@ -98,6 +101,79 @@ def is_recent_tweet(time_str: str, max_age_hours: int = MAX_TWEET_AGE_HOURS) -> 
     return age.total_seconds() <= max_age_hours * 3600
 
 
+# ============ AI 摘要 ============
+
+def generate_tweet_summary(tweet_text: str, author_name: str) -> dict:
+    """
+    使用 AI 生成推文摘要
+    返回: {
+        "summary": "一句话介绍",
+        "key_data": ["数据1", "数据2"],
+        "keywords": ["关键词1", "关键词2", "关键词3"]
+    }
+    """
+    if not OPENAI_API_KEY:
+        return {"summary": "", "key_data": [], "keywords": []}
+    
+    prompt = f"""分析这条来自 {author_name} 的推文，提取以下信息：
+
+推文内容：
+{tweet_text}
+
+请以 JSON 格式返回（不要有其他内容）：
+{{
+    "summary": "一句话中文介绍这条推文的核心内容（20字以内）",
+    "key_data": ["关键数据1（如有数字、指标等）", "关键数据2（没有则留空）"],
+    "keywords": ["关键词1", "关键词2", "关键词3"]
+}}
+
+注意：
+- 如果推文中没有明确的数字/数据，key_data 可以为空数组
+- 关键词要准确反映推文主题
+- summary 要简洁有力"""
+
+    try:
+        data = {
+            "model": AI_MODEL,
+            "messages": [
+                {"role": "system", "content": "你是一个专业的推文分析助手，擅长提取关键信息。只返回 JSON，不要有其他内容。"},
+                {"role": "user", "content": prompt}
+            ],
+            "temperature": 0.3,
+            "max_tokens": 200
+        }
+        
+        req = urllib.request.Request(
+            "https://api.openai.com/v1/chat/completions",
+            data=json.dumps(data).encode('utf-8'),
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {OPENAI_API_KEY}"
+            }
+        )
+        
+        with urllib.request.urlopen(req, timeout=30) as response:
+            result = json.loads(response.read().decode('utf-8'))
+            content = result['choices'][0]['message']['content'].strip()
+            
+            # 尝试解析 JSON
+            # 有时 AI 会返回 ```json ... ```，需要清理
+            if content.startswith('```'):
+                content = content.split('\n', 1)[1]  # 去掉第一行
+                content = content.rsplit('```', 1)[0]  # 去掉最后的 ```
+            
+            parsed = json.loads(content)
+            return {
+                "summary": parsed.get("summary", ""),
+                "key_data": parsed.get("key_data", []),
+                "keywords": parsed.get("keywords", [])
+            }
+            
+    except Exception as e:
+        print(f"  ⚠️ AI 摘要失败: {e}")
+        return {"summary": "", "key_data": [], "keywords": []}
+
+
 # ============ 飞书推送 ============
 
 def send_to_feishu(webhook_url: str, content: str):
@@ -106,7 +182,6 @@ def send_to_feishu(webhook_url: str, content: str):
         print("⚠️ 未配置 FEISHU_WEBHOOK，跳过推送")
         return False
     
-    # 飞书消息格式
     message = {
         "msg_type": "interactive",
         "card": {
@@ -120,7 +195,7 @@ def send_to_feishu(webhook_url: str, content: str):
             "elements": [
                 {
                     "tag": "markdown",
-                    "content": content[:30000]  # 飞书限制
+                    "content": content[:30000]
                 },
                 {
                     "tag": "note",
@@ -156,7 +231,7 @@ def send_to_feishu(webhook_url: str, content: str):
 
 
 def generate_feishu_content(data: dict) -> str:
-    """生成飞书消息内容"""
+    """生成飞书消息内容（带 AI 摘要）"""
     lines = []
     total_tweets = 0
     
@@ -165,18 +240,43 @@ def generate_feishu_content(data: dict) -> str:
             total_tweets += len(tweets)
             lines.append(f"### 🎯 {influencer}")
             lines.append("")
+            
             for tweet in tweets:
                 time_info = tweet.get('time', '')
-                lines.append(f"- {time_info}: [{tweet['text'][:80]}...]({tweet['url']})")
-                lines.append(f"  💬 {tweet.get('replies', 0)} | 🔁 {tweet.get('retweets', 0)} | ❤️ {tweet.get('likes', 0)}")
-            lines.append("")
+                summary = tweet.get('summary', '')
+                key_data = tweet.get('key_data', [])
+                keywords = tweet.get('keywords', [])
+                
+                # 推文链接
+                lines.append(f"**[{time_info}]** [查看原文]({tweet['url']})")
+                
+                # 一句话介绍
+                if summary:
+                    lines.append(f"> 💡 {summary}")
+                
+                # 关键数据
+                if key_data and any(key_data):
+                    data_str = " | ".join([d for d in key_data if d])
+                    if data_str:
+                        lines.append(f"📊 **关键数据**: {data_str}")
+                
+                # 关键词
+                if keywords:
+                    keywords_str = " ".join([f"`{k}`" for k in keywords])
+                    lines.append(f"🏷️ **关键词**: {keywords_str}")
+                
+                # 互动数据
+                lines.append(f"💬 {tweet.get('replies', 0)} | 🔁 {tweet.get('retweets', 0)} | ❤️ {tweet.get('likes', 0)}")
+                lines.append("")
+            
             lines.append("---")
             lines.append("")
     
     if total_tweets == 0:
         return f"**今日暂无新推文**\n\n在过去 {MAX_TWEET_AGE_HOURS} 小时内，所有监控的 AI 大牛都没有发布新推文。"
     
-    return "\n".join(lines)
+    header = f"📊 **今日统计**: 共 {total_tweets} 条新推文\n\n"
+    return header + "\n".join(lines)
 
 
 # ============ Twitter 抓取 ============
@@ -184,9 +284,14 @@ def generate_feishu_content(data: dict) -> str:
 async def scrape_twitter():
     """使用 Playwright 抓取 Twitter"""
     results = {}
+    use_ai_summary = bool(OPENAI_API_KEY)
+    
+    if use_ai_summary:
+        print(f"🤖 AI 摘要已启用 (模型: {AI_MODEL})")
+    else:
+        print("⚠️ 未配置 OPENAI_API_KEY，跳过 AI 摘要")
     
     async with async_playwright() as p:
-        # 启动浏览器 - GitHub Actions 需要特殊参数
         browser = await p.chromium.launch(
             headless=True,
             args=[
@@ -213,36 +318,30 @@ async def scrape_twitter():
             
             try:
                 await page.goto(url, timeout=30000, wait_until='domcontentloaded')
-                await page.wait_for_timeout(3000)  # 等待页面加载
+                await page.wait_for_timeout(3000)
                 
-                # 尝试获取推文
                 all_tweets = []
                 recent_tweets = []
                 
-                # 等待推文容器
                 try:
                     await page.wait_for_selector('[data-testid="tweet"]', timeout=10000)
                 except:
-                    print(f"  ⚠️ 无法加载 @{handle} 的推文，可能需要登录")
+                    print(f"  ⚠️ 无法加载 @{handle} 的推文")
                     results[name] = []
                     continue
                 
-                # 获取推文元素
                 tweet_elements = await page.query_selector_all('[data-testid="tweet"]')
                 
-                for i, tweet_el in enumerate(tweet_elements[:15]):  # 多获取一些，然后过滤
+                for i, tweet_el in enumerate(tweet_elements[:15]):
                     try:
-                        # 获取推文文本
                         text_el = await tweet_el.query_selector('[data-testid="tweetText"]')
                         text = await text_el.inner_text() if text_el else ""
                         
-                        # 获取推文时间
                         time_el = await tweet_el.query_selector('time')
                         time_str = ""
                         if time_el:
                             time_str = await time_el.inner_text()
                         
-                        # 获取推文链接
                         link_el = await tweet_el.query_selector('a[href*="/status/"]')
                         tweet_url = ""
                         if link_el:
@@ -250,10 +349,8 @@ async def scrape_twitter():
                             if href:
                                 tweet_url = f"https://twitter.com{href}"
                         
-                        # 获取互动数据
                         replies = retweets = likes = 0
                         
-                        # 尝试获取回复数
                         reply_el = await tweet_el.query_selector('[data-testid="reply"]')
                         if reply_el:
                             reply_text = await reply_el.inner_text()
@@ -262,7 +359,6 @@ async def scrape_twitter():
                             except:
                                 pass
                         
-                        # 尝试获取转推数
                         retweet_el = await tweet_el.query_selector('[data-testid="retweet"]')
                         if retweet_el:
                             retweet_text = await retweet_el.inner_text()
@@ -271,7 +367,6 @@ async def scrape_twitter():
                             except:
                                 pass
                         
-                        # 尝试获取点赞数
                         like_el = await tweet_el.query_selector('[data-testid="like"]')
                         if like_el:
                             like_text = await like_el.inner_text()
@@ -291,21 +386,24 @@ async def scrape_twitter():
                             }
                             all_tweets.append(tweet_data)
                             
-                            # 只保留最近的推文
                             if is_recent_tweet(time_str):
+                                # 生成 AI 摘要
+                                if use_ai_summary:
+                                    print(f"  🤖 生成摘要中...")
+                                    summary_data = generate_tweet_summary(text, name)
+                                    tweet_data.update(summary_data)
+                                    await asyncio.sleep(0.5)  # 避免 API 限流
+                                
                                 recent_tweets.append(tweet_data)
                                 if len(recent_tweets) >= MAX_TWEETS_PER_USER:
                                     break
                                     
                     except Exception as e:
-                        print(f"  ⚠️ 解析推文错误: {e}")
                         continue
                 
-                # 使用过滤后的最近推文
                 results[name] = recent_tweets
-                print(f"  ✅ 获取了 {len(recent_tweets)} 条最近 {MAX_TWEET_AGE_HOURS}h 内的推文 (共 {len(all_tweets)} 条)")
+                print(f"  ✅ 获取了 {len(recent_tweets)} 条最近推文 (共 {len(all_tweets)} 条)")
                 
-                # 延迟，避免请求过快
                 await page.wait_for_timeout(DELAY_BETWEEN_USERS * 1000)
                 
             except Exception as e:
@@ -339,22 +437,17 @@ async def main():
     print(f"⏰ 只抓取最近 {MAX_TWEET_AGE_HOURS} 小时内的推文")
     print("=" * 50)
     
-    # 抓取数据
     data = await scrape_twitter()
-    
-    # 保存报告
     save_report(data)
     
-    # 推送到飞书
     webhook_url = os.getenv("FEISHU_WEBHOOK", "")
     content = generate_feishu_content(data)
     
     if webhook_url:
         send_to_feishu(webhook_url, content)
     else:
-        print("⚠️ 未设置 FEISHU_WEBHOOK 环境变量，跳过飞书推送")
+        print("⚠️ 未设置 FEISHU_WEBHOOK 环境变量")
     
-    # 统计
     total = sum(len(tweets) for tweets in data.values())
     print("=" * 50)
     print(f"✅ 完成! 共获取 {total} 条最新推文")
