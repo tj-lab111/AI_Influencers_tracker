@@ -9,14 +9,16 @@
 - 📊 **Feishu Push** — Automatically push formatted reports to Feishu groups daily
 - ⏰ **Scheduled Runs** — GitHub Actions runs automatically at 8:00 AM Beijing time
 - 🌐 **Bilingual Monitoring** — Track both international and Chinese AI leaders and organizations
+- 📁 **Report Archiving** — Auto-save reports to repository with 30-day auto-cleanup
 
 ## 👥 Monitored Accounts
 
-### 👤 AI Influencers (18)
+### 👤 AI Influencers (19)
 
 | Name | Title | Twitter |
 |------|-------|---------|
 | Sam Altman | OpenAI CEO | [@sama](https://twitter.com/sama) |
+| Dario Amodei | Anthropic CEO | [@dario_amodei](https://twitter.com/dario_amodei) |
 | Elon Musk | xAI Founder | [@elonmusk](https://twitter.com/elonmusk) |
 | Demis Hassabis | DeepMind CEO | [@demishassabis](https://twitter.com/demishassabis) |
 | Yann LeCun | Meta AI Chief Scientist | [@ylecun](https://twitter.com/ylecun) |
@@ -134,6 +136,7 @@ Edit `INFLUENCERS` and `ORGANIZATIONS` lists in `twitter_scraper.py`:
 ```python
 INFLUENCERS = [
     {"name": "Sam Altman", "handle": "sama", "title": "OpenAI CEO"},
+    {"name": "Dario Amodei", "handle": "dario_amodei", "title": "Anthropic CEO"},
     # Add more...
 ]
 
@@ -181,12 +184,13 @@ AI_Influencers_tracker/
 ├── .github/
 │   └── workflows/
 │       └── daily_scraper.yml    # GitHub Actions workflow
-├── reports/                     # Report output directory
+├── reports/                     # Report output (30-day auto-cleanup)
+│   ├── report_YYYY-MM-DD.json   # JSON format report
+│   └── report_YYYY-MM-DD.md     # Markdown format report
 ├── twitter_scraper.py           # Main script
 ├── .gitignore
 ├── README.md                    # Chinese documentation
-├── README_EN.md                 # English documentation
-└── ABOUT.md                     # About description
+└── README_EN.md                 # English documentation
 ```
 
 ## 🛠️ Tech Stack
@@ -202,18 +206,19 @@ AI_Influencers_tracker/
 2. **Free API** — Zhipu GLM-4-Flash is completely free with unlimited calls
 3. **Runtime** — Each run takes ~5-10 minutes depending on account count
 4. **Timezone** — GitHub Actions uses UTC; configured for Beijing 8:00 AM
+5. **Report Cleanup** — Reports older than 30 days in reports/ directory are auto-deleted
 
 ## 📝 Changelog
 
 ### 2026-04-15
-- ✨ Added 36 AI organizations monitoring
-- ✨ Added titles for influencers
-- 🎨 Optimized Feishu report layout (two sections)
-- 🎨 Max 3 tweets per account
+- ✨ Added Dario Amodei (Anthropic CEO) to monitored influencers
+- ✨ Added auto-save reports to reports/ directory
+- ✨ Added 30-day auto-cleanup for old reports
+- 📝 Updated README documentation
 
 ### 2026-04-14
 - 🎉 Project initialization
-- ✨ Support for 13 AI influencers
+- ✨ Support for AI influencers monitoring
 - ✨ Integrated Zhipu GLM-4-Flash AI summaries
 - ✨ Feishu push functionality
 
