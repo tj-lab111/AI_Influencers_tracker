@@ -1,0 +1,283 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T06:59:06.020127",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Starship static fire successful!",
+        "url": "https://twitter.com/elonmusk/status/2044250132296986737",
+        "time": "3h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 62000,
+        "summary": "星船静态点火成功",
+        "key_data": [
+          "Starship",
+          "static fire"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "Starship",
+          "成功"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [
+      {
+        "text": "Great to see our collaboration w/ \n@BostonDynamics\n unlocking new capabilities! Gemini Robotics-ER 1.6 enables robots like Spot to read complex industrial gauges autonomously. Exciting step toward robots that can understand & operate usefully in the physical world",
+        "url": "https://twitter.com/demishassabis/status/2044176198914146499",
+        "time": "8h",
+        "replies": 48,
+        "retweets": 129,
+        "likes": 0,
+        "summary": "Demis Hassabis宣布与Boston Dynamics合作，推出Gemini Robotics-ER 1.6，提升机器人自主读取工业仪表的能力。",
+        "key_data": [
+          "Gemini Robotics-ER 1.6",
+          "Spot"
+        ],
+        "keywords": [
+          "Demis Hassabis",
+          "Boston Dynamics",
+          "Gemini Robotics-ER 1.6",
+          "Spot",
+          "工业仪表",
+          "自主操作"
+        ]
+      }
+    ],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "We’re expanding Trusted Access for Cyber with additional tiers for authenticated cybersecurity defenders. \n\nCustomers in the highest tiers can request access to GPT-5.4-Cyber, a version of GPT-5.4 fine-tuned for cybersecurity use cases, enabling more advanced defensive workflows.",
+        "url": "https://twitter.com/OpenAI/status/2044161906936791179",
+        "time": "9h",
+        "replies": 260,
+        "retweets": 542,
+        "likes": 0,
+        "summary": "OpenAI扩展网络安全可信访问，提供GPT-5.4-Cyber。",
+        "key_data": [
+          "GPT-5.4-Cyber",
+          "最高层级"
+        ],
+        "keywords": [
+          "OpenAI",
+          "可信访问",
+          "网络安全",
+          "GPT-5.4-Cyber"
+        ]
+      },
+      {
+        "text": "For years, we’ve been building our cyber defense program on the principles of democratized access, iterative deployment, and ecosystem resilience. \n\nAs model capabilities advance, our approach is to scale cyber defense in lockstep: broadening access for legitimate defenders while",
+        "url": "https://twitter.com/OpenAI/status/2044161908354494633",
+        "time": "9h",
+        "replies": 30,
+        "retweets": 14,
+        "likes": 447,
+        "summary": "OpenAI强调网络防御的民主化、迭代部署和生态韧性。",
+        "key_data": [
+          "years",
+          "model capabilities"
+        ],
+        "keywords": [
+          "cyber defense",
+          "democratized access",
+          "iterative deployment",
+          "ecosystem resilience"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New Anthropic Fellows research: developing an Automated Alignment Researcher.\n\nWe ran an experiment to learn whether Claude Opus 4.6 could accelerate research on a key alignment problem: using a weak AI model to supervise the training of a stronger one.",
+        "url": "https://twitter.com/AnthropicAI/status/2044138481790648323",
+        "time": "11h",
+        "replies": 122,
+        "retweets": 281,
+        "likes": 0,
+        "summary": "Anthropic新研究：自动对齐研究员实验。",
+        "key_data": [
+          "Claude Opus 4.6",
+          "关键对齐问题"
+        ],
+        "keywords": [
+          "Anthropic",
+          "自动对齐研究员",
+          "实验",
+          "Claude Opus 4.6",
+          "AI模型",
+          "监督训练"
+        ]
+      },
+      {
+        "text": "AI models aren’t yet general-purpose alignment scientists. Progress isn't as easy to verify on most alignment research tasks: our AARs would find “fuzzier” research much harder.\n\nBut our experiment does show that Claude can increase the rate of experimentation and exploration.",
+        "url": "https://twitter.com/AnthropicAI/status/2044138489495605292",
+        "time": "11h",
+        "replies": 9,
+        "retweets": 4,
+        "likes": 109,
+        "summary": "AI模型在通用对齐科学上尚不成熟，Claude能加速实验探索。",
+        "key_data": [
+          "AARs",
+          "rate of experimentation and exploration"
+        ],
+        "keywords": [
+          "AI models",
+          "alignment research",
+          "Claude",
+          "experimentation",
+          "exploration"
+        ]
+      },
+      {
+        "text": "We discuss this, along with the other implications of this research, in our blog: \nhttps://\nanthropic.com/research/autom\nated-alignment-researchers\n…\n\nFor the full study, see here: \nhttps://\nalignment.anthropic.com/2026/automated\n-w2s-researcher/\n…",
+        "url": "https://twitter.com/AnthropicAI/status/2044138490904932853",
+        "time": "11h",
+        "replies": 9,
+        "retweets": 2,
+        "likes": 106,
+        "summary": "Anthropic分享自动化对齐研究博客和全文。",
+        "key_data": [
+          "博客链接",
+          "研究全文链接"
+        ],
+        "keywords": [
+          "Anthropic",
+          "自动化对齐",
+          "研究",
+          "博客",
+          "全文链接"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "V8.1 is live! Our iconic aesthetics are back w native 2K HD rendering - 3x faster and 3x cheaper vs V8. Full quality V8.1 1K mode is faster than V7 draft mode. Image prompts are back. New \"Describe\" is live - and you'll love our new moodboards & srefs. More soon <3",
+        "url": "https://twitter.com/midjourney/status/2044166948674769196",
+        "time": "9h",
+        "replies": 88,
+        "retweets": 177,
+        "likes": 850,
+        "summary": "V8.1发布，性能提升，功能更新。",
+        "key_data": [
+          "V8.1",
+          "2K HD",
+          "3x",
+          "1K",
+          "V7 draft"
+        ],
+        "keywords": [
+          "V8.1",
+          "性能提升",
+          "2K HD",
+          "渲染",
+          "图像提示",
+          "Describe",
+          "moodboards",
+          "srefs"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "You can now send a Runway Character to a video call in your place. Here's how:\n\nStep 1: Choose or Create a Runway Character\nStep 2: Paste your video meeting link (Zoom, Google Meet or Teams)\nStep 3: Click \"Join Meeting\"\n\nTry it today at the link below.",
+        "url": "https://twitter.com/runwayml/status/2044060580944683178",
+        "time": "16h",
+        "replies": 25,
+        "retweets": 44,
+        "likes": 227,
+        "summary": "Runway推文介绍视频会议虚拟角色功能。",
+        "key_data": [
+          "Step 1",
+          "Step 2",
+          "Step 3"
+        ],
+        "keywords": [
+          "Runway Character",
+          "video call",
+          "Zoom",
+          "Google Meet",
+          "Teams"
+        ]
+      },
+      {
+        "text": "Try now:",
+        "url": "https://twitter.com/runwayml/status/2044060582807015482",
+        "time": "16h",
+        "replies": 2,
+        "retweets": 1,
+        "likes": 10,
+        "summary": "体验新功能",
+        "key_data": [
+          "Try now"
+        ],
+        "keywords": [
+          "体验",
+          "新功能"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "I just updated our license.   \n\nFor personal use, you’re free to run the software on your own servers for coding, building applications, agents, tools, or integrations, as well as for research, experimentation, and other personal projects.  \n\nDon’t worry, bro — go ahead and use",
+        "url": "https://twitter.com/RyanLeeMiniMax/status/2044132777877221515",
+        "time": "11h",
+        "replies": 65,
+        "retweets": 126,
+        "likes": 1000,
+        "summary": "更新许可，个人免费使用",
+        "key_data": [
+          "更新许可"
+        ],
+        "keywords": [
+          "更新",
+          "许可",
+          "个人使用",
+          "免费"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
