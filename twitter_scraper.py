@@ -4,7 +4,7 @@ Twitter AI Influencers Tracker
 使用 Playwright 浏览器自动化抓取 AI 大牛的最新推文，并推送到飞书
 
 GitHub Actions 自动运行版本
-支持 AI 摘要功能（需要配置 OPENAI_API_KEY）
+支持 AI 摘要功能（OpenAI 兼容 API，包括智谱、DeepSeek 等）
 """
 
 import asyncio
@@ -50,9 +50,10 @@ DELAY_BETWEEN_USERS = 2
 # 只抓取最近多少小时内的推文
 MAX_TWEET_AGE_HOURS = 24
 
-# AI 摘要配置
+# AI 摘要配置（支持 OpenAI 兼容 API）
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-AI_MODEL = os.getenv("AI_MODEL", "gpt-4o-mini")  # 可选: gpt-4o, gpt-3.5-turbo
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+AI_MODEL = os.getenv("AI_MODEL", "glm-4-flash")  # 智谱默认模型
 
 # ============ 时间解析 ============
 
@@ -143,8 +144,11 @@ def generate_tweet_summary(tweet_text: str, author_name: str) -> dict:
             "max_tokens": 200
         }
         
+        # 使用自定义 Base URL（支持智谱、DeepSeek 等）
+        api_url = f"{OPENAI_BASE_URL.rstrip('/')}/chat/completions"
+        
         req = urllib.request.Request(
-            "https://api.openai.com/v1/chat/completions",
+            api_url,
             data=json.dumps(data).encode('utf-8'),
             headers={
                 "Content-Type": "application/json",
@@ -287,7 +291,7 @@ async def scrape_twitter():
     use_ai_summary = bool(OPENAI_API_KEY)
     
     if use_ai_summary:
-        print(f"🤖 AI 摘要已启用 (模型: {AI_MODEL})")
+        print(f"🤖 AI 摘要已启用 (模型: {AI_MODEL}, API: {OPENAI_BASE_URL})")
     else:
         print("⚠️ 未配置 OPENAI_API_KEY，跳过 AI 摘要")
     
