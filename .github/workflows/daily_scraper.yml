@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install playwright
           playwright install chromium
-          playwright install-deps chromium          
+          playwright install-deps chromium                    
       
       - name: Run Twitter scraper
         env:
@@ -33,9 +33,17 @@ jobs:
           AI_MODEL: glm-4-flash
         run: python twitter_scraper.py
       
-      - name: Upload report
+      - name: Upload report artifacts
         uses: actions/upload-artifact@v4
         with:
           name: daily-report
           path: reports/
           retention-days: 30
+      
+      - name: Commit reports to repository
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/*.json reports/*.md 2>/dev/null || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: Add daily report $(date '+%Y-%m-%d')"
+          git push    
