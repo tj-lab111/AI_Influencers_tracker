@@ -1,0 +1,301 @@
+{
+  "date": "2026-04-16",
+  "generated_at": "2026-04-16T01:16:34.884845",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Congrats to the \n@Tesla_AI\n chip design team on taping out AI5!\n\nAI6, Dojo3 & other exciting chips in work.",
+        "url": "https://twitter.com/elonmusk/status/2044315118583066738",
+        "time": "17h",
+        "replies": 0,
+        "retweets": 10000,
+        "likes": 97000,
+        "summary": "祝贺特斯拉AI芯片团队设计AI5芯片，多款新芯片在开发中。",
+        "key_data": [
+          "AI5",
+          "AI6",
+          "Dojo3"
+        ],
+        "keywords": [
+          "Tesla_AI",
+          "chip design",
+          "taping out",
+          "exciting chips"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 13 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\nToday's games I liked most from the #vibejam timeline:\n\n Canyon Explorer by",
+        "url": "https://twitter.com/levelsio/status/2044524155316404705",
+        "time": "3h",
+        "replies": 19,
+        "retweets": 4,
+        "likes": 57,
+        "summary": "VibeJam活动第13天，赞助商揭晓，奖品丰厚。",
+        "key_data": [
+          "Day 13",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "@cursor_ai",
+          "#vibejam",
+          "sponsored",
+          "prizes",
+          "Canyon Explorer"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in \n@Nature\n. \n\nRead the paper: \nhttps://\nnature.com/articles/s4158\n6-026-10319-8\n…",
+        "url": "https://twitter.com/AnthropicAI/status/2044493337835802948",
+        "time": "5h",
+        "replies": 101,
+        "retweets": 196,
+        "likes": 0,
+        "summary": "Anthropic发布关于LLM潜意识学习研究。",
+        "key_data": [
+          "Nature",
+          "subliminal learning"
+        ],
+        "keywords": [
+          "Anthropic",
+          "LLM",
+          "subliminal learning",
+          "Nature"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Today we launched Gemini 3.1 Flash TTS, our most expressive and controllable text-to-speech model yet.\n\nThis launch [excitement] includes audio tags!  Audio tags [explanatory] are a seamless way to guide vocal style, pace, and delivery using natural language commands embedded",
+        "url": "https://twitter.com/GoogleAI/status/2044447560384102592",
+        "time": "9h",
+        "replies": 52,
+        "retweets": 182,
+        "likes": 0,
+        "summary": "发布更先进的文本转语音模型",
+        "key_data": [
+          "Gemini 3.1 Flash TTS",
+          "audio tags"
+        ],
+        "keywords": [
+          "Google AI",
+          "text-to-speech",
+          "launch",
+          "expressive",
+          "controllable",
+          "audio tags",
+          "vocal style",
+          "pace",
+          "delivery"
+        ]
+      },
+      {
+        "text": "Today we launched Gemini 3.1 Flash TTS, our most expressive and controllable text-to-speech model yet.\n\nThis launch [excitement] includes audio tags!  Audio tags [explanatory] are a seamless way to guide vocal style, pace, and delivery using natural language commands embedded",
+        "url": "https://twitter.com/GoogleAI/status/2044447560384102592",
+        "time": "9h",
+        "replies": 52,
+        "retweets": 182,
+        "likes": 0,
+        "summary": "发布全新表达丰富的文本转语音模型Gemini 3.1",
+        "key_data": [
+          "Gemini 3.1",
+          "Flash TTS"
+        ],
+        "keywords": [
+          "Google AI",
+          "文本转语音",
+          "Gemini 3.1",
+          "Flash TTS",
+          "音频标签",
+          "自然语言命令"
+        ]
+      },
+      {
+        "text": "Gemini 3.1 Flash TTS is rolling out in Google Vids and is available today in preview via the Gemini API and in \n@GoogleAIStudio\n. \n\nWhether you’re creating a pitch deck or recording a passion project, transform your scripts into studio-quality narration:",
+        "url": "https://twitter.com/GoogleAI/status/2044447638511383024",
+        "time": "8h",
+        "replies": 6,
+        "retweets": 7,
+        "likes": 56,
+        "summary": "Google Vids 推出 Gemini 3.1 Flash TTS 预览版",
+        "key_data": [
+          "3.1",
+          "preview",
+          "Gemini API",
+          "@GoogleAIStudio"
+        ],
+        "keywords": [
+          "Gemini 3.1 Flash TTS",
+          "Google Vids",
+          "narration",
+          "studio-quality"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "Midjourney Weekly Office Hours - 4/15",
+        "url": "https://twitter.com/midjourney/status/2044493672411238826",
+        "time": "5h",
+        "replies": 5,
+        "retweets": 0,
+        "likes": 12,
+        "summary": "Midjourney每周办公时间安排",
+        "key_data": [
+          "4/15"
+        ],
+        "keywords": [
+          "Midjourney",
+          "Weekly Office Hours"
+        ]
+      },
+      {
+        "text": "https://\nmidjourneyofficehours.onrender.com/room/e8d8992f",
+        "url": "https://twitter.com/midjourney/status/2044497183433707836",
+        "time": "5h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 5,
+        "summary": "Midjourney 推文链接",
+        "key_data": [
+          "链接"
+        ],
+        "keywords": [
+          "Midjourney",
+          "推文",
+          "链接"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "Happy to announce that I've received the 𝐆𝐫𝐚𝐧𝐝 𝐏𝐫𝐢𝐳𝐞 on \n@runwayml\n's Big Ad Contest Award. I'm always keeping an eye on AI competitions and AI festivals, but this one was special for me because Runway was the first video AI tool that I've ever tried in my life. Since",
+        "url": "https://twitter.com/laszlogaal_/status/2044365824706978087",
+        "time": "14h",
+        "replies": 49,
+        "retweets": 10,
+        "likes": 254,
+        "summary": "Runway AI工具获奖",
+        "key_data": [
+          "Gランドプリズ"
+        ],
+        "keywords": [
+          "Runway",
+          "AI",
+          "竞赛",
+          "获奖"
+        ]
+      },
+      {
+        "text": "If you have an idea. Make it. No need for approvals, budget meetings or round after round of scaling down the ambition. From idea to execution, this short ad was created by a single creative with Runway. #MadeWithRunway",
+        "url": "https://twitter.com/runwayml/status/2044433442083930158",
+        "time": "9h",
+        "replies": 17,
+        "retweets": 15,
+        "likes": 144,
+        "summary": "Runway单创客制作广告，倡导自由创意。",
+        "key_data": [
+          "#MadeWithRunway"
+        ],
+        "keywords": [
+          "Runway",
+          "创意",
+          "广告",
+          "执行"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Love seeing M2.7 in the hands of builders \n\n@atomicbot_ai\n turning a prompt into Flappy Lobster — code written, files saved, game running on your desktop.\n\nThis is what open-source frontier models were made for.",
+        "url": "https://twitter.com/MiniMax_AI/status/2044495903286059172",
+        "time": "5h",
+        "replies": 7,
+        "retweets": 12,
+        "likes": 115,
+        "summary": "MiniMax展示M2.7模型应用成果",
+        "key_data": [
+          "M2.7",
+          "Flappy Lobster",
+          "open-source frontier models"
+        ],
+        "keywords": [
+          "MiniMax",
+          "M2.7",
+          "builders",
+          "atomicbot_ai",
+          "Flappy Lobster",
+          "open-source"
+        ]
+      },
+      {
+        "text": "No.1.  Again!   Thanks for all OSS developers! \n\nMiniMax M2.7 has only 230B parameters with 10B activated, yet delivers excellent results and outstanding performance. \n@MiniMax_AI\n \n\nIt is particularly well-suited for open-source agents such as \n@openclaw\n , hermes \n@NousResearch\n ,",
+        "url": "https://twitter.com/RyanLeeMiniMax/status/2044312707193811187",
+        "time": "18h",
+        "replies": 59,
+        "retweets": 72,
+        "likes": 1000,
+        "summary": "MiniMax M2.7参数少，性能出色",
+        "key_data": [
+          "230B parameters",
+          "10B activated"
+        ],
+        "keywords": [
+          "MiniMax M2.7",
+          "OSS developers",
+          "performance"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
