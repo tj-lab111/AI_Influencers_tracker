@@ -1,0 +1,351 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T03:43:31.260445",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Look at the tiny cars in the foreground to get a sense of the vastness of the building",
+        "url": "https://twitter.com/elonmusk/status/2044683867630833961",
+        "time": "19h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 38000,
+        "summary": "通过小汽车展现建筑宏伟",
+        "key_data": [
+          "小汽车",
+          "建筑"
+        ],
+        "keywords": [
+          "前景",
+          "宏伟",
+          "对比"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 14 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\nDamn I'm not saying to pump but today I felt the games are finally getting good",
+        "url": "https://twitter.com/levelsio/status/2044886250289598965",
+        "time": "6h",
+        "replies": 25,
+        "retweets": 5,
+        "likes": 59,
+        "summary": "VibeJam活动第14天，赞助商揭晓，奖品丰厚。",
+        "key_data": [
+          "Day 14",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "sponsored",
+          "prizes",
+          "games"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Codex for (almost) everything.\n\nIt can now use apps on your Mac, connect to more of your tools, create images, learn from previous actions, remember how you like to work, and take on ongoing and repeatable tasks.",
+        "url": "https://twitter.com/OpenAI/status/2044827705406062670",
+        "time": "10h",
+        "replies": 630,
+        "retweets": 0,
+        "likes": 10000,
+        "summary": "Codex功能全面升级",
+        "key_data": [
+          "Mac应用支持",
+          "更多工具连接",
+          "图像创建",
+          "学习与记忆"
+        ],
+        "keywords": [
+          "Codex",
+          "功能升级",
+          "Mac",
+          "工具连接",
+          "图像",
+          "学习",
+          "记忆"
+        ]
+      },
+      {
+        "text": "To go deeper on our new Life Sciences model series, research lead \n@joyjiao12\n and product lead Yunyun Wang joined \n@AndrewMayne\n on the OpenAI Podcast to discuss how we’re building models for biology, drug discovery, and translational medicine.\n\nThey cover both the opportunity and",
+        "url": "https://twitter.com/OpenAI/status/2044938017530577210",
+        "time": "2h",
+        "replies": 38,
+        "retweets": 38,
+        "likes": 454,
+        "summary": "OpenAI探讨生命科学模型构建",
+        "key_data": [
+          "Life Sciences model series",
+          "biology, drug discovery, translational medicine"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Life Sciences",
+          "model series",
+          "biology",
+          "drug discovery",
+          "translational medicine"
+        ]
+      },
+      {
+        "text": "Listen to the OpenAI Podcast on—\nSpotify\n\nhttps://\nopen.spotify.com/show/0zojMEDiz\nKMh3aTxnGLENP\n…\nApple\n\nhttps://\npodcasts.apple.com/us/podcast/ope\nnai-podcast/id1820330260\n…\nYouTube",
+        "url": "https://twitter.com/OpenAI/status/2044938022526083120",
+        "time": "2h",
+        "replies": 2,
+        "retweets": 3,
+        "likes": 42,
+        "summary": "OpenAI 推出播客，可在 Spotify、Apple Podcasts 和 YouTube 收听。",
+        "key_data": [
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ],
+        "keywords": [
+          "OpenAI",
+          "播客",
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Introducing Claude Opus 4.7, our most capable Opus model yet.\n\nIt handles long-running tasks with more rigor, follows instructions more precisely, and verifies its own outputs before reporting back.\n\nYou can hand off your hardest work with less supervision.",
+        "url": "https://twitter.com/claudeai/status/2044785261393977612",
+        "time": "13h",
+        "replies": 0,
+        "retweets": 15000,
+        "likes": 73000,
+        "summary": "Anthropic发布新模型Claude Opus 4.7，功能更强大。",
+        "key_data": [
+          "Claude Opus 4.7",
+          "更严格处理长任务，更精确遵循指令"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude Opus 4.7",
+          "模型",
+          "功能提升"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Seedance 2.0 is now available in 1080p on Runway. More pixels, more detail, more reasons to zoom in.",
+        "url": "https://twitter.com/runwayml/status/2044877241012642256",
+        "time": "7h",
+        "replies": 34,
+        "retweets": 50,
+        "likes": 298,
+        "summary": "Runway更新Seedance 2.0至1080p",
+        "key_data": [
+          "1080p"
+        ],
+        "keywords": [
+          "Seedance 2.0",
+          "Runway",
+          "1080p",
+          "像素",
+          "细节"
+        ]
+      },
+      {
+        "text": "You can now bring your Runway Characters to life with a script. Here's how:\n\n1. Choose or create a Character\n2. Type in your script\n3. Click \"Generate\"\n\nTry it today at the link below.",
+        "url": "https://twitter.com/runwayml/status/2044829570394661071",
+        "time": "10h",
+        "replies": 6,
+        "retweets": 22,
+        "likes": 111,
+        "summary": "Runway推出角色脚本生成功能。",
+        "key_data": [
+          "新功能"
+        ],
+        "keywords": [
+          "Runway",
+          "角色",
+          "脚本",
+          "生成"
+        ]
+      },
+      {
+        "text": "Try now: \nhttps://\napp.runwayml.com/characters/gen\nerate-video\n…",
+        "url": "https://twitter.com/runwayml/status/2044829571879465397",
+        "time": "10h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 3,
+        "summary": "体验Runway视频生成功能",
+        "key_data": [
+          "app.runwayml.com/characters/gen"
+        ],
+        "keywords": [
+          "Runway",
+          "视频生成",
+          "体验"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Today we're releasing Personal Computer.\n\nPersonal Computer integrates with the Perplexity Mac App for secure orchestration across your local files, native apps, and browser.\n\nWe’re rolling this out to all Perplexity Max subscribers and everyone on the waitlist starting today.",
+        "url": "https://twitter.com/perplexity_ai/status/2044805973085454518",
+        "time": "11h",
+        "replies": 548,
+        "retweets": 0,
+        "likes": 11000,
+        "summary": "Perplexity发布新功能，支持跨平台安全协作。",
+        "key_data": [
+          "Personal Computer",
+          "Perplexity Max subscribers"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Personal Computer",
+          "Mac App",
+          "secure orchestration",
+          "local files",
+          "native apps",
+          "browser",
+          "release",
+          "subscriber",
+          "waitlist"
+        ]
+      },
+      {
+        "text": "Claude Opus 4.7 is now the default orchestration model powering Computer.\n\nIt's also available for Max subscribers on Perplexity web, iOS, and Android.",
+        "url": "https://twitter.com/perplexity_ai/status/2044828352171888951",
+        "time": "10h",
+        "replies": 46,
+        "retweets": 73,
+        "likes": 1000,
+        "summary": "Claude Opus 4.7成默认模型，Max订阅者可用",
+        "key_data": [
+          "4.7",
+          "Max subscribers"
+        ],
+        "keywords": [
+          "Claude Opus",
+          "default",
+          "orchestration model",
+          "Perplexity",
+          "Max subscribers",
+          "web",
+          "iOS",
+          "Android"
+        ]
+      },
+      {
+        "text": "Today we're releasing Personal Computer.\n\nPersonal Computer integrates with the Perplexity Mac App for secure orchestration across your local files, native apps, and browser.\n\nWe’re rolling this out to all Perplexity Max subscribers and everyone on the waitlist starting today.",
+        "url": "https://twitter.com/perplexity_ai/status/2044805973085454518",
+        "time": "11h",
+        "replies": 548,
+        "retweets": 0,
+        "likes": 11000,
+        "summary": "Perplexity发布新功能，支持跨平台安全协作。",
+        "key_data": [
+          "Personal Computer",
+          "Perplexity Max subscribers"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Personal Computer",
+          "Mac App",
+          "secure orchestration",
+          "local files",
+          "native apps",
+          "browser",
+          "release",
+          "subscriber",
+          "waitlist"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Excited to see where our partnerhsip leads us \n@MiniMax_AI\n !",
+        "url": "https://twitter.com/Teknium/status/2044765173513404706",
+        "time": "14h",
+        "replies": 39,
+        "retweets": 30,
+        "likes": 487,
+        "summary": "MiniMax 对合作伙伴关系充满期待",
+        "key_data": [
+          "@MiniMax_AI"
+        ],
+        "keywords": [
+          "Excited",
+          "partnership",
+          "MiniMax"
+        ]
+      },
+      {
+        "text": "Better agents are built together \n\n@NousResearch\n  \n@MiniMax_AI",
+        "url": "https://twitter.com/MiniMax_AI/status/2044750266755686760",
+        "time": "15h",
+        "replies": 7,
+        "retweets": 9,
+        "likes": 127,
+        "summary": "构建更优智能体",
+        "key_data": [
+          "@NousResearch",
+          "@MiniMax_AI"
+        ],
+        "keywords": [
+          "Better agents",
+          "built together"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
