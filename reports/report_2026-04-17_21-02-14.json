@@ -1,0 +1,226 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T21:02:14.834707",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Universal HIGH INCOME via checks issued by the Federal government is the best way to deal with unemployment caused by AI. \n\nAI/robotics will produce goods & services far in excess of the increase in the money supply, so there will not be inflation.",
+        "url": "https://twitter.com/elonmusk/status/2044990537145753894",
+        "time": "16h",
+        "replies": 36000,
+        "retweets": 24000,
+        "likes": 151000,
+        "summary": "通过政府发放收入解决AI失业，无通胀",
+        "key_data": [
+          "Universal HIGH INCOME",
+          "AI/robotics",
+          "increase in the money supply"
+        ],
+        "keywords": [
+          "政府收入",
+          "AI失业",
+          "无通胀"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 14 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\nDamn I'm not saying to pump but today I felt the games are finally getting good",
+        "url": "https://twitter.com/levelsio/status/2044886250289598965",
+        "time": "23h",
+        "replies": 46,
+        "retweets": 7,
+        "likes": 114,
+        "summary": "VibeJam活动第14天，赞助商揭晓，奖品丰厚。",
+        "key_data": [
+          "Day 14",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "sponsored",
+          "prizes",
+          "games"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "To go deeper on our new Life Sciences model series, research lead \n@joyjiao12\n and product lead Yunyun Wang joined \n@AndrewMayne\n on the OpenAI Podcast to discuss how we’re building models for biology, drug discovery, and translational medicine.\n\nThey cover both the opportunity and",
+        "url": "https://twitter.com/OpenAI/status/2044938017530577210",
+        "time": "20h",
+        "replies": 59,
+        "retweets": 94,
+        "likes": 910,
+        "summary": "OpenAI探讨生命科学模型构建",
+        "key_data": [
+          "Life Sciences model series",
+          "biology, drug discovery, translational medicine"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Life Sciences",
+          "model",
+          "biology",
+          "drug discovery",
+          "translational medicine"
+        ]
+      },
+      {
+        "text": "Listen to the OpenAI Podcast on—\nSpotify\n\nhttps://\nopen.spotify.com/show/0zojMEDiz\nKMh3aTxnGLENP\n…\nApple\n\nhttps://\npodcasts.apple.com/us/podcast/ope\nnai-podcast/id1820330260\n…\nYouTube",
+        "url": "https://twitter.com/OpenAI/status/2044938022526083120",
+        "time": "20h",
+        "replies": 6,
+        "retweets": 7,
+        "likes": 86,
+        "summary": "OpenAI 推出播客，可在 Spotify、Apple Podcasts 和 YouTube 收听",
+        "key_data": [
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ],
+        "keywords": [
+          "OpenAI",
+          "播客",
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "What a week! Here’s everything we shipped:\n\n— Gemini 3.1 Flash TTS, our latest text-to-speech model, featuring native multi-speaker dialogue and improved controllability and audio tags for more natural, expressive voices in 70+ languages\n\n— Gemini Robotics-ER 1.6 by",
+        "url": "https://twitter.com/GoogleAI/status/2045185070001258865",
+        "time": "3h",
+        "replies": 40,
+        "retweets": 41,
+        "likes": 356,
+        "summary": "发布新文本到语音模型和机器人软件更新",
+        "key_data": [
+          "3.1",
+          "1.6",
+          "70+ languages"
+        ],
+        "keywords": [
+          "Gemini 3.1",
+          "Flash TTS",
+          "text-to-speech",
+          "Gemini Robotics-ER"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Two weeks to pitch a show you wish existed. $100K in cash prizes. Bring your biggest, most ambitious ideas to life with Runway. No studio notes or budget meetings required.\n\nRunway's Big Pitch Contest For Shows That Don't Exist Yet. Learn more at the link below, and use code",
+        "url": "https://twitter.com/runwayml/status/2045174850856034702",
+        "time": "4h",
+        "replies": 13,
+        "retweets": 34,
+        "likes": 157,
+        "summary": "Runway举办创意节目提案大赛，奖金100K。",
+        "key_data": [
+          "Two weeks",
+          "$100K"
+        ],
+        "keywords": [
+          "Runway",
+          "Big Pitch Contest",
+          "show",
+          "pitch",
+          "cash prizes",
+          "ideas",
+          "no studio notes",
+          "no budget meetings"
+        ]
+      },
+      {
+        "text": "Learn more: \nhttps://\nbit.ly/3OnBRWv",
+        "url": "https://twitter.com/runwayml/status/2045174852902940740",
+        "time": "4h",
+        "replies": 2,
+        "retweets": 1,
+        "likes": 14,
+        "summary": "了解更多信息",
+        "key_data": [
+          "链接"
+        ],
+        "keywords": [
+          "了解更多",
+          "信息",
+          "链接"
+        ]
+      },
+      {
+        "text": "Seedance 2.0 is now available in the Runway iOS app. Make the things you've always wanted to make, no matter where you are. \n\nFirst-time Runway subscribers get up to 50% off 3 months of any plan by subscribing in the iOS app. Get started at the link below.",
+        "url": "https://twitter.com/runwayml/status/2045140613247496316",
+        "time": "6h",
+        "replies": 16,
+        "retweets": 22,
+        "likes": 115,
+        "summary": "Runway iOS更新Seedance 2.0，新用户享优惠。",
+        "key_data": [
+          "Seedance 2.0",
+          "50% off"
+        ],
+        "keywords": [
+          "Runway",
+          "iOS",
+          "Seedance 2.0",
+          "优惠",
+          "订阅"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
