@@ -1,0 +1,184 @@
+{
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T03:28:55.454770",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Universal HIGH INCOME via checks issued by the Federal government is the best way to deal with unemployment caused by AI. \n\nAI/robotics will produce goods & services far in excess of the increase in the money supply, so there will not be inflation.",
+        "url": "https://twitter.com/elonmusk/status/2044990537145753894",
+        "time": "23h",
+        "replies": 40000,
+        "retweets": 27000,
+        "likes": 169000,
+        "summary": "通过政府发放的支票实现全民高收入以应对AI导致的失业",
+        "key_data": [
+          "AI/robotics",
+          "Federal government",
+          "HIGH INCOME"
+        ],
+        "keywords": [
+          "AI",
+          "失业",
+          "政府支票",
+          "高收入"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "What a week! Here’s everything we shipped:\n\n— Gemini 3.1 Flash TTS, our latest text-to-speech model, featuring native multi-speaker dialogue and improved controllability and audio tags for more natural, expressive voices in 70+ languages\n\n— Gemini Robotics-ER 1.6 by",
+        "url": "https://twitter.com/GoogleAI/status/2045185070001258865",
+        "time": "10h",
+        "replies": 50,
+        "retweets": 58,
+        "likes": 501,
+        "summary": "发布新文本到语音模型和机器人软件更新",
+        "key_data": [
+          "3.1",
+          "1.6",
+          "70+ languages"
+        ],
+        "keywords": [
+          "Gemini 3.1",
+          "Flash TTS",
+          "text-to-speech",
+          "Gemini Robotics-ER 1.6"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Two weeks to pitch a show you wish existed. $100K in cash prizes. Bring your biggest, most ambitious ideas to life with Runway. No studio notes or budget meetings required.\n\nRunway's Big Pitch Contest For Shows That Don't Exist Yet. Learn more at the link below, and use code",
+        "url": "https://twitter.com/runwayml/status/2045174850856034702",
+        "time": "11h",
+        "replies": 18,
+        "retweets": 47,
+        "likes": 227,
+        "summary": "Runway举办创意展示大赛，奖金高达10万美元。",
+        "key_data": [
+          "Two weeks",
+          "$100K"
+        ],
+        "keywords": [
+          "Runway",
+          "Big Pitch Contest",
+          "cash prizes",
+          "pitch a show",
+          "ambitious ideas"
+        ]
+      },
+      {
+        "text": "Learn more: \nhttps://\nbit.ly/3OnBRWv",
+        "url": "https://twitter.com/runwayml/status/2045174852902940740",
+        "time": "11h",
+        "replies": 2,
+        "retweets": 1,
+        "likes": 21,
+        "summary": "了解更多信息",
+        "key_data": [
+          "链接"
+        ],
+        "keywords": [
+          "学习",
+          "更多信息",
+          "链接"
+        ]
+      },
+      {
+        "text": "Seedance 2.0 is now available in the Runway iOS app. Make the things you've always wanted to make, no matter where you are. \n\nFirst-time Runway subscribers get up to 50% off 3 months of any plan by subscribing in the iOS app. Get started at the link below.",
+        "url": "https://twitter.com/runwayml/status/2045140613247496316",
+        "time": "13h",
+        "replies": 17,
+        "retweets": 25,
+        "likes": 132,
+        "summary": "Runway iOS更新Seedance 2.0，新用户享优惠。",
+        "key_data": [
+          "Seedance 2.0",
+          "50% off",
+          "3 months"
+        ],
+        "keywords": [
+          "Runway",
+          "iOS app",
+          "Seedance 2.0",
+          "subscriber",
+          "discount"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "The new doc for MiniMax CLI, for both Human and Agents: \nhttps://\nplatform.minimax.io/docs/token-pla\nn/minimax-cli\n…\n\nOne prompt to bring \n@MiniMax_AI\n  into your AI agent:\n\"Help me install MiniMax CLI: \nhttps://\ngithub.com/MiniMax-AI/cli\"\n\n-- paste it into: Hermes Agent (\n@NousResearch\n), \n@openclaw\n, \n@OpenCode\n, \n@claudeai\n Claude",
+        "url": "https://twitter.com/ti_guo_/status/2045191763682295940",
+        "time": "10h",
+        "replies": 0,
+        "retweets": 6,
+        "likes": 62,
+        "summary": "发布MiniMax CLI文档及安装提示",
+        "key_data": [
+          "MiniMax CLI",
+          "Hermes Agent",
+          "@NousResearch",
+          "@openclaw",
+          "@OpenCode",
+          "@claudeai"
+        ],
+        "keywords": [
+          "MiniMax",
+          "CLI",
+          "安装",
+          "文档",
+          "AI"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
