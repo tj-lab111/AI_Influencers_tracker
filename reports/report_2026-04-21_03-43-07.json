@@ -1,0 +1,256 @@
+{
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T03:43:07.207856",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Banger \n@Grok\n ",
+        "url": "https://twitter.com/elonmusk/status/2046123487589507120",
+        "time": "20h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 39000,
+        "summary": "Musk 发出音乐相关推文",
+        "key_data": [
+          "Banger"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "Grok",
+          "Banger"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 18 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\n YOU HAVE 10 DAYS LEFT! \n\nSome awesome games I saw today:\n\n A handstand game",
+        "url": "https://twitter.com/levelsio/status/2046338881407095290",
+        "time": "6h",
+        "replies": 12,
+        "retweets": 7,
+        "likes": 47,
+        "summary": "Vibe Jam活动倒数第十天，提供丰厚奖品。",
+        "key_data": [
+          "Day 18",
+          "10 DAYS LEFT",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "prizes",
+          "game",
+          "May 1"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "We're launching the Anthropic STEM Fellows Program. \n\nAI will accelerate progress in science and engineering. We're looking for experts across these fields to work alongside our research teams on specific projects over a few months.\n\nLearn more and apply:",
+        "url": "https://twitter.com/AnthropicAI/status/2046362119755727256",
+        "time": "4h",
+        "replies": 100,
+        "retweets": 353,
+        "likes": 0,
+        "summary": "Anthropic启动STEM研究员计划，招募专家参与项目。",
+        "key_data": [
+          "STEM Fellows Program",
+          "几个月"
+        ],
+        "keywords": [
+          "Anthropic",
+          "STEM",
+          "Fellows Program",
+          "AI",
+          "science",
+          "engineering",
+          "research"
+        ]
+      },
+      {
+        "text": "We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected by the end of 2026.",
+        "url": "https://twitter.com/AnthropicAI/status/2046327624092487688",
+        "time": "6h",
+        "replies": 343,
+        "retweets": 839,
+        "likes": 0,
+        "summary": "Anthropic与Amazon合作，扩充Claude计算能力。",
+        "key_data": [
+          "5 gigawatts",
+          "1 gigawatt by 2026"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Amazon",
+          "compute",
+          "Claude",
+          "expansion"
+        ]
+      },
+      {
+        "text": "Amazon is also investing an additional $5 billion in Anthropic today, with up to $20 billion more in the future.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2046327625367625773",
+        "time": "6h",
+        "replies": 25,
+        "retweets": 131,
+        "likes": 922,
+        "summary": "Anthropic获亚马逊投资",
+        "key_data": [
+          "$5 billion",
+          "up to $20 billion"
+        ],
+        "keywords": [
+          "Amazon",
+          "investment",
+          "Anthropic"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Calling all builders  Google AI Pro and Ultra subscribers will now get increased usage limits and access to Nano Banana Pro and Gemini Pro models in \n@GoogleAIStudio\n — no API key required. \n\nSign in with your subscriber account today to take your ideas from prototype to",
+        "url": "https://twitter.com/GoogleAI/status/2046338574811853069",
+        "time": "6h",
+        "replies": 40,
+        "retweets": 95,
+        "likes": 775,
+        "summary": "Google AI Pro和Ultra订阅者获得更多使用权限和模型访问权限。",
+        "key_data": [
+          "increased usage limits",
+          "Nano Banana Pro",
+          "Gemini Pro"
+        ],
+        "keywords": [
+          "Google AI Pro",
+          "Ultra subscribers",
+          "GoogleAIStudio",
+          "Nano Banana Pro",
+          "Gemini Pro",
+          "API key",
+          "subscriber account"
+        ]
+      },
+      {
+        "text": "Check out our blog post to learn more:",
+        "url": "https://twitter.com/GoogleAI/status/2046338578121142530",
+        "time": "6h",
+        "replies": 0,
+        "retweets": 3,
+        "likes": 43,
+        "summary": "查看博客了解更多",
+        "key_data": [],
+        "keywords": [
+          "博客",
+          "了解更多"
+        ]
+      },
+      {
+        "text": "Beyond generating high-fidelity visuals, we wanted to test the limits of what Nano Banana Pro can do. We worked with design partners Porto Rocha to build out a hypothetical brand called YOYOYO to see how the model would handle the task. Here’s what we found:\n\nBrand consistency:",
+        "url": "https://twitter.com/GoogleAI/status/2046279894284525860",
+        "time": "10h",
+        "replies": 44,
+        "retweets": 84,
+        "likes": 879,
+        "summary": "Google AI测试Nano Banana Pro在品牌一致性上的表现。",
+        "key_data": [
+          "Nano Banana Pro",
+          "YOYOYO品牌"
+        ],
+        "keywords": [
+          "Google AI",
+          "Nano Banana Pro",
+          "品牌一致性",
+          "设计伙伴",
+          "Porto Rocha"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Have a big idea but no advertising budget? Make it yourself with Runway. All you need is a concept to start creating high impact ads for TV, social and more. Try it yourself at the link below. \n#MadeWithRunway",
+        "url": "https://twitter.com/runwayml/status/2046226661629132921",
+        "time": "13h",
+        "replies": 10,
+        "retweets": 19,
+        "likes": 139,
+        "summary": "无预算也能制作广告，Runway助你一臂之力。",
+        "key_data": [
+          "无广告预算",
+          "高影响广告"
+        ],
+        "keywords": [
+          "Runway",
+          "广告制作",
+          "无预算",
+          "高影响"
+        ]
+      },
+      {
+        "text": "Get started at:",
+        "url": "https://twitter.com/runwayml/status/2046227071102222825",
+        "time": "13h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 8,
+        "summary": "启动指引",
+        "key_data": [
+          "Get started"
+        ],
+        "keywords": [
+          "Get started",
+          "start",
+          "guide"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
