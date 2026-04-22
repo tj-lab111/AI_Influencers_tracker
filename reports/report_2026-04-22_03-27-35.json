@@ -1,0 +1,221 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22T03:27:35.011902",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 19 of the \n@cursor_ai\n #vibejam!!!\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\n YOU HAVE 9 DAYS LEFT! \n\nLots of great games today:\n\n Hollowlands",
+        "url": "https://twitter.com/levelsio/status/2046695726789390776",
+        "time": "6h",
+        "replies": 24,
+        "retweets": 9,
+        "likes": 85,
+        "summary": "VibeJam活动进入第19天，提供奖金，倒计时9天。",
+        "key_data": [
+          "Day 19",
+          "9 days left",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "prizes",
+          "game",
+          "May 1"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Introducing ChatGPT Images 2.0\n\nA state-of-the-art image model that can take on complex visual tasks and produce precise, immediately usable visuals, with sharper editing, richer layouts, and thinking-level intelligence.\n\nVideo made with ChatGPT Images",
+        "url": "https://twitter.com/OpenAI/status/2046670977145372771",
+        "time": "7h",
+        "replies": 607,
+        "retweets": 0,
+        "likes": 13000,
+        "summary": "发布ChatGPT Images 2.0，图像处理新升级",
+        "key_data": [
+          "ChatGPT Images 2.0"
+        ],
+        "keywords": [
+          "ChatGPT Images",
+          "图像处理",
+          "人工智能"
+        ]
+      },
+      {
+        "text": "Arena Trends: Text-to-Image, Jan 2026 – Apr 2026\n\nFor most of the year, \n@GoogleDeepMind\n and \n@OpenAI\n traded the top spot within a tight margin - GPT-Image vs. Nano Banana - with the rest of the field clustered below 1,200.\n\nToday, GPT-Image-2 breaks away with a score of 1,512, 242",
+        "url": "https://twitter.com/arena/status/2046690103515648061",
+        "time": "6h",
+        "replies": 26,
+        "retweets": 104,
+        "likes": 889,
+        "summary": "GPT-Image-2在图像生成领域超越Nano Banana",
+        "key_data": [
+          "1,512,242",
+          ""
+        ],
+        "keywords": [
+          "GPT-Image-2",
+          "Nano Banana",
+          "图像生成"
+        ]
+      },
+      {
+        "text": "What makes ChatGPT Images 2.0 a state-of-the-art image generation model?\n\nResearchers behind the model explain. A thread:\n\nThinking & Intelligence in ChatGPT Images 2.0, demonstrated by \n@ayaanzhaque",
+        "url": "https://twitter.com/OpenAI/status/2046691647036227700",
+        "time": "6h",
+        "replies": 130,
+        "retweets": 192,
+        "likes": 0,
+        "summary": "ChatGPT Images 2.0图像生成模型解析",
+        "key_data": [
+          "ChatGPT Images 2.0",
+          "state-of-the-art"
+        ],
+        "keywords": [
+          "ChatGPT Images 2.0",
+          "image generation model",
+          "state-of-the-art",
+          "researchers",
+          "thread",
+          "ayaanzhaque"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Submissions for the 4th Annual Runway AI Festival close April 27th. Don't miss your chance to have your work featured amongst the very best in Film, Design, New Media, Fashion, Advertising and Gaming. Enter today at the link below.",
+        "url": "https://twitter.com/runwayml/status/2046625384960053554",
+        "time": "11h",
+        "replies": 8,
+        "retweets": 22,
+        "likes": 112,
+        "summary": "Runway AI Festival征稿截止至4月27日",
+        "key_data": [
+          "4th Annual",
+          "April 27th"
+        ],
+        "keywords": [
+          "Runway AI Festival",
+          "Submissions",
+          "Film",
+          "Design",
+          "New Media",
+          "Fashion",
+          "Advertising",
+          "Gaming"
+        ]
+      },
+      {
+        "text": "Enter today at:",
+        "url": "https://twitter.com/runwayml/status/2046625462177218639",
+        "time": "11h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 5,
+        "summary": "今日活动入口",
+        "key_data": [
+          "活动"
+        ],
+        "keywords": [
+          "Runway",
+          "入口",
+          "今天"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "8 agents. 1 city. this is what M2.7's long-horizon tool use was built for ",
+        "url": "https://twitter.com/MiniMax_AI/status/2046784485040214406",
+        "time": "30m",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 18,
+        "summary": "M2.7工具为8代理1城市设计",
+        "key_data": [
+          "8 agents",
+          "1 city"
+        ],
+        "keywords": [
+          "M2.7",
+          "long-horizon tool",
+          "agents",
+          "city"
+        ]
+      },
+      {
+        "text": "Good to see \n@openclaw\n back in action.\nSmall flex: MiniMax is the only lab with subs for both sides of the stack — OpenClaw, and Hermes agent by \n@NousResearch\n.\n\n Self-host → Token Plan, from $10/mo \nhttp://\nplatform.minimax.io/subscribe/toke\nn-plan\n…\n\n Cloud-hosted (MaxClaw / MaxHermes) → MiniMax Agent",
+        "url": "https://twitter.com/MiniMax_AI/status/2046772123054538909",
+        "time": "1h",
+        "replies": 5,
+        "retweets": 7,
+        "likes": 63,
+        "summary": "MiniMax实验室支持OpenClaw和Hermes，提供自托管和云托管服务。",
+        "key_data": [
+          "$10/mo",
+          "MaxClaw / MaxHermes"
+        ],
+        "keywords": [
+          "MiniMax",
+          "OpenClaw",
+          "Hermes",
+          "self-host",
+          "cloud-hosted",
+          "token plan"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
