@@ -1,0 +1,365 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T09:34:52.726005",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Interesting",
+        "url": "https://twitter.com/elonmusk/status/2046981493197586714",
+        "time": "17h",
+        "replies": 0,
+        "retweets": 8000,
+        "likes": 65000,
+        "summary": "Elon Musk 发布了一条简洁的推文",
+        "key_data": [
+          "无"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "推文",
+          "Interesting"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams.",
+        "url": "https://twitter.com/OpenAI/status/2047008987665809771",
+        "time": "15h",
+        "replies": 648,
+        "retweets": 0,
+        "likes": 15000,
+        "summary": "ChatGPT推出共享工作空间代理",
+        "key_data": [
+          "复杂任务",
+          "长运行工作流"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "工作空间代理",
+          "共享",
+          "复杂任务",
+          "长运行工作流"
+        ]
+      },
+      {
+        "text": "Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams.",
+        "url": "https://twitter.com/OpenAI/status/2047008987665809771",
+        "time": "15h",
+        "replies": 648,
+        "retweets": 0,
+        "likes": 15000,
+        "summary": "ChatGPT推出共享工作空间代理",
+        "key_data": [
+          "复杂任务",
+          "长运行工作流程"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "工作空间代理",
+          "共享",
+          "复杂任务",
+          "长运行工作流程"
+        ]
+      },
+      {
+        "text": "Workspace agents can work across tools—pulling context from docs, email, chats, code, and systems, and taking approved actions like updating \n@Linear\n issues, creating docs, or sending messages.\n\nIn \n@SlackHQ\n, agents can jump into a thread, understand what’s needed, pull the right",
+        "url": "https://twitter.com/OpenAI/status/2047008991944069624",
+        "time": "15h",
+        "replies": 20,
+        "retweets": 23,
+        "likes": 451,
+        "summary": "工作空间代理跨工具工作，提取上下文并执行操作。",
+        "key_data": [
+          "跨工具",
+          "上下文提取",
+          "执行操作"
+        ],
+        "keywords": [
+          "Workspace agents",
+          "context",
+          "actions",
+          "tools",
+          "docs",
+          "email",
+          "chats",
+          "code",
+          "issues",
+          "docs",
+          "messages",
+          "SlackHQ",
+          "threads"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Last month, we published our look into what 81,000 people told us they want from AI.\n\nIn new research, we’ve investigated the economic hopes and worries referenced in their responses.\n\nRead more: \nhttps://\nanthropic.com/research/81k-e\nconomics\n…",
+        "url": "https://twitter.com/AnthropicAI/status/2047006548149289017",
+        "time": "15h",
+        "replies": 165,
+        "retweets": 231,
+        "likes": 0,
+        "summary": "Anthropic发布81,000人关于AI期望研究",
+        "key_data": [
+          "81,000",
+          "AI"
+        ],
+        "keywords": [
+          "Anthropic",
+          "AI",
+          "研究",
+          "经济",
+          "期望"
+        ]
+      },
+      {
+        "text": "And those in occupations that show high Claude usage—like software engineering—were more worried about displacement than those in lower-exposure roles.",
+        "url": "https://twitter.com/AnthropicAI/status/2047006554403057776",
+        "time": "15h",
+        "replies": 21,
+        "retweets": 26,
+        "likes": 225,
+        "summary": "高 Claude 使用职业者担忧被取代",
+        "key_data": [
+          "高 Claude 使用",
+          "软件工程",
+          "担忧位移"
+        ],
+        "keywords": [
+          "occupation",
+          "Claude",
+          "usage",
+          "software engineering",
+          "displacement",
+          "worry"
+        ]
+      },
+      {
+        "text": "To truly understand AI’s economic impact, we’ll need to collect much more qualitative data like this.\n\nThat’s why we’re launching the Anthropic Economic Index Survey. Each month, we’ll ask Claude users how AI is changing their work.\n\nFor more details, see:",
+        "url": "https://twitter.com/AnthropicAI/status/2047006557183897664",
+        "time": "15h",
+        "replies": 12,
+        "retweets": 11,
+        "likes": 130,
+        "summary": "Anthropic发布经济指数调查，了解AI对工作影响。",
+        "key_data": [
+          "Anthropic Economic Index Survey",
+          "每月调查"
+        ],
+        "keywords": [
+          "Anthropic",
+          "AI",
+          "经济影响",
+          "调查",
+          "用户"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "Midjourney Weekly Office Hours - 4/22",
+        "url": "https://twitter.com/midjourney/status/2047030008355725367",
+        "time": "14h",
+        "replies": 4,
+        "retweets": 0,
+        "likes": 10,
+        "summary": "Midjourney每周办公时间预告",
+        "key_data": [
+          "4/22"
+        ],
+        "keywords": [
+          "Midjourney",
+          "Weekly Office Hours"
+        ]
+      },
+      {
+        "text": "ask questions here \nhttps://\nmidjourneyofficehours.onrender.com/room/fa5083df",
+        "url": "https://twitter.com/midjourney/status/2047030424975901031",
+        "time": "14h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 3,
+        "summary": "提问链接发布",
+        "key_data": [
+          "提问链接"
+        ],
+        "keywords": [
+          "提问",
+          "Midjourney",
+          "链接"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "Earlier this month, the inaugural Runway AI Summit brought together over 700 leaders across media, entertainment, gaming and advertising. The day was filled with firesides, panels and keynotes from leaders at Lucasfilm, Adobe, EA, NVIDIA, Salomon and more, sharing their",
+        "url": "https://twitter.com/runwayml/status/2046989086771069202",
+        "time": "17h",
+        "replies": 12,
+        "retweets": 9,
+        "likes": 55,
+        "summary": "Runway AI Summit汇聚700多位行业领袖。",
+        "key_data": [
+          "700+ leaders",
+          "Lucasfilm, Adobe, EA, NVIDIA, Salomon"
+        ],
+        "keywords": [
+          "Runway AI Summit",
+          "行业领袖",
+          "Lucasfilm",
+          "Adobe",
+          "EA",
+          "NVIDIA",
+          "Salomon"
+        ]
+      },
+      {
+        "text": "Access all talks on demand at:",
+        "url": "https://twitter.com/runwayml/status/2046989408352497944",
+        "time": "17h",
+        "replies": 1,
+        "retweets": 1,
+        "likes": 8,
+        "summary": "提供演讲点播服务",
+        "key_data": [
+          "点播"
+        ],
+        "keywords": [
+          "Runway",
+          "演讲",
+          "点播"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Kimi K2.6, the new state-of-the-art open-weight model from Moonshot, is now available for Pro and Max subscribers.",
+        "url": "https://twitter.com/perplexity_ai/status/2047145172337836139",
+        "time": "6h",
+        "replies": 50,
+        "retweets": 43,
+        "likes": 804,
+        "summary": "Moonshot发布新模型Kimi K2.6",
+        "key_data": [
+          "Kimi K2.6",
+          "Pro and Max subscribers"
+        ],
+        "keywords": [
+          "Moonshot",
+          "Kimi K2.6",
+          "open-weight model",
+          "available"
+        ]
+      },
+      {
+        "text": "We've published new research on how we post-train models for accurate search-augmented answers.\n\nOur SFT + RL pipeline improves search, citation quality, instruction following, and efficiency.\n\nWith Qwen models, we match or beat GPT models on factuality at a lower cost.",
+        "url": "https://twitter.com/perplexity_ai/status/2047016400292839808",
+        "time": "15h",
+        "replies": 56,
+        "retweets": 155,
+        "likes": 0,
+        "summary": "发布新研究，提升模型搜索增强答案准确性。",
+        "key_data": [
+          "SFT + RL",
+          "Qwen模型"
+        ],
+        "keywords": [
+          "模型训练",
+          "搜索增强",
+          "准确性"
+        ]
+      },
+      {
+        "text": "Our reward design combines correctness, preference, and efficiency.\n\nPreference only counts when the answer is correct.\n\nThis keeps the model from optimizing for better-sounding wrong answers.",
+        "url": "https://twitter.com/perplexity_ai/status/2047016429883740580",
+        "time": "15h",
+        "replies": 4,
+        "retweets": 1,
+        "likes": 91,
+        "summary": "推文介绍Perplexity的奖励设计原则。",
+        "key_data": [
+          "correctness",
+          "preference",
+          "efficiency"
+        ],
+        "keywords": [
+          "reward design",
+          "correctness",
+          "preference",
+          "efficiency"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Thanks \n@aimlapi\n for the love. Great time to explore our full model suite across text, voice, video, and music.",
+        "url": "https://twitter.com/MiniMax_AI/status/2046998605593223656",
+        "time": "16h",
+        "replies": 9,
+        "retweets": 9,
+        "likes": 80,
+        "summary": "感谢@aimlapi，探索MiniMax全模型套件。",
+        "key_data": [
+          "full model suite",
+          "text, voice, video, music"
+        ],
+        "keywords": [
+          "MiniMax",
+          "aimlapi",
+          "love",
+          "model suite",
+          "text",
+          "voice",
+          "video",
+          "music"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
