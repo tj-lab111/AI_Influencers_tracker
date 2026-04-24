@@ -1,0 +1,193 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T03:35:21.290160",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 21 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\n YOU HAVE JUST ONE WEEK LEFT! \n\nMy favorite games from today:\n\n Endless",
+        "url": "https://twitter.com/levelsio/status/2047445128827047972",
+        "time": "4h",
+        "replies": 17,
+        "retweets": 2,
+        "likes": 52,
+        "summary": "VibeJam活动倒数第七天，提供高额奖金。",
+        "key_data": [
+          "Day 21",
+          "May 1",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "prizes",
+          "game",
+          "boltdotnew",
+          "heyglif",
+          "tripoai"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Introducing GPT-5.5\n\nA new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done.\n\nNow available in ChatGPT and Codex.",
+        "url": "https://twitter.com/OpenAI/status/2047376561205325845",
+        "time": "9h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 40000,
+        "summary": "GPT-5.5发布，提升工作效率",
+        "key_data": [
+          "GPT-5.5",
+          "ChatGPT",
+          "Codex"
+        ],
+        "keywords": [
+          "GPT-5.5",
+          "人工智能",
+          "工作效率",
+          "ChatGPT",
+          "Codex"
+        ]
+      },
+      {
+        "text": "Introducing GPT-5.5\n\nA new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done.\n\nNow available in ChatGPT and Codex.",
+        "url": "https://twitter.com/OpenAI/status/2047376561205325845",
+        "time": "9h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 40000,
+        "summary": "OpenAI发布GPT-5.5，提升工作智能。",
+        "key_data": [
+          "GPT-5.5",
+          "ChatGPT, Codex"
+        ],
+        "keywords": [
+          "GPT-5.5",
+          "人工智能",
+          "工作智能",
+          "ChatGPT",
+          "Codex"
+        ]
+      },
+      {
+        "text": "In ChatGPT, full-stack inference improvements enable a more capable model at faster speed. This efficiency is a game-changer for GPT-5.5 Pro, now a much more practical option for demanding tasks, and a step change in the level of difficulty and quality of work ChatGPT can take on",
+        "url": "https://twitter.com/OpenAI/status/2047376567559668222",
+        "time": "9h",
+        "replies": 18,
+        "retweets": 68,
+        "likes": 0,
+        "summary": "ChatGPT升级，GPT-5.5 Pro效率提升",
+        "key_data": [
+          "full-stack inference improvements",
+          "faster speed",
+          "GPT-5.5 Pro"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "GPT-5.5 Pro",
+          "inference improvements",
+          "efficiency",
+          "game-changer"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Last week, we launched Gemini 3.1 TTS, our latest and best text-to-speech model. This new model introduces [awe] audio tags, an intuitive way to guide vocal style, pace, and delivery.\n\nHere are some tips on the best ways to use audio tags in your prompts:\n\n1. All inline tags must",
+        "url": "https://twitter.com/GoogleAI/status/2047377023656436013",
+        "time": "9h",
+        "replies": 28,
+        "retweets": 52,
+        "likes": 379,
+        "summary": "Google AI发布最新TTS模型，引入音频标签功能。",
+        "key_data": [
+          "Gemini 3.1 TTS",
+          "audio tags"
+        ],
+        "keywords": [
+          "Google AI",
+          "text-to-speech",
+          "audio tags",
+          "vocal style",
+          "pace",
+          "delivery"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Runway meetup in Tokyo, Japan. Huge shoutout to Miho, Hero, and Yves for organizing a fantastic community get-together.\n\nRunway meetups are happening everywhere, we're getting closer to 100 meetups so far across 75 cities around the world just in the last 12 months.",
+        "url": "https://twitter.com/c_valenzuelab/status/2047308315928006912",
+        "time": "13h",
+        "replies": 4,
+        "retweets": 7,
+        "likes": 72,
+        "summary": "Runway东京聚会，全球75城近100场。",
+        "key_data": [
+          "100 meetups",
+          "75 cities",
+          "12 months"
+        ],
+        "keywords": [
+          "Runway",
+          "meetup",
+          "Tokyo",
+          "community",
+          "Miho",
+          "Hero",
+          "Yves"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
