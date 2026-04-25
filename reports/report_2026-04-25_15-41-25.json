@@ -1,0 +1,236 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T15:41:25.580446",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "New Grok Imagine model just dropped with much better lip sync & sound. \n\nNothing in this video is real.",
+        "url": "https://twitter.com/elonmusk/status/2047881966268117064",
+        "time": "11h",
+        "replies": 0,
+        "retweets": 7000,
+        "likes": 45000,
+        "summary": "发布新Grok Imagine模型，强调改进。",
+        "key_data": [
+          "Grok Imagine",
+          "lip sync & sound"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "Grok Imagine",
+          "model",
+          "lip sync",
+          "sound"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Update: GPT-5.5 and GPT-5.5 Pro are now available in the API.",
+        "url": "https://twitter.com/OpenAI/status/2047743592278745425",
+        "time": "21h",
+        "replies": 216,
+        "retweets": 381,
+        "likes": 0,
+        "summary": "GPT-5.5及Pro版本API上线",
+        "key_data": [
+          "GPT-5.5",
+          "GPT-5.5 Pro",
+          "API"
+        ],
+        "keywords": [
+          "GPT-5.5",
+          "GPT-5.5 Pro",
+          "API",
+          "更新",
+          "发布"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New Anthropic research: Project Deal.\n\nWe created a marketplace for employees in our San Francisco office, with one big twist. We tasked Claude with buying, selling and negotiating on our colleagues’ behalf.",
+        "url": "https://twitter.com/AnthropicAI/status/2047728360818696302",
+        "time": "22h",
+        "replies": 282,
+        "retweets": 874,
+        "likes": 0,
+        "summary": "Anthropic推出员工市场， Claude代为交易。",
+        "key_data": [
+          "San Francisco office",
+          "Claude"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Project Deal",
+          "marketplace",
+          "employees",
+          "negotiating"
+        ]
+      },
+      {
+        "text": "Markets of AI agents could provide value, but there are plenty of rough edges. Access to higher-quality models conferred a real advantage—and participants didn’t notice. There are plenty of other ways they can go wrong.\n\nPolicy and legal frameworks will need to adapt to keep up.",
+        "url": "https://twitter.com/AnthropicAI/status/2047728384503939464",
+        "time": "22h",
+        "replies": 19,
+        "retweets": 19,
+        "likes": 273,
+        "summary": "AI市场潜力大，但需完善政策法规。",
+        "key_data": [
+          "AI agents",
+          "higher-quality models"
+        ],
+        "keywords": [
+          "AI市场",
+          "政策法规",
+          "模型质量"
+        ]
+      },
+      {
+        "text": "To read our write-up in full, see here:",
+        "url": "https://twitter.com/AnthropicAI/status/2047728386148122990",
+        "time": "22h",
+        "replies": 17,
+        "retweets": 28,
+        "likes": 285,
+        "summary": "Anthropic发布全文链接",
+        "key_data": [
+          "全文链接"
+        ],
+        "keywords": [
+          "Anthropic",
+          "全文",
+          "链接"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Our teams have been busyyy! Here are some key updates from the past week: \n\n— \n@GoogleCloud\n unveiled a suite of AI innovations at our Cloud Next event, including our eighth generation TPUs (TPUt for inference + TPUi for reasoning), Gemini Enterprise Agent Platform, Agentic Data",
+        "url": "https://twitter.com/GoogleAI/status/2047802944188269023",
+        "time": "17h",
+        "replies": 18,
+        "retweets": 39,
+        "likes": 277,
+        "summary": "Google Cloud发布AI创新，包括第八代TPU和Gemini平台。",
+        "key_data": [
+          "第八代TPU",
+          "Gemini Enterprise Agent Platform"
+        ],
+        "keywords": [
+          "Google Cloud",
+          "AI创新",
+          "TPU",
+          "Gemini平台"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Introducing our fourth annual AI Festival jurors.\n\nSubmissions close Monday, April 27. Enter your project today at the link below.",
+        "url": "https://twitter.com/runwayml/status/2047731191902511466",
+        "time": "22h",
+        "replies": 9,
+        "retweets": 15,
+        "likes": 61,
+        "summary": "公布AI节评审团，征稿截止日期为4月27日。",
+        "key_data": [
+          "第四年",
+          "4月27日"
+        ],
+        "keywords": [
+          "AI Festival",
+          "评审团",
+          "征稿",
+          "截止日期"
+        ]
+      },
+      {
+        "text": "Submit and buy tickets:",
+        "url": "https://twitter.com/runwayml/status/2047731194159137254",
+        "time": "22h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 4,
+        "summary": "提交并购买门票",
+        "key_data": [
+          "提交",
+          "购买"
+        ],
+        "keywords": [
+          "提交",
+          "门票",
+          "购买"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "GPT-5.5 is now available on Perplexity for Max subscribers.\n\nGPT-5.5 is also rolling out as the default orchestration model in Computer for both Pro and Max subscribers.",
+        "url": "https://twitter.com/perplexity_ai/status/2047748486767272243",
+        "time": "20h",
+        "replies": 76,
+        "retweets": 64,
+        "likes": 1000,
+        "summary": "Perplexity推出GPT-5.5模型",
+        "key_data": [
+          "GPT-5.5",
+          "Max subscribers",
+          "Pro and Max subscribers"
+        ],
+        "keywords": [
+          "GPT-5.5",
+          "Perplexity",
+          "model",
+          "subscription"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
