@@ -1,0 +1,207 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T04:03:28.202386",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Scam Altman and Greg Stockman stole a charity. Full stop. \n\nGreg got tens of billions of stock for himself and Scam got dozens of OpenAI side deals with a piece of the action for himself, Y Combinator style. After this lawsuit, Scam will also be awarded tens of billions in stock",
+        "url": "https://twitter.com/elonmusk/status/2048801964457140540",
+        "time": "11h",
+        "replies": 0,
+        "retweets": 20000,
+        "likes": 122000,
+        "summary": "Musk指责Altman和Stockman盗用慈善资金",
+        "key_data": [
+          "tens of billions",
+          "dozens of OpenAI side deals"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "Altman",
+          "Stockman",
+          "charity",
+          "stock",
+          "OpenAI",
+          "Y Combinator",
+          "lawsuit"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 25 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\n ONLY 3 DAYS LEFT! \n\nMy favorite games from today:\n WenWare by",
+        "url": "https://twitter.com/levelsio/status/2048773325401305214",
+        "time": "13h",
+        "replies": 40,
+        "retweets": 8,
+        "likes": 83,
+        "summary": "VibeJam活动倒数第三天，提供丰厚奖品。",
+        "key_data": [
+          "Day 25",
+          "3 DAYS LEFT",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "prizes",
+          "game",
+          "May 1"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "I get asked a lot about how we manage research GPU clusters at Runway, so we wrote it up.\n\nWe go deep on the design, tradeoffs, and what it actually takes to keep GPUs fully utilized.",
+        "url": "https://twitter.com/kamilsindi/status/2048874303337210359",
+        "time": "6h",
+        "replies": 3,
+        "retweets": 4,
+        "likes": 44,
+        "summary": "Runway分享GPU集群管理经验。",
+        "key_data": [
+          "GPU clusters",
+          "research"
+        ],
+        "keywords": [
+          "Runway",
+          "GPU",
+          "clusters",
+          "research",
+          "management"
+        ]
+      },
+      {
+        "text": "Our first online Runway API Hackathon begins next week. One weekend. Free API credits. $25,000 in prizes.\n\nBuild real-time video agents, agentic media pipelines or anything you can imagine. No experience required.\n\nLearn more and register at the link below.",
+        "url": "https://twitter.com/runwayml/status/2048814103402017274",
+        "time": "10h",
+        "replies": 14,
+        "retweets": 31,
+        "likes": 144,
+        "summary": "Runway API黑客松下周启动，免费API，奖金丰厚。",
+        "key_data": [
+          "$25,000 in prizes",
+          "No experience required"
+        ],
+        "keywords": [
+          "Runway API",
+          "Hackathon",
+          "Online",
+          "Free API credits",
+          "Prizes"
+        ]
+      },
+      {
+        "text": "Register now: \nhttps://\nrunwayml.com/api-hackathon",
+        "url": "https://twitter.com/runwayml/status/2048814105511743751",
+        "time": "10h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 12,
+        "summary": "注册参加Runway API黑客松",
+        "key_data": [
+          "API Hackathon"
+        ],
+        "keywords": [
+          "Register",
+          "Runway",
+          "Hackathon"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Music-2.6 from \n@MiniMax_AI\n is free on Cloudflare this week!\n\nGenerate full-length songs or instrumentals from a text prompt, with optional auto-generated lyrics.\n\nFast global inference on Cloudflare’s network. \nPerfect for building music apps on Cloudflare Workers. \n\nTry it free",
+        "url": "https://twitter.com/CloudflareDev/status/2048771732996080121",
+        "time": "13h",
+        "replies": 5,
+        "retweets": 28,
+        "likes": 191,
+        "summary": "MiniMax 音乐生成工具本周免费",
+        "key_data": [
+          "Music-2.6",
+          "免费"
+        ],
+        "keywords": [
+          "MiniMax",
+          "音乐生成",
+          "Cloudflare",
+          "免费",
+          "文本提示",
+          "全曲生成",
+          "自动生成歌词"
+        ]
+      },
+      {
+        "text": "Really excited about this one. Music 2.6 is now available on \n@Cloudflare\n AI — full songs with vocals, instrumentals, covers, all from text. \n\nWe want honest feedback from real users. Give it a spin and let us know what hits (and what doesn't).",
+        "url": "https://twitter.com/MiniMax_AI/status/2048822676370919850",
+        "time": "10h",
+        "replies": 8,
+        "retweets": 12,
+        "likes": 136,
+        "summary": "MiniMax发布音乐2.6版，求用户反馈。",
+        "key_data": [
+          "Music 2.6",
+          "AI"
+        ],
+        "keywords": [
+          "MiniMax",
+          "音乐",
+          "AI",
+          "Cloudflare",
+          "反馈"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
