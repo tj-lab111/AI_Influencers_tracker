@@ -1,0 +1,248 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T04:00:51.830618",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [
+      {
+        "text": "It was a huge honour to meet with President \n@Jaemyung_Lee\n in Seoul. Deeply appreciate and impressed by our thoughtful exchange about AI safety and the importance of using AI to advance science. Korea has a leading part to play in that, and we look forward to working together!",
+        "url": "https://twitter.com/demishassabis/status/2049291051266142574",
+        "time": "2h",
+        "replies": 34,
+        "retweets": 89,
+        "likes": 579,
+        "summary": "与韩国总统会面，探讨AI安全与科学进步",
+        "key_data": [
+          "Seoul",
+          "AI safety"
+        ],
+        "keywords": [
+          "Demis Hassabis",
+          "President Jaemyung Lee",
+          "AI",
+          "science",
+          "Korea"
+        ]
+      }
+    ],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 26 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\n ONLY 2 DAYS LEFT! \n\nMy favorite games from today:\n Vibe",
+        "url": "https://twitter.com/levelsio/status/2049244830899872021",
+        "time": "6h",
+        "replies": 25,
+        "retweets": 0,
+        "likes": 50,
+        "summary": "倒数两天，Vibe Jam活动奖品丰厚。",
+        "key_data": [
+          "Day 26",
+          "2 DAYS LEFT",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "prizes",
+          "submit",
+          "May 1",
+          "Vibe"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Earlier this month, an Erdős problem that had been open for 60 years was solved with help from GPT-5.4 Pro.\n\nWhat happens now that AI is getting good at math?\n\nOpenAI researchers \n@SebastienBubeck\n and \n@ErnestRyu\n join host \n@AndrewMayne\n to explain what changed and what it could mean",
+        "url": "https://twitter.com/OpenAI/status/2049182118069358967",
+        "time": "10h",
+        "replies": 158,
+        "retweets": 222,
+        "likes": 0,
+        "summary": "AI助力解决60年数学难题，引发数学领域变革。",
+        "key_data": [
+          "60年",
+          "GPT-5.4 Pro"
+        ],
+        "keywords": [
+          "数学难题",
+          "AI",
+          "OpenAI",
+          "GPT-5.4 Pro",
+          "数学领域"
+        ]
+      },
+      {
+        "text": "Listen to the OpenAI Podcast on—\nSpotify\n\nhttps://\nopen.spotify.com/show/0zojMEDiz\nKMh3aTxnGLENP\n…\nApple\n\nhttps://\npodcasts.apple.com/us/podcast/ope\nnai-podcast/id1820330260\n…\nYouTube",
+        "url": "https://twitter.com/OpenAI/status/2049182122099798209",
+        "time": "10h",
+        "replies": 7,
+        "retweets": 5,
+        "likes": 83,
+        "summary": "OpenAI Podcast 在各大平台播放",
+        "key_data": [
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Podcast",
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [
+      {
+        "text": "Meet Nemotron 3 Nano Omni \n\nOur latest addition to the Nemotron family is the highest efficiency, open multimodal model with leading accuracy.\n\n30B parameters. 256K context length. ",
+        "url": "https://twitter.com/NVIDIAAI/status/2049159441870717428",
+        "time": "11h",
+        "replies": 56,
+        "retweets": 175,
+        "likes": 929,
+        "summary": "NVIDIA发布Nemotron 3 Nano Omni，高效多模态模型。",
+        "key_data": [
+          "30B参数",
+          "256K上下文长度"
+        ],
+        "keywords": [
+          "NVIDIA",
+          "Nemotron 3 Nano Omni",
+          "多模态模型",
+          "效率",
+          "参数",
+          "上下文长度"
+        ]
+      }
+    ],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Learn how to generate videos with consistent characters and voices using references, character sheets and prompting techniques in Runway.",
+        "url": "https://twitter.com/runwayml/status/2049194527445881103",
+        "time": "9h",
+        "replies": 14,
+        "retweets": 23,
+        "likes": 154,
+        "summary": "Runway推文介绍视频生成技巧",
+        "key_data": [
+          "Runway",
+          "视频生成",
+          "角色和声音"
+        ],
+        "keywords": [
+          "视频生成",
+          "Runway",
+          "角色",
+          "声音",
+          "参考",
+          "角色表",
+          "提示技巧"
+        ]
+      },
+      {
+        "text": "He's a goat. That's the show.\n\nEnter your #RunwayBigPitchContest submission today. Up to $100K in cash prizes. Contest closes May 4th.\n\nLearn more and submit at the link below.",
+        "url": "https://twitter.com/runwayml/status/2049128442080240006",
+        "time": "13h",
+        "replies": 13,
+        "retweets": 15,
+        "likes": 122,
+        "summary": "Runway大提案赛截止至5月4日，奖金高达10万美元。",
+        "key_data": [
+          "$100K",
+          "May 4th"
+        ],
+        "keywords": [
+          "RunwayBigPitchContest",
+          "cash prizes",
+          "submission",
+          "contest"
+        ]
+      },
+      {
+        "text": "Submit today:",
+        "url": "https://twitter.com/runwayml/status/2049128444013736256",
+        "time": "13h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 6,
+        "summary": "今日提交截止",
+        "key_data": [
+          "Submit today"
+        ],
+        "keywords": [
+          "Submit",
+          "today"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Excited to power \n@mira_t_me\n's AI agent on Telegram — multimodal, at scale, for everyday users.\n\nWelcome to the ecosystem ",
+        "url": "https://twitter.com/MiniMax_AI/status/2049159574532551002",
+        "time": "11h",
+        "replies": 7,
+        "retweets": 6,
+        "likes": 102,
+        "summary": "MiniMax发布多模态AI代理。",
+        "key_data": [
+          "Telegram",
+          "multimodal",
+          "at scale"
+        ],
+        "keywords": [
+          "MiniMax",
+          "AI agent",
+          "Telegram",
+          "ecosystem"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
