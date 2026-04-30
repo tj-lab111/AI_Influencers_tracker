@@ -1,0 +1,271 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T04:02:07.968263",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 27 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\n\n  YOU HAVE JUST ONE DAY LEFT!\n",
+        "url": "https://twitter.com/levelsio/status/2049614598777761999",
+        "time": "5h",
+        "replies": 20,
+        "retweets": 3,
+        "likes": 48,
+        "summary": "最后一天提交Vibe Jam游戏赢大奖",
+        "key_data": [
+          "Day 27",
+          "May 1",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "prizes",
+          "submit",
+          "game"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Want to secure an early ticket to OpenAI DevDay? Build something with GPT-5.5 and Image Gen.\n\nEach week, we’ll select 2–3 favorites to win free tickets to OpenAI DevDay 2026. Codex will help us find the best submissions and our team will select the winners.\n\nReply with",
+        "url": "https://twitter.com/OpenAI/status/2049535650626785334",
+        "time": "10h",
+        "replies": 167,
+        "retweets": 159,
+        "likes": 0,
+        "summary": "参与GPT-5.5和Image Gen项目，赢取OpenAI DevDay门票。",
+        "key_data": [
+          "2-3",
+          "OpenAI DevDay 2026"
+        ],
+        "keywords": [
+          "GPT-5.5",
+          "Image Gen",
+          "OpenAI DevDay",
+          "免费门票",
+          "Codex"
+        ]
+      },
+      {
+        "text": "We’re talking about Goblins.",
+        "url": "https://twitter.com/OpenAI/status/2049690533845663830",
+        "time": "32m",
+        "replies": 138,
+        "retweets": 213,
+        "likes": 928,
+        "summary": "讨论Goblins",
+        "key_data": [],
+        "keywords": [
+          "Goblins"
+        ]
+      },
+      {
+        "text": "Goblin and related magical mentions were overrewarded in training, and the behavior was reinforced over successive models.\n\nWe removed the goblin-affine reward signal for future models, and filtered training data where creatures appeared in irrelevant contexts.",
+        "url": "https://twitter.com/OpenAI/status/2049690541269688478",
+        "time": "32m",
+        "replies": 15,
+        "retweets": 11,
+        "likes": 108,
+        "summary": "调整训练模型，移除Goblin奖励信号。",
+        "key_data": [
+          "Goblin",
+          "训练模型"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Goblin",
+          "奖励信号",
+          "训练数据",
+          "模型调整"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New on the Science Blog: We gave Claude 99 problems analyzing real biological data and compared its performance against an expert panel.\n\nOn 23 problems, the experts were stumped. Our most recent models solved roughly 30% of those—and most of the rest.",
+        "url": "https://twitter.com/AnthropicAI/status/2049624600741560340",
+        "time": "4h",
+        "replies": 99,
+        "retweets": 146,
+        "likes": 0,
+        "summary": "Anthropic新模型在生物数据分析中表现突出。",
+        "key_data": [
+          "99 problems",
+          "30% solved",
+          "23 stumped"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude",
+          "biological data",
+          "performance",
+          "expert panel"
+        ]
+      },
+      {
+        "text": "BioMysteryBench, our new bioinformatics eval, tests whether Claude can devise creative solutions to open-ended research problems.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2049624602486383078",
+        "time": "4h",
+        "replies": 11,
+        "retweets": 23,
+        "likes": 182,
+        "summary": "Anthropic发布新生物信息学评估",
+        "key_data": [
+          "BioMysteryBench",
+          "Claude"
+        ],
+        "keywords": [
+          "Anthropic",
+          "bioinformatics",
+          "eval",
+          "research problems"
+        ]
+      },
+      {
+        "text": "In new Anthropic Fellows research, we discuss “introspection adapters\": a tool that allows language models to self-report behaviors they've learned during training—including potential misalignment.",
+        "url": "https://twitter.com/AnthropicAI/status/2049576143653929153",
+        "time": "8h",
+        "replies": 103,
+        "retweets": 104,
+        "likes": 924,
+        "summary": "Anthropic推出自我报告工具，用于分析语言模型行为。",
+        "key_data": [
+          "语言模型",
+          "自我报告"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Fellows",
+          "introspection adapters",
+          "self-report",
+          "language models",
+          "training",
+          "misalignment"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "Midjourney Weekly Office Hours - 4/29",
+        "url": "https://twitter.com/midjourney/status/2049566808676679763",
+        "time": "8h",
+        "replies": 6,
+        "retweets": 0,
+        "likes": 12,
+        "summary": "Midjourney每周办公时间预告",
+        "key_data": [
+          "4/29"
+        ],
+        "keywords": [
+          "Midjourney",
+          "办公时间",
+          "每周"
+        ]
+      },
+      {
+        "text": "https://\nmidjourneyofficehours.onrender.com/room/f7e36eca",
+        "url": "https://twitter.com/midjourney/status/2049572389382738056",
+        "time": "8h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 2,
+        "summary": "Midjourney分享办公时间房间链接",
+        "key_data": [
+          "房间链接：f7e36eca"
+        ],
+        "keywords": [
+          "Midjourney",
+          "办公时间",
+          "房间链接"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "Turn your camera roll into a visual effects engine with Runway. Just select a photo or video, type in what you want to happen and that's it. Everything's an opportunity to make something, get started at the link below.",
+        "url": "https://twitter.com/runwayml/status/2049491034044825914",
+        "time": "13h",
+        "replies": 15,
+        "retweets": 13,
+        "likes": 122,
+        "summary": "Runway让照片视频变特效引擎",
+        "key_data": [
+          "一键操作",
+          "视觉特效"
+        ],
+        "keywords": [
+          "Runway",
+          "照片",
+          "视频",
+          "特效"
+        ]
+      },
+      {
+        "text": "Get started:",
+        "url": "https://twitter.com/runwayml/status/2049491036624277885",
+        "time": "13h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 5,
+        "summary": "Runway推文，引导开始",
+        "key_data": [
+          "Get started"
+        ],
+        "keywords": [
+          "Runway",
+          "开始",
+          "引导"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
