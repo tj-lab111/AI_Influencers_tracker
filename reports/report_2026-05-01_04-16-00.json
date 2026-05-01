@@ -1,0 +1,359 @@
+{
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T04:16:00.243906",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [
+      {
+        "text": "How we prompt AI is very different in 2026 than 2022 when ChatGPT came out.\n\nI'm teaching a new course, AI Prompting for Everyone, to help you become an AI power user — whatever your current skill level.\n\nIt covers skills that apply across ChatGPT, Gemini, Claude, and other AI",
+        "url": "https://twitter.com/AndrewYNg/status/2049886895530967534",
+        "time": "11h",
+        "replies": 78,
+        "retweets": 276,
+        "likes": 0,
+        "summary": "Andrew Ng 推出AI提示课程，探讨AI提示技术发展。",
+        "key_data": [
+          "2026",
+          "ChatGPT",
+          "AI Prompting for Everyone"
+        ],
+        "keywords": [
+          "Andrew Ng",
+          "AI Prompting",
+          "ChatGPT",
+          "Gemini",
+          "Claude"
+        ]
+      }
+    ],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Day 28 of the \n@cursor_ai\n #vibejam\n\nProudly sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n\n\nPrizes to win (submit your vibe coded game before May 1!)\n $25,000\n $10,000\n $5,000\n\n LAST DAY TO SUBMIT! \n\nThe deadline is May 1 at 13:37 (LEET TIME) in UTC, so",
+        "url": "https://twitter.com/levelsio/status/2049986812299612460",
+        "time": "5h",
+        "replies": 28,
+        "retweets": 4,
+        "likes": 52,
+        "summary": "最后一天提交Vibe编码游戏，赢取奖金。",
+        "key_data": [
+          "Day 28",
+          "May 1",
+          "$25,000",
+          "$10,000",
+          "$5,000"
+        ],
+        "keywords": [
+          "cursor_ai",
+          "vibejam",
+          "prizes",
+          "submit",
+          "LEET TIME"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "It's never been easier to do everyday work with Codex.\n\nChoose your role, connect the apps you use every day, and try suggested prompts.\n\nCodex helps with everything from research and planning to docs, slides, spreadsheets, and more.",
+        "url": "https://twitter.com/OpenAI/status/2049928776147230886",
+        "time": "8h",
+        "replies": 239,
+        "retweets": 420,
+        "likes": 0,
+        "summary": "Codex简化日常工作",
+        "key_data": [
+          "Codex"
+        ],
+        "keywords": [
+          "Codex",
+          "工作",
+          "日常",
+          "研究",
+          "规划",
+          "文档",
+          "幻灯片",
+          "电子表格"
+        ]
+      },
+      {
+        "text": "From draft to deck, review the work as it takes shape inside Codex. \n\nOpen the file, ask for changes, and keep tweaking it in the same thread.",
+        "url": "https://twitter.com/OpenAI/status/2049928782019256561",
+        "time": "8h",
+        "replies": 8,
+        "retweets": 13,
+        "likes": 228,
+        "summary": "在Codex中实时审查和修改文档。",
+        "key_data": [
+          "Codex",
+          "实时审查",
+          "文档修改"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Codex",
+          "文档",
+          "审查",
+          "修改"
+        ]
+      },
+      {
+        "text": "Work faster with Codex.",
+        "url": "https://twitter.com/OpenAI/status/2049929697921003809",
+        "time": "8h",
+        "replies": 14,
+        "retweets": 20,
+        "likes": 190,
+        "summary": "提高工作效率",
+        "key_data": [
+          "Codex"
+        ],
+        "keywords": [
+          "Work faster",
+          "Codex"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "How do people seek guidance from Claude?\n\nWe looked at 1M conversations to understand what questions people ask, how Claude responds, and where it slips into sycophancy. We used what we found to improve how we trained Opus 4.7 and Mythos Preview.",
+        "url": "https://twitter.com/AnthropicAI/status/2049927618397614466",
+        "time": "9h",
+        "replies": 178,
+        "retweets": 217,
+        "likes": 0,
+        "summary": "分析百万对话，优化Claude模型",
+        "key_data": [
+          "1M conversations",
+          "Opus 4.7",
+          "Mythos Preview"
+        ],
+        "keywords": [
+          "Claude",
+          "对话分析",
+          "模型优化"
+        ]
+      },
+      {
+        "text": "This work is part of a loop we're working to close between societal impacts and model training. One of our goals is to study how people use Claude, find where it falls short of its principles, and use what we learned in training new models.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2049927628161999317",
+        "time": "9h",
+        "replies": 7,
+        "retweets": 8,
+        "likes": 100,
+        "summary": "研究Claude使用情况，改进模型训练。",
+        "key_data": [
+          "Claude",
+          "模型训练"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude",
+          "模型训练",
+          "社会影响",
+          "用户研究"
+        ]
+      },
+      {
+        "text": "All data in this study was collected and analyzed using our privacy-preserving tool.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2049927629420245494",
+        "time": "9h",
+        "replies": 8,
+        "retweets": 7,
+        "likes": 75,
+        "summary": "研究数据用隐私保护工具分析",
+        "key_data": [
+          "隐私保护工具"
+        ],
+        "keywords": [
+          "研究数据",
+          "收集",
+          "分析",
+          "隐私保护"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Last week, we made Gemini Embedding 2, our first natively multimodal embedding model, available to the general public. Since then, developers have used it to build video analysis tools, visual shopping assistants, and more.\n\nBut you might be wondering... what is an embedding",
+        "url": "https://twitter.com/GoogleAI/status/2049903687016063456",
+        "time": "10h",
+        "replies": 43,
+        "retweets": 182,
+        "likes": 0,
+        "summary": "Google AI发布多模态嵌入模型Gemini Embedding 2",
+        "key_data": [
+          "Gemini Embedding 2",
+          "多模态嵌入模型"
+        ],
+        "keywords": [
+          "Google AI",
+          "Gemini Embedding 2",
+          "多模态",
+          "嵌入模型",
+          "视频分析",
+          "视觉购物"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "Two quick announcements - We've  pushed an update that improves V8.1 image quality and sharpness, particularly with SREFs, moodboards and HD images, but you should notice it globally too! Secondly, V8.1 is now available on our main website as well as Discord. Enjoy!",
+        "url": "https://twitter.com/midjourney/status/2049973065094947125",
+        "time": "6h",
+        "replies": 18,
+        "retweets": 27,
+        "likes": 156,
+        "summary": "V8.1更新提升图像质量，现已全面上线",
+        "key_data": [
+          "V8.1",
+          "图像质量提升"
+        ],
+        "keywords": [
+          "V8.1",
+          "更新",
+          "图像质量",
+          "上线"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "You don't need to shut down the streets to bring a big idea to life. Just great storytelling. From idea to execution, this short concept was made by a single creative in just one day with Runway. Try it yourself at the link below. #MadeWithRunway",
+        "url": "https://twitter.com/runwayml/status/2049852645616107829",
+        "time": "14h",
+        "replies": 13,
+        "retweets": 8,
+        "likes": 82,
+        "summary": "单日创意制作，展示Runway功能。",
+        "key_data": [
+          "单日完成",
+          "单创意人"
+        ],
+        "keywords": [
+          "Runway",
+          "创意制作",
+          "故事讲述"
+        ]
+      },
+      {
+        "text": "Get started:",
+        "url": "https://twitter.com/runwayml/status/2049852647713219071",
+        "time": "14h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 2,
+        "summary": "Runway推文引导开始",
+        "key_data": [
+          "引导"
+        ],
+        "keywords": [
+          "Runway",
+          "开始"
+        ]
+      },
+      {
+        "text": "Can AI dance and choreograph? Yes. Yes, it can.\n\nI had a song stuck in my head last morning, and before noon, I managed to get it out by making this music video. From idea to execution, it was created in a single morning with \n@runwayml\n.\n\nGood ideas don’t need big budgets. Just",
+        "url": "https://twitter.com/c_valenzuelab/status/2049826834506756434",
+        "time": "15h",
+        "replies": 32,
+        "retweets": 27,
+        "likes": 173,
+        "summary": "AI可舞蹈编排，创意无需大预算。",
+        "key_data": [
+          "音乐视频",
+          "单日完成"
+        ],
+        "keywords": [
+          "AI",
+          "舞蹈",
+          "编排",
+          "创意",
+          "预算"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Such a great night So glad to have you \n@kenyeung128\n and the \n@Wati_io\n team for joining! \n\nBig thanks to \n@boltdotnew\n for making it happen, and to \n@UnicornerNews\n for co-hosting alongside us.",
+        "url": "https://twitter.com/MiniMax_AI/status/2049898440503836920",
+        "time": "11h",
+        "replies": 2,
+        "retweets": 1,
+        "likes": 21,
+        "summary": "感谢合作伙伴共襄盛举",
+        "key_data": [
+          "@kenyeung128",
+          "@Wati_io",
+          "@boltdotnew",
+          "@UnicornerNews"
+        ],
+        "keywords": [
+          "感谢",
+          "合作伙伴",
+          "共襄盛举"
+        ]
+      },
+      {
+        "text": "Day 1 at \n@stripe\n Sessions was \nOur booth was packed with amazing conversations all day. Thank you for the energy!\n\nDay 2 is on. Find us at Booth 604 ",
+        "url": "https://twitter.com/MiniMax_AI/status/2049894057770701283",
+        "time": "11h",
+        "replies": 2,
+        "retweets": 3,
+        "likes": 68,
+        "summary": "MiniMax在Stripe Sessions第一天 booth繁忙，第二天继续。",
+        "key_data": [
+          "Day 1",
+          "Booth 604"
+        ],
+        "keywords": [
+          "MiniMax",
+          "Stripe Sessions",
+          "booth",
+          "Day 2"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
