@@ -1,0 +1,280 @@
+{
+  "date": "2026-05-02",
+  "generated_at": "2026-05-02T03:46:34.255042",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Starlink now in Papua New Guinea! ",
+        "url": "https://twitter.com/elonmusk/status/2050375418293985457",
+        "time": "2h",
+        "replies": 2000,
+        "retweets": 0,
+        "likes": 24000,
+        "summary": "星链服务扩展至巴布亚新几内亚",
+        "key_data": [
+          "Papua New Guinea",
+          "Starlink"
+        ],
+        "keywords": [
+          "Starlink",
+          "Papua New Guinea",
+          "扩展"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": "And..... DONE!\n\nThe Vibe Jam of 2026 sponsored by \n@cursor_ai\n + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n is officially closed\n\n 945 games submitted\n 242,212 players\n ~12 million views on X\n\nNow me and \n@s13k_\n will start the judging process, probably pre-vetting games first with",
+        "url": "https://twitter.com/levelsio/status/2050213288609235424",
+        "time": "13h",
+        "replies": 101,
+        "retweets": 33,
+        "likes": 286,
+        "summary": "2026 Vibe Jam结束，提交游戏数量及观看量公布",
+        "key_data": [
+          "945 games",
+          "242,212 players",
+          "~12 million views"
+        ],
+        "keywords": [
+          "Vibe Jam",
+          "2026",
+          "cursor_ai",
+          "boltdotnew",
+          "heyglif",
+          "tripoai",
+          "judging",
+          "s13k_"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Bring your workflow to Codex in just a few clicks.\n\nImport settings, plugins, agents, project configuration, and more so you can keep working with fewer interruptions.\n\nYour move.",
+        "url": "https://twitter.com/OpenAI/status/2050290618187055175",
+        "time": "8h",
+        "replies": 160,
+        "retweets": 180,
+        "likes": 0,
+        "summary": "一键迁移工作流至Codex，减少中断。",
+        "key_data": [
+          "few clicks",
+          "fewer interruptions"
+        ],
+        "keywords": [
+          "Codex",
+          "workflow",
+          "import",
+          "settings",
+          "plugins",
+          "agents",
+          "project configuration"
+        ]
+      },
+      {
+        "text": "Curious about Codex? It's time to switch.\n\nYou can migrate to Codex directly in the Codex app and the CLI.",
+        "url": "https://twitter.com/OpenAI/status/2050290619684393152",
+        "time": "8h",
+        "replies": 14,
+        "retweets": 12,
+        "likes": 150,
+        "summary": "推广Codex，鼓励迁移",
+        "key_data": [
+          "Codex app",
+          "CLI"
+        ],
+        "keywords": [
+          "Codex",
+          "迁移",
+          "应用"
+        ]
+      },
+      {
+        "text": "One week since the launch of GPT-5.5, and it’s already our strongest model launch yet. \n\nAPI revenue is growing more than 2x faster than any prior release, while Codex doubled revenue in under seven days as enterprise demand for agentic coding tools keeps climbing.",
+        "url": "https://twitter.com/OpenAI/status/2050250926888468929",
+        "time": "11h",
+        "replies": 421,
+        "retweets": 424,
+        "likes": 0,
+        "summary": "GPT-5.5发布一周，API收入增长强劲。",
+        "key_data": [
+          "一周",
+          "2x",
+          "七天内翻倍"
+        ],
+        "keywords": [
+          "GPT-5.5",
+          "API收入",
+          "Codex",
+          "企业需求"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "I/O is less than 3 weeks away  We want YOU to help us create the countdown that will play before the keynote begins.\n\nUsing \n@GoogleAIStudio\n or Canvas in \n@GeminiApp\n vibe code your most creative countdown concept and send it to us by May 6th.\n\nThe only rule is that your build has",
+        "url": "https://twitter.com/GoogleAI/status/2050244962755948895",
+        "time": "11h",
+        "replies": 44,
+        "retweets": 52,
+        "likes": 337,
+        "summary": "Google AI征召创意倒计时，助力I/O大会。",
+        "key_data": [
+          "3 weeks",
+          "May 6th"
+        ],
+        "keywords": [
+          "Google AI",
+          "I/O",
+          "countdown",
+          "Creative",
+          "Canvas",
+          "GeminiApp"
+        ]
+      },
+      {
+        "text": "And this sample project was created on Canvas in \n@GeminiApp\n. It’s a high-speed rhythm game where you tap to the beat and collect power-ups to remix the track. Watch as the numbers appear as melody plays!\n\nYou can actually play the game here:  \nhttps://\ngemini.google.com/share/b16dad5e\ne5cb\n…",
+        "url": "https://twitter.com/GoogleAI/status/2050246217272340683",
+        "time": "11h",
+        "replies": 3,
+        "retweets": 6,
+        "likes": 57,
+        "summary": "Google AI展示GeminiApp上的节奏游戏。",
+        "key_data": [
+          "Canvas",
+          "high-speed rhythm game"
+        ],
+        "keywords": [
+          "Google AI",
+          "GeminiApp",
+          "rhythm game",
+          "power-ups",
+          "remix"
+        ]
+      },
+      {
+        "text": "We can’t wait to see where your creativity takes you.\n\nVibe code your countdown idea in \n@GoogleAIStudio\n or Canvas in \n@GeminiApp\n, then submit it here:",
+        "url": "https://twitter.com/GoogleAI/status/2050246412290724048",
+        "time": "11h",
+        "replies": 2,
+        "retweets": 4,
+        "likes": 27,
+        "summary": "Google AI 推出创意作品提交活动",
+        "key_data": [
+          "@GoogleAIStudio",
+          "@GeminiApp"
+        ],
+        "keywords": [
+          "Google AI",
+          "创意",
+          "提交",
+          "Canvas",
+          "Vibe code"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Make anything. From anywhere. On any device. Runway is now on both Android and iOS.\n\nGet started at the link below.",
+        "url": "https://twitter.com/runwayml/status/2050270993487212712",
+        "time": "9h",
+        "replies": 11,
+        "retweets": 18,
+        "likes": 104,
+        "summary": "Runway跨平台应用发布",
+        "key_data": [
+          "Android",
+          "iOS"
+        ],
+        "keywords": [
+          "Runway",
+          "跨平台",
+          "应用",
+          "发布"
+        ]
+      },
+      {
+        "text": "Get started: \nhttps://\nplay.google.com/store/apps/det\nails?id=com.runwayml.prod\n…",
+        "url": "https://twitter.com/runwayml/status/2050270995227812126",
+        "time": "9h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 4,
+        "summary": "下载Runway应用",
+        "key_data": [
+          "应用链接"
+        ],
+        "keywords": [
+          "Runway",
+          "应用",
+          "下载"
+        ]
+      },
+      {
+        "text": "Not every hero has a city to save. Or, any idea how to do it. Introducing, Project Power.\n\nEnter your #RunwayBigPitchContest pilot today. Up to $100K in cash prizes. Submissions close on May 4th.\n\nLearn more at the link below.",
+        "url": "https://twitter.com/runwayml/status/2050230608563937386",
+        "time": "12h",
+        "replies": 17,
+        "retweets": 13,
+        "likes": 96,
+        "summary": "Runway启动项目Power，征稿赢现金大奖。",
+        "key_data": [
+          "$100K",
+          "May 4th"
+        ],
+        "keywords": [
+          "Project Power",
+          "RunwayBigPitchContest",
+          "cash prizes"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
