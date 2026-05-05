@@ -1,0 +1,157 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T03:48:43.184733",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Real-time video agents are here.\n\nToday, we’re sharing how we built Runway Characters, allowing you to turn one image into a fully expressive, conversational video agent streaming at 24 frames per second in HD. With just 1.75 seconds of end-to-end latency.\n\nLearn more below.",
+        "url": "https://twitter.com/runwayml/status/2051353783762919767",
+        "time": "10h",
+        "replies": 39,
+        "retweets": 90,
+        "likes": 496,
+        "summary": "Runway推出实时视频角色生成技术",
+        "key_data": [
+          "24fps",
+          "1.75秒延迟"
+        ],
+        "keywords": [
+          "Runway",
+          "视频角色",
+          "实时生成",
+          "高清",
+          "图像转视频"
+        ]
+      },
+      {
+        "text": "From when the user stops speaking to when the Character starts replying is just 1.75 seconds. Under the hood, the video model runs at 37 milliseconds of effective model time per frame, at more than 24fps HD.",
+        "url": "https://twitter.com/runwayml/status/2051353785314787513",
+        "time": "10h",
+        "replies": 2,
+        "retweets": 3,
+        "likes": 32,
+        "summary": "Runway推文展示视频模型快速响应能力",
+        "key_data": [
+          "1.75秒",
+          "37毫秒/帧",
+          "24fps"
+        ],
+        "keywords": [
+          "Runway",
+          "视频模型",
+          "响应时间",
+          "帧率"
+        ]
+      },
+      {
+        "text": "Learn more about building Runway Characters: \nhttps://\nrunwayml.com/news/building-\nrunway-characters\n…",
+        "url": "https://twitter.com/runwayml/status/2051353787554546105",
+        "time": "10h",
+        "replies": 0,
+        "retweets": 4,
+        "likes": 22,
+        "summary": "介绍Runway角色构建方法",
+        "key_data": [
+          "Runway Characters",
+          "https://runwayml.com/news/building-runway-characters"
+        ],
+        "keywords": [
+          "Runway",
+          "角色构建",
+          "学习"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Perplexity Computer is now available in Microsoft Teams.\n\nRun research, analysis, and document creation directly in your Teams workspace with the same capabilities as Computer.",
+        "url": "https://twitter.com/perplexity_ai/status/2051362717630632084",
+        "time": "9h",
+        "replies": 54,
+        "retweets": 81,
+        "likes": 591,
+        "summary": "Perplexity Computer集成至Microsoft Teams",
+        "key_data": [
+          "Microsoft Teams",
+          "研究分析"
+        ],
+        "keywords": [
+          "Perplexity Computer",
+          "Microsoft Teams",
+          "研究",
+          "分析",
+          "文档创建"
+        ]
+      },
+      {
+        "text": "Get Perplexity Computer in the Microsoft Marketplace:\n\n\nhttps://\nmarketplace.microsoft.com/en-us/product/\nWA200010619?tab=Overview\n…",
+        "url": "https://twitter.com/perplexity_ai/status/2051362734319800742",
+        "time": "9h",
+        "replies": 2,
+        "retweets": 0,
+        "likes": 31,
+        "summary": "推广Perplexity电脑在微软市场",
+        "key_data": [
+          "Microsoft Marketplace",
+          "WA200010619"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Computer",
+          "Microsoft",
+          "Marketplace"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
