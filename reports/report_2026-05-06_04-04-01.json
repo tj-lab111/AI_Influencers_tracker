@@ -1,0 +1,361 @@
+{
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06T04:04:01.527391",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Beautiful machines in space",
+        "url": "https://twitter.com/elonmusk/status/2051544857974620481",
+        "time": "21h",
+        "replies": 0,
+        "retweets": 10000,
+        "likes": 88000,
+        "summary": "太空中的美丽机械",
+        "key_data": [],
+        "keywords": [
+          "太空",
+          "机械",
+          "美丽"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "GPT-5.5 Instant is starting to roll out in ChatGPT.\n\nIt’s a big upgrade, giving you smarter, clearer, and more personalized answers in a warmer, more natural tone.\n\nAnd it's also more concise, which we heard you wanted. We think you'll love chatting with it.",
+        "url": "https://twitter.com/OpenAI/status/2051709028250915275",
+        "time": "10h",
+        "replies": 442,
+        "retweets": 1000,
+        "likes": 8000,
+        "summary": "ChatGPT升级GPT-5.5 Instant",
+        "key_data": [
+          "GPT-5.5 Instant",
+          "smarter, clearer, more personalized"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "GPT-5.5 Instant",
+          "upgrade",
+          "answers",
+          "tone",
+          "concise"
+        ]
+      },
+      {
+        "text": "GPT-5.5 Instant is starting to roll out in ChatGPT.\n\nIt’s a big upgrade, giving you smarter, clearer, and more personalized answers in a warmer, more natural tone.\n\nAnd it's also more concise, which we heard you wanted. We think you'll love chatting with it.",
+        "url": "https://twitter.com/OpenAI/status/2051709028250915275",
+        "time": "10h",
+        "replies": 442,
+        "retweets": 1000,
+        "likes": 8000,
+        "summary": "GPT-5.5 Instant升级ChatGPT",
+        "key_data": [
+          "GPT-5.5 Instant",
+          "ChatGPT"
+        ],
+        "keywords": [
+          "升级",
+          "智能",
+          "个性化",
+          "自然"
+        ]
+      },
+      {
+        "text": "We’re also improving memory and personalization.\n\nChatGPT can now better use context from saved memories, past chats, files, and connected Gmail accounts to give more personalized responses.\n\nMemory sources show what relevant context was used to personalize a response and allow",
+        "url": "https://twitter.com/OpenAI/status/2051709033414025647",
+        "time": "10h",
+        "replies": 42,
+        "retweets": 132,
+        "likes": 0,
+        "summary": "ChatGPT增强记忆与个性化",
+        "key_data": [
+          "saved memories",
+          "past chats",
+          "files",
+          "connected Gmail accounts"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "记忆",
+          "个性化",
+          "Gmail"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New Anthropic Fellows research: Model Spec Midtraining (MSM).\n\nStandard alignment methods train AIs on examples of desired behavior. But this can fail to generalize to new situations.\n\nMSM addresses this by first teaching AIs how we would like them to generalize and why.",
+        "url": "https://twitter.com/AnthropicAI/status/2051758528562364902",
+        "time": "7h",
+        "replies": 75,
+        "retweets": 126,
+        "likes": 0,
+        "summary": "Anthropic新研究：模型训练中期规范（MSM）解决AI泛化问题。",
+        "key_data": [
+          "Model Spec Midtraining (MSM)"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Model Spec Midtraining (MSM)",
+          "AI泛化"
+        ]
+      },
+      {
+        "text": "Using MSM, we can also empirically study which model specs or constitutions yield the best generalization from alignment training.\n\nSpecifying rules works to some extent, but explaining the values underlying those rules (or adding more detailed subrules) is even better.",
+        "url": "https://twitter.com/AnthropicAI/status/2051758541002719734",
+        "time": "7h",
+        "replies": 10,
+        "retweets": 3,
+        "likes": 69,
+        "summary": "研究模型规格与规则对泛化能力的影响",
+        "key_data": [
+          "MSM",
+          "alignment training"
+        ],
+        "keywords": [
+          "模型规格",
+          "泛化能力",
+          "规则",
+          "解释"
+        ]
+      },
+      {
+        "text": "Read more about Model Spec Midtraining: \nhttps://\nalignment.anthropic.com/2026/msm\n\nOr read the full study: \nhttps://\narxiv.org/abs/2605.02087",
+        "url": "https://twitter.com/AnthropicAI/status/2051758544999927943",
+        "time": "7h",
+        "replies": 6,
+        "retweets": 10,
+        "likes": 73,
+        "summary": "Anthropic发布模型中期规范研究",
+        "key_data": [
+          "Model Spec Midtraining",
+          "2605.02087"
+        ],
+        "keywords": [
+          "Anthropic",
+          "模型规范",
+          "中期训练",
+          "研究"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Join the Runway team in Denver on June 4th at our annual CVPR Friends Dinner for conversation, cocktails and bites.\n\nRSVP at the link below.",
+        "url": "https://twitter.com/runwayml/status/2051668882285310357",
+        "time": "13h",
+        "replies": 8,
+        "retweets": 8,
+        "likes": 39,
+        "summary": "Runway在丹佛举办CVPR Friends Dinner",
+        "key_data": [
+          "June 4th",
+          "annual CVPR Friends Dinner"
+        ],
+        "keywords": [
+          "Runway",
+          "Denver",
+          "June 4th",
+          "CVPR Friends Dinner",
+          "conversation",
+          "cocktails",
+          "bites",
+          "RSVP"
+        ]
+      },
+      {
+        "text": "RSVP:",
+        "url": "https://twitter.com/runwayml/status/2051668886425104432",
+        "time": "13h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 8,
+        "summary": "RSVP邀请",
+        "key_data": [
+          "RSVP"
+        ],
+        "keywords": [
+          "邀请",
+          "RSVP"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Today we're launching Perplexity Computer for Professional Finance.\n\nFinance teams can bring licensed data from providers like Morningstar, PitchBook, Daloopa, and Carbon Arc into Computer.\n\nWe’ve also added 35 dedicated finance workflows for the work analysts repeat every week.",
+        "url": "https://twitter.com/perplexity_ai/status/2051693893473935372",
+        "time": "11h",
+        "replies": 110,
+        "retweets": 309,
+        "likes": 0,
+        "summary": "推出专业金融计算器，集成多源数据和专属工作流程。",
+        "key_data": [
+          "Perplexity Computer",
+          "35 workflows"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Finance",
+          "Computer",
+          "Data",
+          "Workflows"
+        ]
+      },
+      {
+        "text": "Perplexity and Computer now connect to premium health sources, starting with NEJM and BMJ Group, with 9 more medical journals and clinical databases on the way.\n\nAsk health questions and get answers cited from the same sources relied on by hospitals and research institutions.",
+        "url": "https://twitter.com/perplexity_ai/status/2051710342242480538",
+        "time": "10h",
+        "replies": 16,
+        "retweets": 47,
+        "likes": 337,
+        "summary": "Perplexity与医学资源连接，提供权威健康信息。",
+        "key_data": [
+          "NEJM",
+          "BMJ Group",
+          "9 more",
+          "medical journals",
+          "clinical databases"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Computer",
+          "health sources",
+          "NEJM",
+          "BMJ Group",
+          "medical journals",
+          "clinical databases",
+          "health questions",
+          "answers",
+          "hospitals",
+          "research institutions"
+        ]
+      },
+      {
+        "text": "Available to all Max and Enterprise subscribers in Perplexity and Computer. Available only in Computer for Pro subscribers.\n\nRead about premium health sources in Perplexity and Computer in our blog:",
+        "url": "https://twitter.com/perplexity_ai/status/2051710354343051469",
+        "time": "10h",
+        "replies": 7,
+        "retweets": 3,
+        "likes": 59,
+        "summary": "Perplexity和Computer提供订阅优惠，并推荐博客。",
+        "key_data": [
+          "Max and Enterprise subscribers",
+          "Pro subscribers"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Computer",
+          "subscribers",
+          "premium health sources",
+          "blog"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Speed matters  Great to see M2.7 running fastest on SambaCloud - now available on both Enterprise & Dev tiers.",
+        "url": "https://twitter.com/MiniMax_AI/status/2051846716929011955",
+        "time": "1h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 56,
+        "summary": "M2.7在SambaCloud上运行最快",
+        "key_data": [
+          "M2.7",
+          "SambaCloud"
+        ],
+        "keywords": [
+          "Speed",
+          "M2.7",
+          "SambaCloud",
+          "Enterprise",
+          "Dev tiers"
+        ]
+      },
+      {
+        "text": "Pick a model. Build something. We'll be there.\n\nSee you in SF on May 13 ",
+        "url": "https://twitter.com/MiniMax_AI/status/2051846114161389832",
+        "time": "1h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 16,
+        "summary": "MiniMax 邀请参与5月13日在旧金山的活动。",
+        "key_data": [
+          "May 13",
+          "SF"
+        ],
+        "keywords": [
+          "MiniMax",
+          "活动",
+          "旧金山"
+        ]
+      },
+      {
+        "text": "Thanks to the \n@SambaNovaAI\n  team. Once M2.7 hits 400 TPS, latency becomes virtually imperceptible.",
+        "url": "https://twitter.com/MiniMax_AI/status/2051823164444086520",
+        "time": "3h",
+        "replies": 12,
+        "retweets": 6,
+        "likes": 95,
+        "summary": "SambaNovaAI团队使M2.7达到400TPS，降低延迟。",
+        "key_data": [
+          "400 TPS",
+          "latency"
+        ],
+        "keywords": [
+          "MiniMax",
+          "SambaNovaAI",
+          "M2.7",
+          "TPS",
+          "latency"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
