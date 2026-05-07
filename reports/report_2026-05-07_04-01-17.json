@@ -1,0 +1,257 @@
+{
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07T04:01:17.087625",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [
+      {
+        "text": "I've always been passionate about games and they've played a big part in \n@GoogleDeepMind\n’s history, as the perfect proving ground for AI. Thrilled to announce this research partnership with \n@FenrisCreations\n - \n@EveOnline\n is one of the most extraordinary games ever built and has an",
+        "url": "https://twitter.com/demishassabis/status/2052147236952477923",
+        "time": "5h",
+        "replies": 52,
+        "retweets": 81,
+        "likes": 773,
+        "summary": "DeepMind与FenrisCreations合作研究游戏AI",
+        "key_data": [
+          "@GoogleDeepMind",
+          "@FenrisCreations",
+          "@EveOnline"
+        ],
+        "keywords": [
+          "DeepMind",
+          "AI",
+          "游戏",
+          "研究",
+          "合作"
+        ]
+      }
+    ],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Introducing the ChatGPT Futures Class of 2026—26 honorees from the first graduating class to have had ChatGPT throughout all four years of university, who used AI to:\n\n- Map 1.5M previously unknown objects in space\n\n- Detect disaster survivors through walls and debris\n\n- Make",
+        "url": "https://twitter.com/OpenAI/status/2052086313797705954",
+        "time": "9h",
+        "replies": 166,
+        "retweets": 184,
+        "likes": 2000,
+        "summary": "ChatGPT毕业生利用AI完成创新项目",
+        "key_data": [
+          "26位毕业生",
+          "1.5M未知空间物体",
+          "灾难幸存者检测"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "毕业生",
+          "AI应用"
+        ]
+      },
+      {
+        "text": "See what these young builders are doing with AI now that everyone can just build things.",
+        "url": "https://twitter.com/OpenAI/status/2052086316230398247",
+        "time": "9h",
+        "replies": 9,
+        "retweets": 13,
+        "likes": 227,
+        "summary": "年轻建造者利用AI进行创新建设",
+        "key_data": [
+          "AI",
+          "年轻建造者"
+        ],
+        "keywords": [
+          "AI",
+          "建造者",
+          "创新"
+        ]
+      },
+      {
+        "text": "AI supercomputers need a new kind of network to stay in sync at massive scale.\n\nOpenAI’s \n@markjhandley\n and \n@poyntingatgreg\n join \n@AndrewMayne\n to discuss what it takes to move data across record numbers of chips reliably and efficiently, the new Multipath Reliable Connection (MRC)",
+        "url": "https://twitter.com/OpenAI/status/2052039800384057348",
+        "time": "12h",
+        "replies": 113,
+        "retweets": 140,
+        "likes": 0,
+        "summary": "OpenAI专家探讨大规模AI超级计算机网络同步新方案。",
+        "key_data": [
+          "Multipath Reliable Connection (MRC)"
+        ],
+        "keywords": [
+          "AI超级计算机",
+          "网络同步",
+          "Multipath Reliable Connection"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "We’ve agreed to a partnership with \n@SpaceX\n that will substantially increase our compute capacity.\n\nThis, along with our other recent compute deals, means that we’ve been able to increase our usage limits for Claude Code and the Claude API.",
+        "url": "https://twitter.com/claudeai/status/2052060691893227611",
+        "time": "11h",
+        "replies": 0,
+        "retweets": 14000,
+        "likes": 105000,
+        "summary": "Anthropic与SpaceX合作提升计算能力",
+        "key_data": [
+          "compute capacity",
+          "usage limits"
+        ],
+        "keywords": [
+          "Anthropic",
+          "SpaceX",
+          "compute",
+          "partnership",
+          "Claude Code",
+          "Claude API"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "Midjourney Weekly Office Hours - 5/6",
+        "url": "https://twitter.com/midjourney/status/2052105368520778173",
+        "time": "8h",
+        "replies": 3,
+        "retweets": 0,
+        "likes": 9,
+        "summary": "Midjourney每周办公时间安排",
+        "key_data": [
+          "5/6"
+        ],
+        "keywords": [
+          "Midjourney",
+          "Weekly Office Hours"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "It's time to build NYC's physical AI community. \n\nWe're hosting a small dinner in NYC for engineers and people building across robotics, autonomous systems, and world models. It's a pretty unique and special gathering. We'll accept a small number of folks to join for good food,",
+        "url": "https://twitter.com/c_valenzuelab/status/2052070469616955517",
+        "time": "10h",
+        "replies": 31,
+        "retweets": 10,
+        "likes": 251,
+        "summary": "Runway将举办纽约AI社区晚餐",
+        "key_data": [
+          "small dinner",
+          "small number of folks"
+        ],
+        "keywords": [
+          "NYC",
+          "physical AI community",
+          "engineers",
+          "robotics",
+          "autonomous systems",
+          "world models"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "We’ve developed our own inference engine Runtime-Optimized Serving Engine (ROSE) to serve models ranging from embeddings to trillion-parameter LLMs.\n\nWith CuTeDSL integrated into our inference engine, Perplexity can build the specialized GPU kernels faster to bring models up to",
+        "url": "https://twitter.com/perplexity_ai/status/2052041903970148647",
+        "time": "12h",
+        "replies": 50,
+        "retweets": 96,
+        "likes": 764,
+        "summary": "Perplexity推出新型推理引擎ROSE。",
+        "key_data": [
+          "inference engine",
+          "trillion-parameter LLMs"
+        ],
+        "keywords": [
+          "Perplexity",
+          "ROSE",
+          "inference engine",
+          "GPU kernels"
+        ]
+      },
+      {
+        "text": "Read the full post on our research blog.",
+        "url": "https://twitter.com/perplexity_ai/status/2052041916133626115",
+        "time": "12h",
+        "replies": 2,
+        "retweets": 7,
+        "likes": 49,
+        "summary": "阅读完整研究博客文章",
+        "key_data": [
+          "研究博客"
+        ],
+        "keywords": [
+          "阅读",
+          "完整",
+          "研究",
+          "博客"
+        ]
+      },
+      {
+        "text": "Finance Search is now available in the Perplexity Agent API.\n\nIn one tool call, developers can now retrieve licensed financial datasets, real-time market data, and cited web sources for agents that need current, verifiable financial answers.",
+        "url": "https://twitter.com/perplexity_ai/status/2052028012313649194",
+        "time": "13h",
+        "replies": 45,
+        "retweets": 63,
+        "likes": 645,
+        "summary": "Perplexity Agent API新增Finance Search功能。",
+        "key_data": [
+          "Finance Search",
+          "one tool call",
+          "licensed financial datasets",
+          "real-time market data",
+          "cited web sources"
+        ],
+        "keywords": [
+          "Perplexity Agent API",
+          "Finance Search",
+          "financial datasets",
+          "market data",
+          "web sources"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
