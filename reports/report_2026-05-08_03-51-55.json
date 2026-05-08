@@ -1,0 +1,284 @@
+{
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T03:51:55.398430",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Only when you drive the Cybertruck do you realize how incredible it is: a bulletproof tank that moves like a million dollar sports car!\n\nReason for the angular shape is that the thick, ultra-hard stainless steel body panels cannot be stamped like the thin, feeble, paper-strength",
+        "url": "https://twitter.com/elonmusk/status/2052463759860576415",
+        "time": "8h",
+        "replies": 0,
+        "retweets": 9000,
+        "likes": 75000,
+        "summary": "Cybertruck独特设计及性能获赞",
+        "key_data": [
+          "ultra-hard stainless steel",
+          "miles per hour"
+        ],
+        "keywords": [
+          "Cybertruck",
+          "angular shape",
+          "ultra-hard stainless steel",
+          "sports car",
+          "bulletproof"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Codex now works directly in Chrome on macOS and Windows.\n\nIt’s even better at working with apps and sites in Chrome, and now works in parallel across tabs in the background without taking over your browser.\n\nTo get started, install the Chrome plugin in the Codex app.",
+        "url": "https://twitter.com/OpenAI/status/2052480800004956323",
+        "time": "7h",
+        "replies": 366,
+        "retweets": 1000,
+        "likes": 0,
+        "summary": "Codex插件支持多平台并行使用",
+        "key_data": [
+          "macOS",
+          "Windows",
+          "跨标签页"
+        ],
+        "keywords": [
+          "Codex",
+          "Chrome",
+          "插件",
+          "并行使用"
+        ]
+      },
+      {
+        "text": "If a task needs multiple tools, Codex chooses the best one for each step.\n\nIt uses plugins when they can handle the job, Chrome when it needs a logged-in website, and combines approaches as needed.",
+        "url": "https://twitter.com/OpenAI/status/2052480803318468770",
+        "time": "7h",
+        "replies": 15,
+        "retweets": 22,
+        "likes": 507,
+        "summary": "Codex智能选择工具完成任务",
+        "key_data": [
+          "多工具选择",
+          "插件、Chrome"
+        ],
+        "keywords": [
+          "Codex",
+          "工具选择",
+          "插件",
+          "Chrome"
+        ]
+      },
+      {
+        "text": "The Chrome extension expands what Codex can do for coding and work.\n\nFrom debugging browser flows to checking dashboards, conducting research, or updating CRMs, Codex can take on more of the tasks that already happen in your browser.\n\nAvailable today in the Codex app in all",
+        "url": "https://twitter.com/OpenAI/status/2052480804971028879",
+        "time": "7h",
+        "replies": 34,
+        "retweets": 20,
+        "likes": 359,
+        "summary": "Codex扩展增强浏览器编码功能",
+        "key_data": [
+          "Chrome extension",
+          "Codex app"
+        ],
+        "keywords": [
+          "Codex",
+          "Chrome extension",
+          "coding",
+          "browser",
+          "tasks"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "We’re donating Petri, our open-source alignment tool, to \n@meridianlabs_ai\n, so its development can continue independently.\n\nWorking with Meridian Labs, we’ve also released a major update that improves the adaptability, realism, and depth of Petri’s tests.",
+        "url": "https://twitter.com/AnthropicAI/status/2052494460966019137",
+        "time": "6h",
+        "replies": 52,
+        "retweets": 80,
+        "likes": 830,
+        "summary": "Anthropic捐赠Petri工具给Meridian Labs，并发布更新",
+        "key_data": [
+          "Petri",
+          "major update"
+        ],
+        "keywords": [
+          "Anthropic",
+          "donation",
+          "Petri",
+          "Meridian Labs",
+          "update",
+          "alignment tool"
+        ]
+      },
+      {
+        "text": "Our security bug bounty program is now public on HackerOne. \n\nWe've run the program privately within the security research community, and their findings have strengthened our products. Now anyone can report vulnerabilities and get rewarded. \n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2052466175540629965",
+        "time": "8h",
+        "replies": 125,
+        "retweets": 394,
+        "likes": 0,
+        "summary": "Anthropic 公布安全漏洞赏金计划",
+        "key_data": [
+          "HackerOne",
+          "安全研究社区"
+        ],
+        "keywords": [
+          "安全漏洞",
+          "赏金计划",
+          "Anthropic",
+          "HackerOne"
+        ]
+      },
+      {
+        "text": "New Anthropic research: Natural Language Autoencoders.\n\nModels like Claude talk in words but think in numbers. The numbers—called activations—encode Claude’s thoughts, but not in a language we can read.\n\nHere, we train Claude to translate its activations into human-readable text.",
+        "url": "https://twitter.com/AnthropicAI/status/2052435436157452769",
+        "time": "10h",
+        "replies": 362,
+        "retweets": 0,
+        "likes": 0,
+        "summary": "Anthropic研究自然语言自编码器，训练Claude翻译激活为可读文本。",
+        "key_data": [
+          "Claude",
+          "自然语言自编码器"
+        ],
+        "keywords": [
+          "Anthropic",
+          "自然语言处理",
+          "自编码器",
+          "Claude"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Personal Computer is now available to all users in a new Perplexity Mac app.\n\nPersonal Computer is an advanced version of Perplexity Computer.\n\nIt operates on any Mac, running tasks across your local files, native Mac apps, the web, and Perplexity’s secure servers.",
+        "url": "https://twitter.com/perplexity_ai/status/2052445405754040816",
+        "time": "9h",
+        "replies": 115,
+        "retweets": 163,
+        "likes": 0,
+        "summary": "Perplexity发布Mac版Personal Computer应用。",
+        "key_data": [
+          "新Mac应用",
+          "跨平台操作"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Personal Computer",
+          "Mac",
+          "应用",
+          "跨平台"
+        ]
+      },
+      {
+        "text": "Personal Computer is now available to all users in a new Perplexity Mac app.\n\nPersonal Computer is an advanced version of Perplexity Computer.\n\nIt operates on any Mac, running tasks across your local files, native Mac apps, the web, and Perplexity’s secure servers.",
+        "url": "https://twitter.com/perplexity_ai/status/2052445405754040816",
+        "time": "9h",
+        "replies": 115,
+        "retweets": 163,
+        "likes": 0,
+        "summary": "Perplexity发布Mac版Personal Computer",
+        "key_data": [
+          "新Mac应用",
+          "跨平台操作"
+        ],
+        "keywords": [
+          "Perplexity",
+          "Personal Computer",
+          "Mac",
+          "跨平台"
+        ]
+      },
+      {
+        "text": "Personal Computer is built for the Mac ecosystem, so you can manage it from anywhere. Start tasks from your iPhone with local files on your Mac.\n\nAdd a Mac mini for full continuity and always-on agents. Manage agentic actions wherever you are.",
+        "url": "https://twitter.com/perplexity_ai/status/2052445440390615458",
+        "time": "9h",
+        "replies": 2,
+        "retweets": 6,
+        "likes": 101,
+        "summary": "Mac生态系统下，电脑与iPhone无缝协作。",
+        "key_data": [
+          "Mac mini",
+          "always-on agents"
+        ],
+        "keywords": [
+          "Personal Computer",
+          "Mac ecosystem",
+          "iPhone",
+          "Mac mini",
+          "continuity",
+          "manage",
+          "agentic actions"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "\"The singularly most important thing is - are you at the frontier?\"\n\nOur President of Global Business, Linda Sheng, sat down with \n@EricNewcomer\n at Cerebral Valley Voice Summit by \n@NewcomerMedia\n yesterday to talk about the AGI race, the pressure of public markets, and why being at",
+        "url": "https://twitter.com/MiniMax_AI/status/2052453133968904272",
+        "time": "9h",
+        "replies": 5,
+        "retweets": 3,
+        "likes": 36,
+        "summary": "MiniMax 推文提及公司总裁与 EricNewcomer 对话。",
+        "key_data": [
+          "AGI race",
+          "public markets"
+        ],
+        "keywords": [
+          "MiniMax",
+          "Linda Sheng",
+          "EricNewcomer",
+          "Cerebral Valley Voice Summit",
+          "NewcomerMedia",
+          "AGI",
+          "public markets"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
