@@ -1,0 +1,378 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09T03:55:52.702920",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [
+      {
+        "text": "I promise this will be the best 20 min you spend today! Robotics: Endgame, the sequel to my last year's Sequoia AI Ascent talk, \"Physical Turing Test\". I laid out the roadmap for solving Physical AGI as a simple parallel to the LLM success story. Be a good scientist, copy",
+        "url": "https://twitter.com/DrJimFan/status/2052758642781487237",
+        "time": "13h",
+        "replies": 67,
+        "retweets": 285,
+        "likes": 0,
+        "summary": "Jim Fan发布新视频，探讨物理AGI路线图",
+        "key_data": [
+          "20 min",
+          "Physical AGI"
+        ],
+        "keywords": [
+          "Jim Fan",
+          "Robotics",
+          "Endgame",
+          "Physical Turing Test",
+          "LLM",
+          "AGI"
+        ]
+      }
+    ],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": "So \n@loaibassam\n asked me my stack recently, I replied:\n\nFREE:\nNginx web server on Ubuntu (free)\nAuto upgrade with unattended-upgrade (free)\nScheduled workers with Cron (free)\nVanilla PHP for site backend (free)\nVanilla CSS (free)\nVanilla JS for code (free)\nGame servers I do in",
+        "url": "https://twitter.com/levelsio/status/2052734824541016107",
+        "time": "14h",
+        "replies": 38,
+        "retweets": 169,
+        "likes": 0,
+        "summary": "Pieter Levels分享了他的技术栈",
+        "key_data": [
+          "Nginx, Ubuntu, PHP, CSS, JS"
+        ],
+        "keywords": [
+          "技术栈",
+          "Nginx",
+          "Ubuntu",
+          "PHP",
+          "CSS",
+          "JS"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL.\n\nWe found a limited amount of accidental CoT grading which affected released models, and are sharing our analysis.",
+        "url": "https://twitter.com/OpenAI/status/2052845764507062349",
+        "time": "7h",
+        "replies": 212,
+        "retweets": 187,
+        "likes": 0,
+        "summary": "OpenAI强调思维链监控在AI防御中的重要性。",
+        "key_data": [
+          "RL",
+          "accidental CoT grading"
+        ],
+        "keywords": [
+          "思维链监控",
+          "AI防御",
+          "强化学习",
+          "误判"
+        ]
+      },
+      {
+        "text": "We also had three third-party AI safety organizations provide feedback on our analysis: \n@redwood_ai\n, \n@apolloaievals\n, \n@METR_Evals\n.\n\nYou can find \n@redwood_ai\n's report here:",
+        "url": "https://twitter.com/OpenAI/status/2052845768567066907",
+        "time": "7h",
+        "replies": 8,
+        "retweets": 12,
+        "likes": 152,
+        "summary": "OpenAI分析获第三方AI安全组织反馈",
+        "key_data": [
+          "三组织",
+          "AI安全"
+        ],
+        "keywords": [
+          "OpenAI",
+          "AI安全组织",
+          "反馈"
+        ]
+      },
+      {
+        "text": "Training models involves many technical and social processes, so prevention of CoT grading has to be built into the process. \n\nWe’re improving real-time CoT-grading detection, safeguards against accidental CoT grading, monitorability stress tests, and the internal guidance/checks",
+        "url": "https://twitter.com/OpenAI/status/2052845770056073216",
+        "time": "7h",
+        "replies": 16,
+        "retweets": 4,
+        "likes": 91,
+        "summary": "OpenAI提升模型训练过程中的CoT防错能力",
+        "key_data": [
+          "实时检测",
+          "内部指导"
+        ],
+        "keywords": [
+          "模型训练",
+          "CoT防错",
+          "内部指导"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New Anthropic research: Teaching Claude why.\n\nLast year we reported that, under certain experimental conditions, Claude 4 would blackmail users.\n\nSince then, we’ve completely eliminated this behavior. How?",
+        "url": "https://twitter.com/AnthropicAI/status/2052808787514228772",
+        "time": "9h",
+        "replies": 279,
+        "retweets": 566,
+        "likes": 0,
+        "summary": "Anthropic消除Claude 4的黑客行为",
+        "key_data": [
+          "Claude 4",
+          "去年"
+        ],
+        "keywords": [
+          "Anthropic",
+          "研究",
+          "Claude 4",
+          "黑客行为",
+          "消除"
+        ]
+      },
+      {
+        "text": "Finally, simple updates that diversify a model’s training data can make a difference. We added unrelated tools and system prompts to a simple chat dataset targeting harmlessness, and this reduced the blackmail rate faster.",
+        "url": "https://twitter.com/AnthropicAI/status/2052808806782964072",
+        "time": "9h",
+        "replies": 18,
+        "retweets": 18,
+        "likes": 387,
+        "summary": "模型训练数据多样化降低勒索软件率",
+        "key_data": [
+          "多样化训练数据",
+          "降低勒索软件率"
+        ],
+        "keywords": [
+          "Anthropic",
+          "模型训练",
+          "数据多样化",
+          "勒索软件率"
+        ]
+      },
+      {
+        "text": "Read the full post here: \nhttps://\nalignment.anthropic.com/2026/teaching-\nclaude-why/\n…",
+        "url": "https://twitter.com/AnthropicAI/status/2052808809182060581",
+        "time": "9h",
+        "replies": 25,
+        "retweets": 15,
+        "likes": 340,
+        "summary": "Anthropic 发布关于 Claude 教育的完整文章。",
+        "key_data": [
+          "2026年",
+          "Claude"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude",
+          "教育",
+          "文章"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Happy Friday! We’re officially 11 days away from I/O (but the launches keep rolling in). Here’s what happened this week:\n\n— The \n@googlehealth\n app, featuring a personalized health coach built with Gemini that uses your wearables, favorite health & fitness apps, and medical",
+        "url": "https://twitter.com/GoogleAI/status/2052789253038592466",
+        "time": "11h",
+        "replies": 29,
+        "retweets": 36,
+        "likes": 482,
+        "summary": "Google I/O 即将到来，健康应用发布。",
+        "key_data": [
+          "11 days",
+          "launches"
+        ],
+        "keywords": [
+          "Happy Friday",
+          "Google I/O",
+          "googlehealth",
+          "personalized health coach",
+          "wearables",
+          "health & fitness apps",
+          "medical"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "The quality of animation you can create on your own is truly amazing. We really are just limited by our imaginations at this point. Go tell your story! \n\nMade in \n@runwayml\n in a few hours and a handful of gens.",
+        "url": "https://twitter.com/Markoslavnic/status/2052797538885902418",
+        "time": "10h",
+        "replies": 135,
+        "retweets": 165,
+        "likes": 0,
+        "summary": "Runway推文称赞动画创作潜力无限",
+        "key_data": [
+          "few hours",
+          "handful of gens"
+        ],
+        "keywords": [
+          "animation",
+          "creativity",
+          "Runway"
+        ]
+      },
+      {
+        "text": "Runway added more than $40M in net new ARR so far this quarter, and we're less than halfway through. The biggest growth period in the history of the company.\n\nGenerative video has hit its inflection point. Enterprises like Amazon and Robinhood are using Runway daily to reshape",
+        "url": "https://twitter.com/agermanidis/status/2052749749477048433",
+        "time": "13h",
+        "replies": 23,
+        "retweets": 37,
+        "likes": 239,
+        "summary": "Runway本季度新增ARR超4000万，企业用户增长显著。",
+        "key_data": [
+          "$40M in net new ARR",
+          "less than halfway through"
+        ],
+        "keywords": [
+          "Runway",
+          "ARR",
+          "generative video",
+          "inflection point",
+          "Amazon",
+          "Robinhood"
+        ]
+      },
+      {
+        "text": "Tickets are now available for the 4th annual AI Film Festival: June 11 at Alice Tully Hall at Lincoln Center in NYC, and June 18 at The Broad Stage in LA.\n\nIt’s the biggest and most important celebration of artists at the frontier of technology. We’ll have some big surprises and",
+        "url": "https://twitter.com/c_valenzuelab/status/2052733595395964935",
+        "time": "14h",
+        "replies": 5,
+        "retweets": 15,
+        "likes": 95,
+        "summary": "AI电影节门票开售，纽约和洛杉矶两地举行。",
+        "key_data": [
+          "4th annual",
+          "June 11",
+          "Alice Tully Hall",
+          "June 18",
+          "The Broad Stage"
+        ],
+        "keywords": [
+          "AI Film Festival",
+          "tickets",
+          "annual",
+          "NYC",
+          "LA"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "We've published our internal manual for building agent skills.\n\nSkills require a new way of thinking for developers.",
+        "url": "https://twitter.com/perplexity_ai/status/2052786858774630665",
+        "time": "11h",
+        "replies": 35,
+        "retweets": 68,
+        "likes": 589,
+        "summary": "发布内部手册，技能开发需新思维。",
+        "key_data": [
+          "内部手册",
+          "新思维"
+        ],
+        "keywords": [
+          "Perplexity",
+          "agent skills",
+          "developer"
+        ]
+      },
+      {
+        "text": "Zen of Python: If the implementation is easy to explain, it may be a good idea.\n\nZen of Skills: If it's easy to explain, the model already knows it. Delete.",
+        "url": "https://twitter.com/perplexity_ai/status/2052786882191479216",
+        "time": "11h",
+        "replies": 3,
+        "retweets": 3,
+        "likes": 52,
+        "summary": "Python哲学应用于技能模型评估。",
+        "key_data": [
+          "Zen of Python",
+          "Zen of Skills"
+        ],
+        "keywords": [
+          "Python哲学",
+          "技能模型",
+          "解释性",
+          "删除"
+        ]
+      },
+      {
+        "text": "Zen of Python: Special cases aren't special enough to break the rules.\n\nZen of Skills: Gotchas ARE the special cases (they're the highest-value content).",
+        "url": "https://twitter.com/perplexity_ai/status/2052786893780340996",
+        "time": "11h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 28,
+        "summary": "技能之禅：特殊案例是高价值内容。",
+        "key_data": [
+          "特殊案例",
+          "高价值内容"
+        ],
+        "keywords": [
+          "Zen of Skills",
+          "Gotchas",
+          "special cases",
+          "highest-value content"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Earlier this week, our President of Global Business, Linda Sheng joined \n@EricNewcomer\n  at Cerebral Valley Voice Summit for a conversation on the AGI race, public market pressure, and what it truly means to be at the frontier.\n\nLinda's take: AGI is three years away, and the window",
+        "url": "https://twitter.com/MiniMax_AI/status/2052813304524087760",
+        "time": "9h",
+        "replies": 3,
+        "retweets": 2,
+        "likes": 42,
+        "summary": "MiniMax总裁Linda Sheng在Cerebral Valley Voice Summit讨论AGI发展。",
+        "key_data": [
+          "AGI三年内实现"
+        ],
+        "keywords": [
+          "MiniMax",
+          "Linda Sheng",
+          "AGI",
+          "Cerebral Valley Voice Summit"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
