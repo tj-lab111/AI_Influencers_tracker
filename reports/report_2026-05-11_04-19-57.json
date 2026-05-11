@@ -1,0 +1,121 @@
+{
+  "date": "2026-05-11",
+  "generated_at": "2026-05-11T04:19:57.269311",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": " Happy Mother’s Day \n\nAppreciation to mothers everywhere who brought us all into the world and nurtured their beloved children ",
+        "url": "https://twitter.com/elonmusk/status/2053586034743705773",
+        "time": "6h",
+        "replies": 10000,
+        "retweets": 26000,
+        "likes": 339000,
+        "summary": "向全球母亲致敬",
+        "key_data": [
+          "Happy Mother’s Day"
+        ],
+        "keywords": [
+          "Mother’s Day",
+          "mothers",
+          "nurtured",
+          "children"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Trying \n@Cloudflare\n's new Email Sending feature today\n\nIf you send 1,000,000 emails per month:\n- Postmark: $1,206/mo\n- Resend: $650/mo\n- SendGrid: $600/mo\n- Cloudflare: $354/mo\n- Amazon SES: $100/mo\n\nSo Postmark is now by far the most expensive email provider\n\nAnd SES and",
+        "url": "https://twitter.com/levelsio/status/2053466448169685110",
+        "time": "14h",
+        "replies": 102,
+        "retweets": 171,
+        "likes": 0,
+        "summary": "比较不同邮件服务价格",
+        "key_data": [
+          "1,000,000 emails",
+          "$1,206/mo",
+          "$354/mo",
+          "$100/mo"
+        ],
+        "keywords": [
+          "Cloudflare",
+          "Email Sending",
+          "Postmark",
+          "Resend",
+          "SendGrid",
+          "Amazon SES"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Thanks \n@nvidia\n for supporting the open model ecosystem",
+        "url": "https://twitter.com/MiniMax_AI/status/2053472012824465568",
+        "time": "14h",
+        "replies": 12,
+        "retweets": 7,
+        "likes": 173,
+        "summary": "感谢NVIDIA支持开源模型生态",
+        "key_data": [
+          "@nvidia",
+          "open model ecosystem"
+        ],
+        "keywords": [
+          "Thanks",
+          "support",
+          "open model",
+          "ecosystem"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
