@@ -1,0 +1,352 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T04:18:00.513724",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Try this early Grok Build (anything) beta and let us know what to improve. \n\nMuch appreciated!",
+        "url": "https://twitter.com/elonmusk/status/2055008501722943750",
+        "time": "8h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 28000,
+        "summary": "邀请试用早期Grok Build并反馈改进意见",
+        "key_data": [
+          "Grok Build beta",
+          "improve"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "Grok Build",
+          "beta",
+          "feedback",
+          "improve"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": "Japan's biggest problem is they suck at software, have always sucked at software and will keep sucking at software\n\nNow that the most important thing is AI, which Taiwan builds the chips for with memory from Korea, they completely missed the boat on the hardware part (which they",
+        "url": "https://twitter.com/levelsio/status/2054954456198922345",
+        "time": "12h",
+        "replies": 46,
+        "retweets": 217,
+        "likes": 0,
+        "summary": "日本软件能力不足，错过AI和芯片硬件发展机遇。",
+        "key_data": [
+          "AI",
+          "芯片",
+          "韩国"
+        ],
+        "keywords": [
+          "日本",
+          "软件",
+          "AI",
+          "芯片",
+          "韩国",
+          "台湾"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "You've been asking for this one...\n\nNow in preview: Codex in the ChatGPT mobile app.\n\nStart new work, review outputs, steer execution, and approve next steps, all from the ChatGPT mobile app. Codex will keep running on your laptop, Mac mini, or devbox.",
+        "url": "https://twitter.com/OpenAI/status/2055016850849993072",
+        "time": "8h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 15000,
+        "summary": "ChatGPT移动应用新增Codex功能",
+        "key_data": [
+          "移动应用",
+          "Codex"
+        ],
+        "keywords": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex",
+          "移动应用",
+          "功能",
+          "预览"
+        ]
+      },
+      {
+        "text": "You've been asking for this one...\n\nNow in preview: Codex in the ChatGPT mobile app.\n\nStart new work, review outputs, steer execution, and approve next steps, all from the ChatGPT mobile app. Codex will keep running on your laptop, Mac mini, or devbox.",
+        "url": "https://twitter.com/OpenAI/status/2055016850849993072",
+        "time": "8h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 15000,
+        "summary": "ChatGPT移动应用新增Codex预览功能",
+        "key_data": [
+          "Codex",
+          "移动应用"
+        ],
+        "keywords": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex",
+          "预览",
+          "移动应用"
+        ]
+      },
+      {
+        "text": "Rolling out today as a preview on iOS and Android in all supported regions.\n\nSupport for connecting your phone to the Codex app on Windows is coming soon.",
+        "url": "https://twitter.com/OpenAI/status/2055016852133417389",
+        "time": "8h",
+        "replies": 115,
+        "retweets": 216,
+        "likes": 0,
+        "summary": "OpenAI推文发布新功能预览",
+        "key_data": [
+          "iOS, Android",
+          ""
+        ],
+        "keywords": [
+          "OpenAI",
+          "新功能",
+          "预览",
+          "iOS",
+          "Android",
+          "Codex app",
+          "Windows"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "We've published a paper that explains our views on AI competition between the US and China.\n\nThe US and democratic allies hold the lead in frontier AI today. Read more on what it’ll take to keep that lead:",
+        "url": "https://twitter.com/AnthropicAI/status/2054987444664377374",
+        "time": "10h",
+        "replies": 534,
+        "retweets": 922,
+        "likes": 3000,
+        "summary": "Anthropic发布论文分析美中AI竞争",
+        "key_data": [
+          "frontier AI",
+          "democratic allies"
+        ],
+        "keywords": [
+          "Anthropic",
+          "AI竞争",
+          "美国",
+          "中国",
+          "民主盟友"
+        ]
+      },
+      {
+        "text": "We’re partnering with the Gates Foundation, committing $200 million in grants, Claude credits, and technical support to programs in global health, life sciences, education, agriculture, and economic mobility.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2054941901900611787",
+        "time": "13h",
+        "replies": 345,
+        "retweets": 292,
+        "likes": 0,
+        "summary": "Anthropic与盖茨基金会合作，投资200亿美元支持全球健康等领域。",
+        "key_data": [
+          "200 million",
+          "global health, life sciences, education, agriculture, economic mobility"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Gates Foundation",
+          "grants",
+          "technical support",
+          "global health"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Today we're announcing Runway's expansion into Japan: we're opening a Tokyo office and investing an initial $40M in the country, as we build on what is already one of our largest and fastest-growing markets. We've tripled our enterprise customer base in the country in the last 12",
+        "url": "https://twitter.com/runwayml/status/2055065978762051830",
+        "time": "4h",
+        "replies": 32,
+        "retweets": 124,
+        "likes": 447,
+        "summary": "Runway拓展日本市场，投资40M美元。",
+        "key_data": [
+          "$40M",
+          "三倍企业客户"
+        ],
+        "keywords": [
+          "Runway",
+          "日本市场",
+          "东京办公室",
+          "投资"
+        ]
+      },
+      {
+        "text": "Learn more: \nhttps://\nrunwayml.com/news/runway-is\n-coming-to-japan\n…",
+        "url": "https://twitter.com/runwayml/status/2055065981177798732",
+        "time": "4h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 10,
+        "summary": "Runway即将进军日本",
+        "key_data": [
+          "即将到来"
+        ],
+        "keywords": [
+          "Runway",
+          "日本",
+          "进军"
+        ]
+      },
+      {
+        "text": "Introducing our ten film finalists for Runway's fourth annual international AI Festival.\n\nJoin us in New York on June 11th or LA on June 18th to watch the films, hear from industry leaders and more.\n\nTickets are available at the link below.",
+        "url": "https://twitter.com/runwayml/status/2054928924572786902",
+        "time": "13h",
+        "replies": 26,
+        "retweets": 32,
+        "likes": 254,
+        "summary": "Runway AI电影节公布十强作品，纽约和洛杉矶两地举办。",
+        "key_data": [
+          "ten film finalists",
+          "New York on June 11th",
+          "LA on June 18th"
+        ],
+        "keywords": [
+          "Runway AI Festival",
+          "film finalists",
+          "New York",
+          "LA",
+          "June 11th",
+          "June 18th",
+          "tickets"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Computer now connects to Snowflake.\n\nRun end-to-end work against live warehouse data and get answers with SQL, source tables, filters, and metrics.\n\nIt’s like a personal data science team, on call with accurate answers from live company data.",
+        "url": "https://twitter.com/perplexity_ai/status/2054945872451129506",
+        "time": "12h",
+        "replies": 32,
+        "retweets": 35,
+        "likes": 376,
+        "summary": "电脑连接Snowflake，实时数据分析。",
+        "key_data": [
+          "SQL",
+          "实时仓库数据"
+        ],
+        "keywords": [
+          "计算机",
+          "Snowflake",
+          "数据分析",
+          "SQL",
+          "实时数据"
+        ]
+      },
+      {
+        "text": "Build dashboards and automations from your Snowflake data for pipeline analysis, product usage, customer segments, and more.\n\nAdmins maintain control over access, business definitions, and shared data logic across the organization.\n\nLearn more:",
+        "url": "https://twitter.com/perplexity_ai/status/2054945874523095527",
+        "time": "12h",
+        "replies": 4,
+        "retweets": 5,
+        "likes": 45,
+        "summary": "Snowflake数据可视化与自动化分析",
+        "key_data": [
+          "Snowflake数据",
+          "dashboard",
+          "automations"
+        ],
+        "keywords": [
+          "Snowflake",
+          "数据可视化",
+          "自动化",
+          "分析",
+          "pipeline",
+          "product usage",
+          "customer segments"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "We're speaking at \n@awscloud\n 's Technical Leader's AI Agent Playbook in Palo Alto this Friday! \n\nJustin Jia, Solutions Architect at \n@MiniMax_AI\n will join the conversation on taking AI agents from POC to production.\n\nMay 15 · 9AM PDT\n\nRSVP here",
+        "url": "https://twitter.com/MiniMax_AI/status/2054952701403046376",
+        "time": "12h",
+        "replies": 3,
+        "retweets": 2,
+        "likes": 121,
+        "summary": "MiniMax将在AWS云技术领袖AI代理研讨会演讲。",
+        "key_data": [
+          "May 15",
+          "9AM PDT"
+        ],
+        "keywords": [
+          "MiniMax",
+          "AWS",
+          "AI Agent",
+          "Technical Leader's AI Agent Playbook",
+          "Palo Alto",
+          "Justin Jia",
+          "Solutions Architect"
+        ]
+      },
+      {
+        "text": "Great conversations with the dAI team & excited for what’s next! \n\nWelcome to Shanghai!",
+        "url": "https://twitter.com/MiniMax_AI/status/2054903189972173004",
+        "time": "15h",
+        "replies": 3,
+        "retweets": 3,
+        "likes": 88,
+        "summary": "MiniMax与dAI团队交流，期待上海之行。",
+        "key_data": [
+          "Great conversations",
+          "Welcome to Shanghai"
+        ],
+        "keywords": [
+          "MiniMax",
+          "dAI team",
+          "Shanghai"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
