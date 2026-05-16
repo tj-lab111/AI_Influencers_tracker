@@ -1,0 +1,174 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T03:59:08.360942",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "The goal of the 𝕏 algorithm is simple: show each user the content they are most likely to find interesting, limited only by the laws within a given jurisdiction. No thumb on the scale. \n\nDoesn’t mean we achieve the goal, but that is what I tell the team.",
+        "url": "https://twitter.com/elonmusk/status/2055294612751991090",
+        "time": "13h",
+        "replies": 0,
+        "retweets": 2000,
+        "likes": 0,
+        "summary": "X算法目标：展示用户可能感兴趣的内容。",
+        "key_data": [
+          "X算法",
+          "用户兴趣"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "算法",
+          "内容推荐",
+          "用户兴趣"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Runway Agent lets you go from a product shot and an idea to a fully finished ad in a single session. Get started today at the link below.",
+        "url": "https://twitter.com/runwayml/status/2055364605979869229",
+        "time": "8h",
+        "replies": 5,
+        "retweets": 11,
+        "likes": 71,
+        "summary": "Runway Agent快速制作广告",
+        "key_data": [
+          "单次会话完成"
+        ],
+        "keywords": [
+          "Runway Agent",
+          "产品广告",
+          "快速制作"
+        ]
+      },
+      {
+        "text": "Get started: \nhttps://\napp.runwayml.com/agent",
+        "url": "https://twitter.com/runwayml/status/2055364607942758814",
+        "time": "8h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 2,
+        "summary": "Runway平台邀请用户开始使用",
+        "key_data": [
+          "app.runwayml.com/agent"
+        ],
+        "keywords": [
+          "Runway",
+          "开始使用",
+          "app"
+        ]
+      },
+      {
+        "text": "Great to see \n@SupersonikAI\n building on the Runway API with Characters. Supersonik is part of our first cohort of Runway Builders, a program for early-stage startups building the next generation of products with generative video and real-time conversational AI. To learn more and",
+        "url": "https://twitter.com/RunwayMLDevs/status/2055315435784921385",
+        "time": "12h",
+        "replies": 1,
+        "retweets": 3,
+        "likes": 30,
+        "summary": "Runway API助力SupersonikAI发展",
+        "key_data": [
+          "first cohort",
+          "Runway Builders"
+        ],
+        "keywords": [
+          "Runway",
+          "API",
+          "SupersonikAI",
+          "Characters",
+          "generative video",
+          "conversational AI"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "M2.7 is live on \n@OrcaRouter\n - accessible via a single OpenAI-compatible API. \n\nTry it today!",
+        "url": "https://twitter.com/MiniMax_AI/status/2055331545402245246",
+        "time": "10h",
+        "replies": 5,
+        "retweets": 8,
+        "likes": 151,
+        "summary": "M2.7上线，单API接入OpenAI。",
+        "key_data": [
+          "M2.7",
+          "OpenAI-compatible API"
+        ],
+        "keywords": [
+          "M2.7",
+          "OrcaRouter",
+          "OpenAI",
+          "API"
+        ]
+      },
+      {
+        "text": "Grateful to meet \n@rudrank\n, one of our earliest model adopters and developers. More collaborations coming soon\n\nCome to say hi with us at \n@aiDotEngineer\n Singapore!!",
+        "url": "https://twitter.com/MiniMax_AI/status/2055292881032892722",
+        "time": "13h",
+        "replies": 3,
+        "retweets": 1,
+        "likes": 32,
+        "summary": "感谢早期用户，即将有更多合作",
+        "key_data": [
+          "MiniMax",
+          "@rudrank",
+          "@aiDotEngineer",
+          "Singapore"
+        ],
+        "keywords": [
+          "MiniMax",
+          "合作",
+          "新加坡"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
