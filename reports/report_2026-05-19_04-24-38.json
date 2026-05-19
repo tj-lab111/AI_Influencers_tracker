@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T04:24:38.096696",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Regarding the OpenAI case, the judge & jury never actually ruled on the merits of the case, just on a calendar technicality. \n\nThere is no question to anyone following the case in detail that Altman & Brockman did in fact enrich themselves by stealing a charity. The only question",
+        "url": "https://twitter.com/elonmusk/status/2056474896641782077",
+        "time": "7h",
+        "replies": 0,
+        "retweets": 15000,
+        "likes": 112000,
+        "summary": "Elon Musk评论OpenAI案件，指责Altman和Brockman enrich themselves by stealing a charity。",
+        "key_data": [
+          "OpenAI case",
+          "Altman & Brockman",
+          "stealing a charity"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "OpenAI",
+          "judge & jury",
+          "enrich",
+          "stealing",
+          "charity"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [
+      {
+        "text": "Locked in! ",
+        "url": "https://twitter.com/demishassabis/status/2056531492080435452",
+        "time": "3h",
+        "replies": 65,
+        "retweets": 64,
+        "likes": 0,
+        "summary": "锁定状态",
+        "key_data": [
+          "锁定"
+        ],
+        "keywords": [
+          "锁定",
+          "状态"
+        ]
+      }
+    ],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Anthropic is acquiring \n@stainlessapi\n, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2056419620643541012",
+        "time": "11h",
+        "replies": 211,
+        "retweets": 312,
+        "likes": 0,
+        "summary": "Anthropic收购SDK平台@stainlessapi。",
+        "key_data": [
+          "SDK平台",
+          "收购"
+        ],
+        "keywords": [
+          "Anthropic",
+          "stainlessapi",
+          "SDK",
+          "收购"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Runway Characters can now take actions, not just speak. Tell the real-time video agent what you want, and they can call tools for you.\n\nLearn more about how to integrate tool calling into your product at the link below.",
+        "url": "https://twitter.com/runwayml/status/2056375781765386350",
+        "time": "14h",
+        "replies": 14,
+        "retweets": 22,
+        "likes": 119,
+        "summary": "Runway角色可执行动作，支持工具调用。",
+        "key_data": [
+          "工具调用"
+        ],
+        "keywords": [
+          "Runway",
+          "角色",
+          "动作",
+          "工具调用",
+          "视频代理"
+        ]
+      },
+      {
+        "text": "Learn more:",
+        "url": "https://twitter.com/runwayml/status/2056375783384346990",
+        "time": "14h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 6,
+        "summary": "了解更多信息",
+        "key_data": [],
+        "keywords": [
+          "Learn",
+          "more"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
