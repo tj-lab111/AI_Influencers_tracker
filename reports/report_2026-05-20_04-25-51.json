@@ -1,0 +1,251 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-20T04:25:51.596666",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [
+      {
+        "text": "Gemini Omni is a major leap in world understanding & multimodal editing! It can take photos, video & audio and build entirely new scenes. Over time it’ll be able to handle any input & any output - starting w/ video \n\nYou can even give it your own videos & iterate on your ideas:",
+        "url": "https://twitter.com/demishassabis/status/2056831486251380783",
+        "time": "7h",
+        "replies": 207,
+        "retweets": 627,
+        "likes": 0,
+        "summary": "Gemini Omni多模态编辑突破，可处理多种输入输出。",
+        "key_data": [
+          "照片，视频，音频",
+          "任意输入输出"
+        ],
+        "keywords": [
+          "Gemini Omni",
+          "多模态编辑",
+          "输入输出"
+        ]
+      }
+    ],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "People are generating over 1.5 billion images a week in ChatGPT.\n\nResearcher \n@kenjihata\n joins Product lead \n@adele__li\n and host \n@AndrewMayne\n to explore the new use cases and trends emerging since the launch of Images 2.0.",
+        "url": "https://twitter.com/OpenAI/status/2056849157860831239",
+        "time": "6h",
+        "replies": 107,
+        "retweets": 75,
+        "likes": 834,
+        "summary": "ChatGPT每周生成15亿张图片。",
+        "key_data": [
+          "1.5 billion images a week",
+          "Images 2.0"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "image generation",
+          "Kenji Hata",
+          "Adele Li",
+          "Andrew Mayne",
+          "use cases",
+          "trends"
+        ]
+      },
+      {
+        "text": "Listen to the OpenAI Podcast on—\nSpotify\n\nhttps://\nopen.spotify.com/show/0zojMEDiz\nKMh3aTxnGLENP\n…\nApple\n\nhttps://\npodcasts.apple.com/us/podcast/ope\nnai-podcast/id1820330260\n…\nYouTube\n\nhttps://\nyoutu.be/bH2nP-aCFjk",
+        "url": "https://twitter.com/OpenAI/status/2056849160704503961",
+        "time": "6h",
+        "replies": 9,
+        "retweets": 9,
+        "likes": 66,
+        "summary": "OpenAI Podcast多平台播放",
+        "key_data": [
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Podcast",
+          "Spotify",
+          "Apple",
+          "YouTube"
+        ]
+      },
+      {
+        "text": "Introducing OpenAI Guaranteed Capacity: a new offering that enables customers to guarantee long-term access to OpenAI compute.\n\nWe’ve made long-term investments in infrastructure, partnerships, and capacity planning to help customers scale reliably. \n\nNow, Guaranteed Capacity",
+        "url": "https://twitter.com/OpenAI/status/2056823271774101907",
+        "time": "8h",
+        "replies": 195,
+        "retweets": 314,
+        "likes": 2000,
+        "summary": "OpenAI推出保障计算资源服务",
+        "key_data": [
+          "Guaranteed Capacity"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Guaranteed Capacity",
+          "compute",
+          "infrastructure",
+          "capacity planning"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Over the past few months, we've been holding dialogues with scholars, philosophers, clergy, and ethicists on the questions AI raises—starting with how good character forms.\n\nRead more about how we’re widening the conversation on frontier AI:",
+        "url": "https://twitter.com/AnthropicAI/status/2056880308851708233",
+        "time": "4h",
+        "replies": 159,
+        "retweets": 152,
+        "likes": 994,
+        "summary": "Anthropic探讨AI引发的问题与道德。",
+        "key_data": [
+          "dialogues with scholars",
+          "frontier AI"
+        ],
+        "keywords": [
+          "Anthropic",
+          "AI",
+          "scholars",
+          "philosophers",
+          "clergy",
+          "ethicists",
+          "character forms"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Three years ago, Gemini started by understanding the world.\n\nWith Gemini 2, models learned to think and reason.\n\nLate last year, Gemini 3 brought any idea to life.\n\nToday, we’re continuing that journey with our Gemini 3.5 series, starting with Gemini 3.5 Flash, delivering",
+        "url": "https://twitter.com/GoogleAI/status/2056797434735710463",
+        "time": "10h",
+        "replies": 47,
+        "retweets": 70,
+        "likes": 692,
+        "summary": "Google AI 推出 Gemini 3.5 系列产品",
+        "key_data": [
+          "Three years",
+          "Gemini 3.5 series",
+          "Gemini 3.5 Flash"
+        ],
+        "keywords": [
+          "Google AI",
+          "Gemini",
+          "product launch",
+          "version update"
+        ]
+      },
+      {
+        "text": "New upgrades to the \n@GeminiApp\n are you helping you get more done:\n\nGemini Spark is your 24/7 personal AI agent that can take action on your behalf, under your direction. It  seamlessly integrates with \n@Gmail\n, \n@GoogleDocs\n, and Slides to automate your workflows and, best of all,",
+        "url": "https://twitter.com/GoogleAI/status/2056859455833473091",
+        "time": "6h",
+        "replies": 19,
+        "retweets": 27,
+        "likes": 229,
+        "summary": "GeminiApp升级，引入24/7 AI代理。",
+        "key_data": [
+          "24/7",
+          "AI agent"
+        ],
+        "keywords": [
+          "GeminiApp",
+          "upgrades",
+          "AI",
+          "personal agent",
+          "Gmail",
+          "GoogleDocs",
+          "Slides",
+          "automate"
+        ]
+      },
+      {
+        "text": "First attempt with Gemini Omni Flash\n\nPrompt: \nA cinematic macro shot of a sleek, glass sculpture of a lion standing on a wooden table. The glass gradually melts into a flowing, golden liquid, which then reorganizes itself into a complex, intricate mechanical clockwork lion,",
+        "url": "https://twitter.com/GoogleAI/status/2056829484985430197",
+        "time": "8h",
+        "replies": 4,
+        "retweets": 4,
+        "likes": 53,
+        "summary": "Google AI尝试使用Gemini Omni Flash拍摄玻璃狮子雕塑熔化成机械狮子过程。",
+        "key_data": [
+          "First attempt",
+          "cinematic macro shot"
+        ],
+        "keywords": [
+          "Gemini Omni Flash",
+          "glass sculpture",
+          "lion",
+          "melting",
+          "mechanical clockwork"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Rho cut weekly meeting time by 90% with Perplexity Computer.\n\nComputer checks Slack, Notion, Jira, Figma, and Google Docs, then flags missing tasks and changes the team needs to see.\n\n120 work hours saved during a 12-week project.\n\nRead the customer story:",
+        "url": "https://twitter.com/perplexity_ai/status/2056749555346235704",
+        "time": "13h",
+        "replies": 23,
+        "retweets": 15,
+        "likes": 254,
+        "summary": "Perplexity电脑助Rho会议效率提升90%，节省120小时。",
+        "key_data": [
+          "90%效率提升",
+          "120小时节省"
+        ],
+        "keywords": [
+          "Perplexity",
+          "会议效率",
+          "时间节省",
+          "Slack",
+          "Notion",
+          "Jira",
+          "Figma",
+          "Google Docs"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
