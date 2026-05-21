@@ -1,0 +1,349 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T04:35:58.509126",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "About to hand over the last Model S & X cars ever made",
+        "url": "https://twitter.com/elonmusk/status/2057272975242748372",
+        "time": "2h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 17000,
+        "summary": "交付最后一款Model S & X",
+        "key_data": [
+          "Model S & X"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "Model S",
+          "Model X",
+          "交付"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Today, we share a breakthrough on the planar unit distance problem, a famous open question first posed by Paul Erdős in 1946.\n\nFor nearly 80 years, mathematicians believed the best possible solutions looked roughly like square grids.\n\nAn OpenAI model has now disproved that",
+        "url": "https://twitter.com/OpenAI/status/2057176201782075690",
+        "time": "9h",
+        "replies": 572,
+        "retweets": 0,
+        "likes": 16000,
+        "summary": "OpenAI模型突破平面单位距离问题",
+        "key_data": [
+          "80年",
+          "OpenAI模型"
+        ],
+        "keywords": [
+          "OpenAI",
+          "平面单位距离问题",
+          "突破"
+        ]
+      },
+      {
+        "text": "Today, we share a breakthrough on the planar unit distance problem, a famous open question first posed by Paul Erdős in 1946.\n\nFor nearly 80 years, mathematicians believed the best possible solutions looked roughly like square grids.\n\nAn OpenAI model has now disproved that",
+        "url": "https://twitter.com/OpenAI/status/2057176201782075690",
+        "time": "9h",
+        "replies": 572,
+        "retweets": 0,
+        "likes": 16000,
+        "summary": "OpenAI模型突破平面单位距离问题",
+        "key_data": [
+          "80年",
+          "OpenAI模型"
+        ],
+        "keywords": [
+          "OpenAI",
+          "平面单位距离问题",
+          "突破"
+        ]
+      },
+      {
+        "text": "The proof came from a general-purpose reasoning model, not a system built specifically to solve math problems or this problem in particular, and represents an important milestone for the math and AI communities.",
+        "url": "https://twitter.com/OpenAI/status/2057176203166171317",
+        "time": "9h",
+        "replies": 32,
+        "retweets": 201,
+        "likes": 0,
+        "summary": "通用推理模型证明数学问题，AI数学里程碑。",
+        "key_data": [
+          "通用推理模型",
+          "数学问题"
+        ],
+        "keywords": [
+          "OpenAI",
+          "数学",
+          "AI",
+          "里程碑"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "For centuries, the scientific method has been our best tool for progress. But today, there’s so much data out there that it’s impossible for any one researcher to connect all the dots. We want to fix that:\n\nIntroducing Gemini for Science, a collection of science tools and",
+        "url": "https://twitter.com/GoogleAI/status/2057161311617008061",
+        "time": "10h",
+        "replies": 20,
+        "retweets": 45,
+        "likes": 254,
+        "summary": "Google AI推出Gemini for Science，助力科学数据连接",
+        "key_data": [
+          " centuries",
+          " today"
+        ],
+        "keywords": [
+          "scientific method",
+          "data",
+          "researcher",
+          "Gemini for Science",
+          "science tools"
+        ]
+      },
+      {
+        "text": "We are also launching Science Skills, a specialized bundle that integrates insights from 30+ major life science models and databases with agentic platforms like \n@Antigravity\n to allow researchers to perform complex, manual workflows in minutes.\n\nTo learn more on how to use Science",
+        "url": "https://twitter.com/GoogleAI/status/2057161314825584892",
+        "time": "10h",
+        "replies": 2,
+        "retweets": 2,
+        "likes": 30,
+        "summary": "推出Science Skills，集成多模型数据库，简化科研工作。",
+        "key_data": [
+          "30+ models",
+          "agentic platforms"
+        ],
+        "keywords": [
+          "Science Skills",
+          "life science",
+          "models",
+          "databases",
+          "researchers",
+          "workflows"
+        ]
+      },
+      {
+        "text": "We're building Gemini for Science with and for the scientific community. In collaboration with 100+ institutions and a trusted tester community that ranges from PhD students to Nobel laureates, we want to make sure this tech is responsible and rigorous enough to tackle real-world",
+        "url": "https://twitter.com/GoogleAI/status/2057161316746530946",
+        "time": "10h",
+        "replies": 2,
+        "retweets": 2,
+        "likes": 27,
+        "summary": "Google AI与百余家机构合作打造Gemini科技。",
+        "key_data": [
+          "100+ institutions",
+          "PhD students",
+          "Nobel laureates"
+        ],
+        "keywords": [
+          "Google AI",
+          "Gemini",
+          "Science",
+          "collaboration",
+          "institutions",
+          "tester community"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "Small update today. Many requested a \"anti-prompting\" feature for V8 models (which existed in previous versions) which we call the --no flag. This is now available today in V8.1! So if you're trying to get something out of your images (like people) try --no people. Have fun!",
+        "url": "https://twitter.com/midjourney/status/2057184157869199429",
+        "time": "8h",
+        "replies": 23,
+        "retweets": 19,
+        "likes": 202,
+        "summary": "V8.1新增--no功能，可禁用图像中特定元素。",
+        "key_data": [
+          "V8.1",
+          "--no flag"
+        ],
+        "keywords": [
+          "anti-prompting",
+          "V8 models",
+          "image",
+          "people"
+        ]
+      },
+      {
+        "text": "Midjourney Weekly Office Hours - 5/20",
+        "url": "https://twitter.com/midjourney/status/2057177540587135018",
+        "time": "9h",
+        "replies": 0,
+        "retweets": 1,
+        "likes": 13,
+        "summary": "Midjourney每周办公时间安排",
+        "key_data": [
+          "5/20"
+        ],
+        "keywords": [
+          "Midjourney",
+          "Weekly Office Hours"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "Tickets are still available for the Runway AI Festival in New York on June 11 and Los Angeles on June 18.\n\nJoin us in celebrating the very best work being made with AI across film, design, new media, fashion, advertising and gaming.\n\nGet your tickets at the link below.",
+        "url": "https://twitter.com/runwayml/status/2057116097548091440",
+        "time": "13h",
+        "replies": 7,
+        "retweets": 15,
+        "likes": 85,
+        "summary": "Runway AI Festival门票在售，纽约6月11日，洛杉矶6月18日。",
+        "key_data": [
+          "纽约6月11日",
+          "洛杉矶6月18日"
+        ],
+        "keywords": [
+          "Runway AI Festival",
+          "门票",
+          "纽约",
+          "洛杉矶",
+          "AI"
+        ]
+      },
+      {
+        "text": "Tickets:",
+        "url": "https://twitter.com/runwayml/status/2057116099104137550",
+        "time": "13h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 9,
+        "summary": "推文提及门票信息",
+        "key_data": [
+          "Tickets"
+        ],
+        "keywords": [
+          "门票",
+          "Runway"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "We've productionized query-aware compression for faster, cleaner, more-accurate search.\n\nBetter context is better than more context.\n\nOur system cuts context tokens up to 70% while improving answer quality.",
+        "url": "https://twitter.com/perplexity_ai/status/2057151002105753950",
+        "time": "11h",
+        "replies": 34,
+        "retweets": 32,
+        "likes": 293,
+        "summary": "生产化查询感知压缩，提升搜索效率和质量。",
+        "key_data": [
+          "70%"
+        ],
+        "keywords": [
+          "查询感知压缩",
+          "搜索",
+          "效率",
+          "质量"
+        ]
+      },
+      {
+        "text": "Less noise = more signal. Vital content per snippet is up 63%.\n\nAds, navigation, metadata, and unhelpful content are culled before handoff to the answer model.\n\nOn SimpleQA, we achieve a 50x compression ratio at frontier-level performance.",
+        "url": "https://twitter.com/perplexity_ai/status/2057151020044882008",
+        "time": "11h",
+        "replies": 3,
+        "retweets": 2,
+        "likes": 43,
+        "summary": "提升内容质量，压缩比达50倍。",
+        "key_data": [
+          "63%",
+          "50x"
+        ],
+        "keywords": [
+          "内容质量",
+          "压缩比",
+          "SimpleQA"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "You built an agent that can research, decide, and execute. \n\nThen it hits checkout - and needs your face ID. Or fingerprint. Or a human confirmation.\n\nWe built something to streamline that last step.\n\nOne integration. No more babysitting. Watch use cases of \n@anyway_sh\n, live:",
+        "url": "https://twitter.com/JimsYoung_/status/2057115503270019458",
+        "time": "13h",
+        "replies": 17,
+        "retweets": 15,
+        "likes": 54,
+        "summary": "MiniMax推文介绍其简化结账流程的产品。",
+        "key_data": [
+          "One integration",
+          ""
+        ],
+        "keywords": [
+          "agent",
+          "research",
+          "execute",
+          "checkout",
+          "streamline",
+          "use cases",
+          "anyway_sh"
+        ]
+      },
+      {
+        "text": "600+ new voices powered by MiniMax Speech 2.8 Turbo are now on Together AI \n@togethercompute\n \n\nTry it today: \nhttps://\nvoicefinder.together.ai/minimax--speec\nh-2.8-turbo\n…",
+        "url": "https://twitter.com/MiniMax_AI/status/2057177048356180296",
+        "time": "9h",
+        "replies": 10,
+        "retweets": 11,
+        "likes": 191,
+        "summary": "MiniMax语音升级，新增600+声音",
+        "key_data": [
+          "600+",
+          "MiniMax Speech 2.8 Turbo"
+        ],
+        "keywords": [
+          "MiniMax",
+          "Together AI",
+          "Speech 2.8 Turbo",
+          "new voices"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
