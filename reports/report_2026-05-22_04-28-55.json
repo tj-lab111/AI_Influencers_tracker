@@ -1,0 +1,231 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T04:28:55.129734",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "SpaceX is actively hiring world-class engineers/physicists for SpaceXAI, even if you have zero prior experience in AI. Smart humans figure it out fast.\n\nPlease send an email with ~3 bullet points demonstrating evidence of exceptional ability to ai_eng@spacex.com.",
+        "url": "https://twitter.com/elonmusk/status/2057327547411570907",
+        "time": "23h",
+        "replies": 0,
+        "retweets": 22000,
+        "likes": 151000,
+        "summary": "SpaceX招聘AI工程师，不限AI经验。",
+        "key_data": [
+          "world-class engineers/physicists",
+          "zero prior experience in AI"
+        ],
+        "keywords": [
+          "SpaceX",
+          "hiring",
+          "engineers",
+          "physicists",
+          "AI",
+          "experience"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [
+      {
+        "text": "Google just revealed Omni, personalized cross-device intelligence, and Spark agents at I/O 2025.\n\nI sat down with CEO Sundar Pichai to figure out what comes next:\n\n1:46 Omni: \"Nano Banana for video\"\n4:59 The future of YouTube\n7:04 Advice for AI skeptics\n9:33 Why your mom should",
+        "url": "https://twitter.com/rowancheung/status/2057491344697012384",
+        "time": "12h",
+        "replies": 28,
+        "retweets": 35,
+        "likes": 171,
+        "summary": "Rowan Cheung报道Google I/O 2025新发布",
+        "key_data": [
+          "Omni",
+          "Sundar Pichai"
+        ],
+        "keywords": [
+          "Google",
+          "Omni",
+          "cross-device intelligence",
+          "Spark agents",
+          "I/O 2025",
+          "Sundar Pichai"
+        ]
+      }
+    ],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "Highlights from today’s Codex Thursday launches:\n\n Codex can now securely use apps on your Mac from your phone, even when your Mac is locked and the screen is off.\n\n\nhttp://\ndevelopers.openai.com/codex/app/comp\nuter-use#locked-use\n…",
+        "url": "https://twitter.com/OpenAI/status/2057617844800794878",
+        "time": "3h",
+        "replies": 108,
+        "retweets": 207,
+        "likes": 0,
+        "summary": "Codex支持手机控制Mac应用",
+        "key_data": [
+          "Mac, phone, locked"
+        ],
+        "keywords": [
+          "Codex",
+          "Mac",
+          "phone",
+          "locked",
+          "app"
+        ]
+      },
+      {
+        "text": " Advanced annotation mode lets you directly adjust the way web pages look while leaving feedback, making it even easier to work together with Codex.",
+        "url": "https://twitter.com/OpenAI/status/2057617862479708650",
+        "time": "3h",
+        "replies": 10,
+        "retweets": 12,
+        "likes": 192,
+        "summary": "高级注释模式简化网页协作",
+        "key_data": [
+          "Advanced annotation mode",
+          "Codex"
+        ],
+        "keywords": [
+          "web pages",
+          "adjust",
+          "feedback",
+          "work together"
+        ]
+      },
+      {
+        "text": "We’re taking suggestions on what you want to see next week ",
+        "url": "https://twitter.com/OpenAI/status/2057617863977165173",
+        "time": "3h",
+        "replies": 0,
+        "retweets": 6,
+        "likes": 130,
+        "summary": "下周内容征询建议",
+        "key_data": [
+          "next week"
+        ],
+        "keywords": [
+          "suggestions",
+          "next week",
+          "see"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Aleph 2.0 is here. Now you can edit a single frame in your video, preview the change and then Aleph 2.0 carries that edit across the rest of your video.\n\nTry it now in the new Edit Studio on web at the link below.",
+        "url": "https://twitter.com/runwayml/status/2057530497597600169",
+        "time": "9h",
+        "replies": 53,
+        "retweets": 168,
+        "likes": 845,
+        "summary": "Aleph 2.0更新，单帧编辑跨视频应用。",
+        "key_data": [
+          "单帧编辑",
+          "跨视频应用"
+        ],
+        "keywords": [
+          "Aleph 2.0",
+          "视频编辑",
+          "Edit Studio"
+        ]
+      },
+      {
+        "text": "Try Aleph 2.0 now:",
+        "url": "https://twitter.com/runwayml/status/2057530499338313942",
+        "time": "9h",
+        "replies": 0,
+        "retweets": 2,
+        "likes": 26,
+        "summary": "体验新版本 Aleph 2.0",
+        "key_data": [
+          "新版本"
+        ],
+        "keywords": [
+          "Aleph 2.0",
+          "体验"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "I’m delighted to represent open‑source models and connect with everyone at AMD DevDay. \nOSS YES\nAMD YES",
+        "url": "https://twitter.com/RyanLeeMiniMax/status/2057646683467677988",
+        "time": "2h",
+        "replies": 1,
+        "retweets": 4,
+        "likes": 24,
+        "summary": "MiniMax在AMD DevDay推广开源模型",
+        "key_data": [
+          "AMD DevDay"
+        ],
+        "keywords": [
+          "MiniMax",
+          "open-source models",
+          "AMD YES",
+          "OSS YES"
+        ]
+      },
+      {
+        "text": "MiniMax just wrapped up an eventful week in the US  Quick recap ",
+        "url": "https://twitter.com/MiniMax_AI/status/2057576909274554595",
+        "time": "6h",
+        "replies": 5,
+        "retweets": 2,
+        "likes": 556,
+        "summary": "MiniMax回顾美国活动周",
+        "key_data": [
+          "eventful week",
+          "US"
+        ],
+        "keywords": [
+          "MiniMax",
+          "eventful",
+          "week",
+          "US"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
