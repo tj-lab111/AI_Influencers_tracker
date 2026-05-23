@@ -1,0 +1,221 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T04:05:44.902593",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Last month we launched Project Glasswing, our collaborative AI cybersecurity initiative. Since then, we and our partners have found more than ten thousand high- or critical-severity vulnerabilities in essential software.",
+        "url": "https://twitter.com/AnthropicAI/status/2057909102542549503",
+        "time": "8h",
+        "replies": 281,
+        "retweets": 508,
+        "likes": 0,
+        "summary": "Anthropic发布AI安全项目，发现数千漏洞。",
+        "key_data": [
+          "Project Glasswing",
+          "over ten thousand vulnerabilities"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Project Glasswing",
+          "AI cybersecurity",
+          "vulnerabilities"
+        ]
+      },
+      {
+        "text": "Patching these vulnerabilities will make us safer. But the software industry will need to adapt to the volume of vulnerabilities that models like Claude Mythos Preview will be able to find.\n\nWe discuss this in our initial update on Project Glasswing:",
+        "url": "https://twitter.com/AnthropicAI/status/2057909104090169464",
+        "time": "8h",
+        "replies": 44,
+        "retweets": 104,
+        "likes": 938,
+        "summary": "软件行业需适应模型发现漏洞数量。",
+        "key_data": [
+          "vulnerabilities",
+          "Claude Mythos Preview"
+        ],
+        "keywords": [
+          "Patching",
+          "safer",
+          "software industry",
+          "vulnerabilities",
+          "models",
+          "Project Glasswing"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "I've tried Aleph 2.0, and it's without a doubt the best video editor I've seen so far.",
+        "url": "https://twitter.com/AleRVG/status/2057700249179758899",
+        "time": "22h",
+        "replies": 23,
+        "retweets": 72,
+        "likes": 726,
+        "summary": "Aleph 2.0是最佳视频编辑器",
+        "key_data": [
+          "最佳视频编辑器"
+        ],
+        "keywords": [
+          "Aleph 2.0",
+          "视频编辑器",
+          "最佳"
+        ]
+      },
+      {
+        "text": "Yesterday we released Aleph 2.0, our upgraded video editing model that lets you change exactly what you want while keeping everything else the same. Available inside our new Edit Studio, you can work with multishot sequences up to 30 seconds long at 1080p.\n\nLearn how to get",
+        "url": "https://twitter.com/runwayml/status/2057826728769134599",
+        "time": "13h",
+        "replies": 22,
+        "retweets": 38,
+        "likes": 188,
+        "summary": "Runway发布视频编辑模型升级版",
+        "key_data": [
+          "2.0",
+          "30秒",
+          "1080p"
+        ],
+        "keywords": [
+          "Runway",
+          "视频编辑",
+          "模型升级",
+          "Edit Studio"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Today we're open-sourcing Bumblebee, a read-only scanner for macOS and Linux.\n\nIt checks developer machines for risky packages, extensions, and AI tool configs.\n\nConnected to Computer, it can trigger deeper scans whenever a new supply-chain risk emerges.\n\n\nhttps://\ngithub.com/perplexityai/b\numblebee\n…",
+        "url": "https://twitter.com/perplexity_ai/status/2057869990536360334",
+        "time": "10h",
+        "replies": 92,
+        "retweets": 217,
+        "likes": 0,
+        "summary": "开源Bumblebee，检测开发者设备风险。",
+        "key_data": [
+          "macOS",
+          "Linux",
+          "read-only scanner"
+        ],
+        "keywords": [
+          "Bumblebee",
+          "开源",
+          "风险检测",
+          "开发者"
+        ]
+      },
+      {
+        "text": "Bumblebee started as an internal tool.\n\nMaking Perplexity products more secure for users starts with protecting the developer systems we use to build them.\n\nRead the full blog:",
+        "url": "https://twitter.com/perplexity_ai/status/2057870003060498612",
+        "time": "10h",
+        "replies": 2,
+        "retweets": 8,
+        "likes": 71,
+        "summary": "Perplexity产品安全从保护开发者系统开始。",
+        "key_data": [
+          "Bumblebee",
+          "开发者系统"
+        ],
+        "keywords": [
+          "Perplexity",
+          "产品安全",
+          "开发者系统",
+          "Bumblebee"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Congratulaitons on the launch of Gizmo \n@gradium\n!\nGizmo is powered by our dual‑LLMarchitecture, eliminating awkward silence during conversations. \n\nThe lightning-fast M2-her model delivers instant acknowledgements, while the powerful M2.7 handles complex reasoning in the",
+        "url": "https://twitter.com/MiniMax_AI/status/2058012127206785094",
+        "time": "1h",
+        "replies": 4,
+        "retweets": 3,
+        "likes": 22,
+        "summary": "MiniMax祝贺Gizmo发布，介绍其技术特点。",
+        "key_data": [
+          "dual-LLMarchitecture",
+          "M2-her",
+          "M2.7"
+        ],
+        "keywords": [
+          "Gizmo",
+          "MiniMax",
+          "launch",
+          "dual-LLMarchitecture",
+          "M2-her",
+          "M2.7",
+          "conversations",
+          "acknowledgements",
+          "reasoning"
+        ]
+      },
+      {
+        "text": "MiniMax, a leading open source model and agent, is now powered by Perplexity’s search infrastructure",
+        "url": "https://twitter.com/AravSrinivas/status/2057848932882170152",
+        "time": "12h",
+        "replies": 17,
+        "retweets": 19,
+        "likes": 193,
+        "summary": "MiniMax模型升级，采用Perplexity搜索基础设施",
+        "key_data": [
+          "开源模型",
+          "搜索基础设施"
+        ],
+        "keywords": [
+          "MiniMax",
+          "Perplexity",
+          "搜索"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
