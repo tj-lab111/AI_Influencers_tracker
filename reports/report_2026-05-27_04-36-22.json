@@ -1,0 +1,262 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T04:36:22.094591",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Mostly true. What matters is securing the long-term future of consciousness, both on Earth and other heavenly bodies. \n\nWe cannot just focus on Earth, because there are irreducible external (eg massive meteor) and internal (eg global nuclear war) cataclysmic risks. \n\nThe Moon is",
+        "url": "https://twitter.com/elonmusk/status/2059299542277697565",
+        "time": "12h",
+        "replies": 0,
+        "retweets": 10000,
+        "likes": 61000,
+        "summary": "关注意识长期未来，地球及天体安全。",
+        "key_data": [
+          "地球和天体"
+        ],
+        "keywords": [
+          "意识未来",
+          "地球安全",
+          "天体安全",
+          "外部风险",
+          "内部风险",
+          "月球"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [
+      {
+        "text": "Google DeepMind CEO Demis Hassabis says we’re in the ‘foothills of the singularity’\n\nI sat down with him to talk about what that means, curing every disease, and human meaning post-AGI:\n\n0:00 Intro\n0:45 What Demis is most excited about at I/O\n1:46 Have AGI timelines shifted?\n3:30",
+        "url": "https://twitter.com/rowancheung/status/2059307613485940950",
+        "time": "12h",
+        "replies": 41,
+        "retweets": 103,
+        "likes": 529,
+        "summary": "DeepMind CEO谈奇点到来与疾病治愈",
+        "key_data": [
+          "Demis Hassabis",
+          "AGI"
+        ],
+        "keywords": [
+          "Google DeepMind",
+          "Demis Hassabis",
+          "singularity",
+          "AGI",
+          "disease curing"
+        ]
+      }
+    ],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New on the Engineering Blog: The access and permissions we grant agents should evolve with their capabilities. In our own products, we set these parameters through sandboxing, which limits the scope of any potentially destructive actions.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2059351260243919269",
+        "time": "9h",
+        "replies": 177,
+        "retweets": 211,
+        "likes": 0,
+        "summary": "Anthropic更新工程博客，强调权限与能力匹配。",
+        "key_data": [
+          "Engineering Blog",
+          "sandboxing"
+        ],
+        "keywords": [
+          "Anthropic",
+          "access",
+          "permissions",
+          "agents",
+          "sandboxing"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "We're doing a small hangout for Midjourney members in San Francisco on Thursday, if you're in the bay area come by! ",
+        "url": "https://twitter.com/midjourney/status/2059329023696867692",
+        "time": "10h",
+        "replies": 11,
+        "retweets": 0,
+        "likes": 42,
+        "summary": "Midjourney在旧金山举办小聚会。",
+        "key_data": [
+          "Midjourney",
+          "San Francisco",
+          "Thursday"
+        ],
+        "keywords": [
+          "Midjourney",
+          "hangout",
+          "members",
+          "San Francisco",
+          "Thursday",
+          "bay area"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "Introducing Project Luxo: a new initiative exploring how AI-generated video has crossed the uncanny valley.\n\nOver the past few weeks, we’ve shared a series of short films with Hollywood executives, producers, directors, writers, actors and reporters. The response has been",
+        "url": "https://twitter.com/runwayml/status/2059279505009615293",
+        "time": "14h",
+        "replies": 42,
+        "retweets": 75,
+        "likes": 289,
+        "summary": "Runway推出探索AI视频的新项目。",
+        "key_data": [
+          "short films",
+          "Hollywood executives"
+        ],
+        "keywords": [
+          "Project Luxo",
+          "AI-generated video",
+          "uncanny valley",
+          "Hollywood"
+        ]
+      },
+      {
+        "text": "Learn more:",
+        "url": "https://twitter.com/runwayml/status/2059279507110990224",
+        "time": "14h",
+        "replies": 3,
+        "retweets": 1,
+        "likes": 28,
+        "summary": "了解更多信息",
+        "key_data": [],
+        "keywords": [
+          "Learn",
+          "more"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "manage your store with \n@perplexity_ai\n Computer\n\ndo market research, generate product images, and design a theme in parallel\n\nanother day, another agent where you can run your business",
+        "url": "https://twitter.com/Shopify/status/2059289769490678072",
+        "time": "13h",
+        "replies": 15,
+        "retweets": 26,
+        "likes": 121,
+        "summary": "Perplexity AI助力店铺管理，多任务并行处理。",
+        "key_data": [
+          "@perplexity_ai",
+          "Computer",
+          "market research",
+          "product images",
+          "theme design"
+        ],
+        "keywords": [
+          "Perplexity AI",
+          "店铺管理",
+          "市场调研",
+          "产品图像",
+          "主题设计"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "#MSA #OpenSource #M3\n",
+        "url": "https://twitter.com/MiniMax_AI/status/2059286515155599595",
+        "time": "13h",
+        "replies": 98,
+        "retweets": 177,
+        "likes": 0,
+        "summary": "MiniMax 推广开源项目",
+        "key_data": [
+          "#MSA",
+          "#OpenSource"
+        ],
+        "keywords": [
+          "MSA",
+          "OpenSource",
+          "M3"
+        ]
+      },
+      {
+        "text": "This marks the end of the M2 series, and MiniMax-M3 is coming",
+        "url": "https://twitter.com/MiniMax_AI/status/2059473229253902516",
+        "time": "1h",
+        "replies": 31,
+        "retweets": 27,
+        "likes": 386,
+        "summary": "M2系列结束，M3即将到来",
+        "key_data": [
+          "M2系列",
+          "M3"
+        ],
+        "keywords": [
+          "结束",
+          "M2",
+          "M3"
+        ]
+      },
+      {
+        "text": "new minimax sparse attention compared to deepseek v3.2 (DSA) and v4 (CSA)\n\nmain changes:\n- based on GQA not MLA\n- block level selection like in CSA but attention is done on the real KV, not in the compressed dimension",
+        "url": "https://twitter.com/eliebakouch/status/2059321928205156568",
+        "time": "11h",
+        "replies": 13,
+        "retweets": 39,
+        "likes": 462,
+        "summary": "MiniMax发布新稀疏注意力模型，对比Deepseek",
+        "key_data": [
+          "DSA",
+          "v4",
+          "GQA",
+          "MLA"
+        ],
+        "keywords": [
+          "MiniMax",
+          "稀疏注意力",
+          "Deepseek",
+          "GQA",
+          "MLA",
+          "CSA"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
