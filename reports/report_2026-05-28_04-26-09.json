@@ -1,0 +1,191 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T04:26:09.887804",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Look back at last week’s I/O announcements with \n@NotebookLM\n.\n\nYou can listen to an audio overview, watch the video recap, and even check out our detailed slide deck summarizing all of the biggest news and launches.\n\nCheck it out here:",
+        "url": "https://twitter.com/GoogleAI/status/2059748312236921149",
+        "time": "6h",
+        "replies": 21,
+        "retweets": 23,
+        "likes": 157,
+        "summary": "回顾上周Google I/O发布内容",
+        "key_data": [
+          "@NotebookLM",
+          "audio overview",
+          "video recap",
+          "slide deck"
+        ],
+        "keywords": [
+          "Google I/O",
+          "announcements",
+          "overview",
+          "video",
+          "slide deck"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Join us in New York for a pre-show conversation with special guest, Ron Howard. Followed by our 10 finalist films and the Best of Advertising, Design, New Media, Gaming and Fashion.\n\nTickets available at the link below.",
+        "url": "https://twitter.com/runwayml/status/2059665980301713739",
+        "time": "12h",
+        "replies": 7,
+        "retweets": 14,
+        "likes": 70,
+        "summary": "纽约预展活动，嘉宾罗恩·霍华德，展示10部决赛作品及最佳广告等。",
+        "key_data": [
+          "预展",
+          "10部决赛作品",
+          "Best of"
+        ],
+        "keywords": [
+          "Runway",
+          "纽约",
+          "Ron Howard",
+          "预展活动",
+          "决赛作品",
+          "Best of Advertising",
+          "Design",
+          "New Media",
+          "Gaming",
+          "Fashion",
+          "门票"
+        ]
+      },
+      {
+        "text": "Buy tickets:",
+        "url": "https://twitter.com/runwayml/status/2059665982294007896",
+        "time": "12h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 5,
+        "summary": "购票信息发布",
+        "key_data": [
+          "Buy tickets"
+        ],
+        "keywords": [
+          "购票",
+          "tickets"
+        ]
+      },
+      {
+        "text": "Introducing Runway MCP. Now you can connect Runway directly into Claude, ChatGPT, Cursor, Replit and more.\n\nGenerate polished images and videos with state-of-the-art models, like Gen-4.5, Seedance 2.0, GPT Images 2.0, Kling and more. Right from where you're already working.",
+        "url": "https://twitter.com/runwayml/status/2059636517283176479",
+        "time": "14h",
+        "replies": 63,
+        "retweets": 157,
+        "likes": 986,
+        "summary": "Runway MCP连接多平台，生成高质量图像和视频。",
+        "key_data": [
+          "Gen-4.5",
+          "Seedance 2.0",
+          "GPT Images 2.0",
+          "Kling"
+        ],
+        "keywords": [
+          "Runway MCP",
+          "连接",
+          "图像",
+          "视频",
+          "模型"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "We're open-sourcing the Unigram tokenizer we rebuilt to reduce CPU utilization by 5-6x.\n\nSmall rerankers and embedders run in single-digit milliseconds on GPU, making CPU tokenization a meaningful share of total latency.\n\n\nhttp://\ngithub.com/perplexityai/p\nplx-garden\n…",
+        "url": "https://twitter.com/perplexity_ai/status/2059664738087469511",
+        "time": "12h",
+        "replies": 48,
+        "retweets": 86,
+        "likes": 682,
+        "summary": "开源新Unigram分词器，降低CPU使用率5-6倍。",
+        "key_data": [
+          "5-6x",
+          "single-digit milliseconds"
+        ],
+        "keywords": [
+          "Unigram",
+          "tokenizer",
+          "CPU utilization",
+          "GPU",
+          "latency",
+          "open-source"
+        ]
+      },
+      {
+        "text": "At production input lengths, the encoder cuts p50 latency by roughly 5× vs. HuggingFace tokenizers, 2× vs. SentencePiece C++, and 1.5× vs. IREE C.\n\nAt 514 tokens, it runs in 63 µs with zero heap allocations.",
+        "url": "https://twitter.com/perplexity_ai/status/2059664780135428184",
+        "time": "12h",
+        "replies": 1,
+        "retweets": 4,
+        "likes": 38,
+        "summary": "Perplexity编码器性能优于HuggingFace等工具",
+        "key_data": [
+          "p50 latency by roughly 5×",
+          "63 µs",
+          "zero heap allocations"
+        ],
+        "keywords": [
+          "Perplexity",
+          "编码器",
+          "性能",
+          "HuggingFace",
+          "SentencePiece",
+          "IREE C"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
