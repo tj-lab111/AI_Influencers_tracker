@@ -1,0 +1,318 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T04:29:20.119914",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "R&D Part 1: Here to Win",
+        "url": "https://twitter.com/OpenAI/status/2060032839991914619",
+        "time": "12h",
+        "replies": 140,
+        "retweets": 146,
+        "likes": 2000,
+        "summary": "OpenAI R&D第一阶段，力争胜利。",
+        "key_data": [
+          "R&D Part 1"
+        ],
+        "keywords": [
+          "OpenAI",
+          "R&D",
+          "Win"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Before we ship a new model, these teams try to break it.\n\nThey build with it, push it to its limits, and tell us where it falls short. What they find makes the final model better.",
+        "url": "https://twitter.com/claudeai/status/2060074627032838438",
+        "time": "9h",
+        "replies": 251,
+        "retweets": 235,
+        "likes": 0,
+        "summary": "团队测试新模型，优化最终产品。",
+        "key_data": [
+          "new model",
+          "final model"
+        ],
+        "keywords": [
+          "Anthropic",
+          "teams",
+          "break",
+          "build",
+          "push",
+          "limits",
+          "fall short",
+          "better"
+        ]
+      },
+      {
+        "text": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by \n@AltimeterCap\n, Dragoneer, \n@Greenoaks\n, and \n@sequoia\n.\n\nThis investment will help us advance our research and expand our capacity to meet growing demand for Claude.",
+        "url": "https://twitter.com/AnthropicAI/status/2060061347522433422",
+        "time": "10h",
+        "replies": 879,
+        "retweets": 0,
+        "likes": 17000,
+        "summary": "Anthropic完成65亿美元H轮融资，估值9650亿。",
+        "key_data": [
+          "65 billion",
+          "965 billion"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Series H",
+          "funding",
+          "valuation",
+          "AltimeterCap",
+          "Dragoneer",
+          "Greenoaks",
+          "sequoia",
+          "Claude"
+        ]
+      },
+      {
+        "text": "Earlier this month, our run-rate revenue crossed $47 billion. \n\nThis growth has been driven by organizations across many industries deploying Claude in their core operations, and by a growing number of people using it for their everyday work.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2060061348818518493",
+        "time": "10h",
+        "replies": 40,
+        "retweets": 124,
+        "likes": 0,
+        "summary": "Anthropic收入突破470亿，增长由Claude应用推动。",
+        "key_data": [
+          "$47 billion",
+          "many industries"
+        ],
+        "keywords": [
+          "Anthropic",
+          "revenue",
+          "growth",
+          "Claude",
+          "operations"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "We wanted to see if we could take simple, physical materials (like cardboard and markers) and use AI to bring them to life. What was the result? A short film starring a bunch of TPUs getting ready for the big stage at Google I/O 2026!\n\nWorking with director Laurie Rowan and Nexus",
+        "url": "https://twitter.com/GoogleAI/status/2060043029835116826",
+        "time": "11h",
+        "replies": 58,
+        "retweets": 56,
+        "likes": 236,
+        "summary": "Google AI用AI技术让简单材料变生动，制作短片。",
+        "key_data": [
+          "Google I/O 2026",
+          "TPUs"
+        ],
+        "keywords": [
+          "Google AI",
+          "AI技术",
+          "短片",
+          "Google I/O"
+        ]
+      },
+      {
+        "text": "Some fun Gemini Omni use cases from the community ",
+        "url": "https://twitter.com/GoogleAI/status/2060156780311654699",
+        "time": "3h",
+        "replies": 14,
+        "retweets": 20,
+        "likes": 124,
+        "summary": "社区分享Gemini Omni使用案例",
+        "key_data": [
+          "Gemini Omni"
+        ],
+        "keywords": [
+          "Gemini Omni",
+          "use cases",
+          "community"
+        ]
+      },
+      {
+        "text": "Watch your avatar speak Spanish, English and Japanese",
+        "url": "https://twitter.com/GoogleAI/status/2060156788742205736",
+        "time": "3h",
+        "replies": 4,
+        "retweets": 3,
+        "likes": 23,
+        "summary": "谷歌AI推文展示多语言语音功能",
+        "key_data": [
+          "多语言"
+        ],
+        "keywords": [
+          "Google AI",
+          "avatar",
+          "Spanish",
+          "English",
+          "Japanese"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Last Night. A fully AI-generated short film exploring a life-changing evening in Tokyo through the lens of fractured memories. Created with Runway in a single day by just one person.\n\nPart of Project Luxo: a new initiative exploring how AI-generated video has crossed the uncanny",
+        "url": "https://twitter.com/runwayml/status/2059998751742128635",
+        "time": "14h",
+        "replies": 31,
+        "retweets": 36,
+        "likes": 221,
+        "summary": "Runway一天内制作AI短片探索东京生活",
+        "key_data": [
+          "AI生成短片",
+          "一天完成"
+        ],
+        "keywords": [
+          "Runway",
+          "AI短片",
+          "东京",
+          "记忆碎片",
+          "Project Luxo"
+        ]
+      },
+      {
+        "text": "Learn more:",
+        "url": "https://twitter.com/runwayml/status/2059998753692561712",
+        "time": "14h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 9,
+        "summary": "提供更多信息链接",
+        "key_data": [
+          "Learn more"
+        ],
+        "keywords": [
+          "Learn",
+          "more"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Claude Opus 4.8 is now available for Max subscribers on Perplexity and Computer.",
+        "url": "https://twitter.com/perplexity_ai/status/2060049662044962858",
+        "time": "11h",
+        "replies": 29,
+        "retweets": 64,
+        "likes": 817,
+        "summary": "Claude Opus 4.8更新发布",
+        "key_data": [
+          "4.8",
+          "Max subscribers"
+        ],
+        "keywords": [
+          "Claude Opus",
+          "更新",
+          "Max subscribers",
+          "Perplexity",
+          "Computer"
+        ]
+      },
+      {
+        "text": "Perplexity Computer is now available inside Microsoft Excel, Word, PowerPoint, and Outlook.\n\nOrchestrate across work with Computer directly in the side panel of your app to draft documents, model, build decks, and handle email.\n\nAvailable now: \nhttps://\nperplexity.ai/hub/products/i\nntegrations/microsoft\n…",
+        "url": "https://twitter.com/perplexity_ai/status/2060013442720010598",
+        "time": "13h",
+        "replies": 38,
+        "retweets": 88,
+        "likes": 576,
+        "summary": "Perplexity计算机集成至微软办公软件",
+        "key_data": [
+          "Microsoft Excel, Word, PowerPoint, Outlook",
+          "side panel"
+        ],
+        "keywords": [
+          "Perplexity Computer",
+          "Microsoft",
+          "Integration",
+          "Office Suite"
+        ]
+      },
+      {
+        "text": "Computer runs on the same secure infrastructure as the rest of Perplexity. The enterprise-grade security layer includes SAML SSO, audit logs, and granular admin controls.\n\nRead more:",
+        "url": "https://twitter.com/perplexity_ai/status/2060013454761836992",
+        "time": "13h",
+        "replies": 0,
+        "retweets": 1,
+        "likes": 34,
+        "summary": "Perplexity电脑安全可靠",
+        "key_data": [
+          "SAML SSO",
+          "audit logs",
+          "granular admin controls"
+        ],
+        "keywords": [
+          "Computer",
+          "secure infrastructure",
+          "Perplexity",
+          "enterprise-grade security"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Free agentic coding with MiniMax M2.7 on \n@OpenHandsDev\n? \n\nYes, please! Available for a limited time ",
+        "url": "https://twitter.com/MiniMax_AI/status/2060071852970844377",
+        "time": "9h",
+        "replies": 13,
+        "retweets": 11,
+        "likes": 620,
+        "summary": "MiniMax M2.7限时免费编码",
+        "key_data": [
+          "MiniMax M2.7",
+          "limited time"
+        ],
+        "keywords": [
+          "Free",
+          "agentic coding",
+          "MiniMax",
+          "OpenHandsDev",
+          "Yes, please!"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
