@@ -1,0 +1,234 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T04:13:59.965735",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "AI can give researchers the freedom to pursue “crazier” ideas.\n\nFor Terence Tao, AI creates more room to experiment, test unexpected paths, and discover what might otherwise stay out of reach.",
+        "url": "https://twitter.com/OpenAI/status/2060451757818601808",
+        "time": "8h",
+        "replies": 155,
+        "retweets": 340,
+        "likes": 3000,
+        "summary": "AI助力研究人员探索更疯狂的想法。",
+        "key_data": [
+          "AI",
+          "Terence Tao"
+        ],
+        "keywords": [
+          "AI",
+          "研究人员",
+          "实验",
+          "探索",
+          "想法"
+        ]
+      },
+      {
+        "text": "In conversation with OpenAI’s \n@markchen90\n, Terence reflects on a future where AI reduces the cognitive friction of research, helps preserve the paths behind discovery, and expands what mathematicians and scientists can attempt.",
+        "url": "https://twitter.com/OpenAI/status/2060451760033214653",
+        "time": "8h",
+        "replies": 13,
+        "retweets": 18,
+        "likes": 200,
+        "summary": "OpenAI讨论AI在科研中的作用",
+        "key_data": [
+          "AI",
+          "科研",
+          "数学家",
+          "科学家"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Terence",
+          "AI科研",
+          "认知摩擦",
+          "发现路径"
+        ]
+      },
+      {
+        "text": "Windows users, this one’s for you.\n\nComputer use now works on Windows, so Codex can take action on your Windows computer.\n\nAnd with Windows support for Codex in the ChatGPT mobile app, you can start, review, and steer tasks on the go while work continues on your Windows machine.",
+        "url": "https://twitter.com/OpenAI/status/2060428604727771421",
+        "time": "9h",
+        "replies": 654,
+        "retweets": 0,
+        "likes": 0,
+        "summary": "OpenAI推文宣布Codex在Windows和ChatGPT移动应用上支持。",
+        "key_data": [
+          "Windows",
+          "ChatGPT移动应用"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Codex",
+          "Windows",
+          "ChatGPT",
+          "移动应用",
+          "任务管理"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Hear the architects of Gemini reflect on their journey to continue pushing the frontier of AI, on this episode of Release Notes.\n\n\n@JeffDean\n, \n@koraykv\n, \n@OriolVinyalsML\n, and \n@NoamShazeer\n sit down on camera together to share a behind-the-scenes look at the people behind the model,",
+        "url": "https://twitter.com/GoogleAI/status/2060392191508488493",
+        "time": "12h",
+        "replies": 17,
+        "retweets": 33,
+        "likes": 236,
+        "summary": "Google AI 推出 Gemini 模型幕后故事",
+        "key_data": [
+          "Release Notes",
+          "Gemini 模型"
+        ],
+        "keywords": [
+          "Google AI",
+          "Gemini",
+          "AI 前沿",
+          "幕后故事"
+        ]
+      },
+      {
+        "text": "Tune in for the full story ↓",
+        "url": "https://twitter.com/GoogleAI/status/2060392194142290294",
+        "time": "12h",
+        "replies": 2,
+        "retweets": 1,
+        "likes": 22,
+        "summary": "预告完整故事",
+        "key_data": [
+          "Tune in"
+        ],
+        "keywords": [
+          "full story",
+          "watch"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "We are continually adding new models and endpoints to the Runway API so you can build the best generative capabilities directly into your apps, products and platforms. With the Runway API, you get all of the models you need, all in one place. Including Seedance 2.0, GPT Image 2,",
+        "url": "https://twitter.com/runwayml/status/2060453805519765548",
+        "time": "7h",
+        "replies": 8,
+        "retweets": 6,
+        "likes": 83,
+        "summary": "Runway API持续更新模型，提供一站式生成能力。",
+        "key_data": [
+          "新模型：Seedance 2.0, GPT Image 2"
+        ],
+        "keywords": [
+          "Runway API",
+          "模型更新",
+          "生成能力"
+        ]
+      },
+      {
+        "text": "Get started: \nhttps://\ndev.runwayml.com",
+        "url": "https://twitter.com/runwayml/status/2060453807994155518",
+        "time": "7h",
+        "replies": 1,
+        "retweets": 2,
+        "likes": 4,
+        "summary": "Runway平台注册链接",
+        "key_data": [
+          "注册链接"
+        ],
+        "keywords": [
+          "Runway",
+          "注册",
+          "链接"
+        ]
+      },
+      {
+        "text": "Last chance to RSVP for our annual CVPR Friends Dinner in Denver on June 4th for conversation, cocktails and bites.\n\nRSVP at the link below.",
+        "url": "https://twitter.com/runwayml/status/2060408777518563351",
+        "time": "10h",
+        "replies": 2,
+        "retweets": 4,
+        "likes": 19,
+        "summary": "最后机会报名参加CVPR朋友晚宴",
+        "key_data": [
+          "RSVP",
+          "June 4th",
+          "Denver"
+        ],
+        "keywords": [
+          "CVPR",
+          "Friends Dinner",
+          "RSVP",
+          "Denver",
+          "June 4th"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "MiniMax M2.7 + CyOps = the scorecard speaks for itself ",
+        "url": "https://twitter.com/MiniMax_AI/status/2060421829307830341",
+        "time": "10h",
+        "replies": 11,
+        "retweets": 7,
+        "likes": 314,
+        "summary": "MiniMax与CyOps合作成果显著",
+        "key_data": [
+          "MiniMax M2.7",
+          "CyOps"
+        ],
+        "keywords": [
+          "MiniMax",
+          "CyOps",
+          "合作",
+          "成果"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
