@@ -1,0 +1,150 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T05:10:13.832092",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [
+      {
+        "text": "Introducing Cosmos 3: Our latest frontier model for Physical AI\n\nCosmos 3 is the world’s first fully open omnimodel with native vision reasoning, world and action generation.\n\nToday we’re releasing Super (32B) and Nano (8B) variants.",
+        "url": "https://twitter.com/NVIDIAAI/status/2061308434629132553",
+        "time": "18m",
+        "replies": 5,
+        "retweets": 23,
+        "likes": 84,
+        "summary": "NVIDIA发布Cosmos 3物理AI模型",
+        "key_data": [
+          "Cosmos 3",
+          "32B, 8B"
+        ],
+        "keywords": [
+          "NVIDIA",
+          "Cosmos 3",
+          "物理AI",
+          "模型",
+          "开放",
+          "视觉推理"
+        ]
+      }
+    ],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [],
+    "Perplexity (AI 搜索引擎)": [],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Introducing MiniMax M3: The First Open-Weights Model to Combine Three Frontier Capabilities\n\n- Coding & Agentic Frontier: 59.0% SWE-Bench Pro, 66.0% Terminal Bench 2.1, 34.8% SWE-fficiency, 28.8% KernelBench Hard, 74.2% MCP Atlas\n- MiniMax Sparse Attention scales context to 1M\n-",
+        "url": "https://twitter.com/MiniMax_AI/status/2061266317815296322",
+        "time": "3h",
+        "replies": 204,
+        "retweets": 698,
+        "likes": 0,
+        "summary": "MiniMax M3发布，融合三大前沿能力",
+        "key_data": [
+          "59.0%",
+          "66.0%",
+          "34.8%",
+          "28.8%",
+          "74.2%",
+          "1M"
+        ],
+        "keywords": [
+          "MiniMax M3",
+          "Open-Weights Model",
+          "Coding & Agentic Frontier",
+          "SWE-Bench Pro",
+          "Terminal Bench 2.1",
+          "SWE-fficiency",
+          "KernelBench Hard",
+          "MCP Atlas",
+          "MiniMax Sparse Attention"
+        ]
+      },
+      {
+        "text": "Key takeaway from the M3 blog: M3 independently reproduce an ICLR 2025 Outstanding Paper Award winner, \"Learning Dynamics of LLM Finetuning.\" \n\nM3 ran autonomously for nearly 12 hours, producing 18 commits and 23 experimental figures on its own, and got the core experiments",
+        "url": "https://twitter.com/MikaStars39/status/2061295261289529839",
+        "time": "1h",
+        "replies": 3,
+        "retweets": 6,
+        "likes": 66,
+        "summary": "M3独立复现ICLR 2025获奖论文",
+        "key_data": [
+          "12小时",
+          "18 commits",
+          "23实验图"
+        ],
+        "keywords": [
+          "M3",
+          "ICLR 2025",
+          "获奖论文",
+          "复现"
+        ]
+      },
+      {
+        "text": "let's gooo  M3 + \n@visionagents_ai\n for real-time voice & video\n\ngo build something hype!",
+        "url": "https://twitter.com/MiniMax_AI/status/2061291671657324594",
+        "time": "1h",
+        "replies": 7,
+        "retweets": 2,
+        "likes": 30,
+        "summary": "MiniMax 推出 M3 +，呼吁共创热门项目",
+        "key_data": [
+          "M3 +",
+          "real-time voice & video"
+        ],
+        "keywords": [
+          "MiniMax",
+          "M3+",
+          "visionagents_ai",
+          "voice & video",
+          "build",
+          "hype"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
