@@ -1,0 +1,278 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T04:57:20.291147",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new way to build on Amazon Bedrock with OpenAI through the security, compliance, and governance workflows they already use.\n\nThis is also the beginning of a broader expansion of OpenAI",
+        "url": "https://twitter.com/OpenAI/status/2061564502160892138",
+        "time": "7h",
+        "replies": 198,
+        "retweets": 528,
+        "likes": 0,
+        "summary": "OpenAI模型在AWS上通用，企业可利用Bedrock构建。",
+        "key_data": [
+          "OpenAI frontier models",
+          "Codex",
+          "AWS",
+          "Amazon Bedrock"
+        ],
+        "keywords": [
+          "OpenAI",
+          "AWS",
+          "Bedrock",
+          "企业",
+          "模型",
+          "通用"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission.\n\nPending completion of SEC review, this gives us the option to pursue an initial public offering.\n\nRead more:",
+        "url": "https://twitter.com/AnthropicAI/status/2061478052257841495",
+        "time": "12h",
+        "replies": 804,
+        "retweets": 0,
+        "likes": 19000,
+        "summary": "Anthropic提交IPO申请",
+        "key_data": [
+          "S-1注册陈述",
+          "IPO"
+        ],
+        "keywords": [
+          "Anthropic",
+          "SEC",
+          "IPO",
+          "S-1"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Read more about all the fun ways we used AI to bring I/O to life this year:",
+        "url": "https://twitter.com/GoogleAI/status/2061544208289132791",
+        "time": "8h",
+        "replies": 5,
+        "retweets": 1,
+        "likes": 14,
+        "summary": "Google AI分享I/O大会AI应用",
+        "key_data": [
+          "I/O大会",
+          "AI应用"
+        ],
+        "keywords": [
+          "Google AI",
+          "I/O",
+          "AI",
+          "应用"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Create compositing mattes in seconds with Aleph 2.0\n\nMattes let you isolate a subject from its background so you can composite, color or apply effects to just one part of your shot.\n\n1. Upload your video\n2. Prompt for a white silhouette on black\n3. Review your preview\n4. Hit",
+        "url": "https://twitter.com/runwayml/status/2061548752989753454",
+        "time": "8h",
+        "replies": 12,
+        "retweets": 18,
+        "likes": 170,
+        "summary": "秒级制作合成蒙版，提升视频后期效果",
+        "key_data": [
+          "秒级制作",
+          "视频后期"
+        ],
+        "keywords": [
+          "Aleph 2.0",
+          "合成蒙版",
+          "视频剪辑"
+        ]
+      },
+      {
+        "text": "Today we're announcing London as Runway's new European headquarters and our newest research hub focused on general world models. Over the next 18 months, we plan to invest $100M into the UK AI ecosystem, and that figure will more than double through 2028 as we scale our European",
+        "url": "https://twitter.com/runwayml/status/2061450141614145621",
+        "time": "14h",
+        "replies": 18,
+        "retweets": 19,
+        "likes": 161,
+        "summary": "Runway宣布伦敦为欧洲总部，投资英国AI生态。",
+        "key_data": [
+          "$100M",
+          "2028"
+        ],
+        "keywords": [
+          "Runway",
+          "London",
+          "European headquarters",
+          "research hub",
+          "AI ecosystem",
+          "investment"
+        ]
+      },
+      {
+        "text": "Learn more: \nhttps://\nrunwayml.com/news/runway-op\nens-london-hq\n…",
+        "url": "https://twitter.com/runwayml/status/2061450144692719722",
+        "time": "14h",
+        "replies": 1,
+        "retweets": 1,
+        "likes": 7,
+        "summary": "Runway 在伦敦开设总部",
+        "key_data": [
+          "Runway",
+          "London HQ"
+        ],
+        "keywords": [
+          "Runway",
+          "London",
+          "HQ",
+          "news"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Introducing Search as Code, our new search architecture for AI agents.\n\nIt writes Python that calls our search stack directly, instead of looping through function calls one at a time.\n\nAvailable in the Perplexity Agent API, and now default in Computer.\n\n\nhttps://\nresearch.perplexity.ai/articles/rethi\nnking-search-as-code-generation\n…",
+        "url": "https://twitter.com/perplexity_ai/status/2061506359326384319",
+        "time": "10h",
+        "replies": 96,
+        "retweets": 170,
+        "likes": 0,
+        "summary": "推出Search as Code搜索架构",
+        "key_data": [
+          "Python",
+          "Perplexity Agent API"
+        ],
+        "keywords": [
+          "Search as Code",
+          "AI agents",
+          "Python",
+          "search stack"
+        ]
+      },
+      {
+        "text": "WANDR is our in-house wide benchmark, built to mirror real professional research workloads.\n\nSearch as Code scores 0.386 to the next best system's 0.152, and the benchmark is far from saturated.\n\nWe're releasing WANDR in the coming weeks.",
+        "url": "https://twitter.com/perplexity_ai/status/2061506434127544493",
+        "time": "10h",
+        "replies": 4,
+        "retweets": 4,
+        "likes": 38,
+        "summary": "WANDR基准测试发布，Search as Code表现优异。",
+        "key_data": [
+          "0.386",
+          "0.152"
+        ],
+        "keywords": [
+          "WANDR",
+          "基准测试",
+          "Search as Code"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Watch open source reach the frontier. ",
+        "url": "https://twitter.com/MiniMax_AI/status/2061654794125889938",
+        "time": "1h",
+        "replies": 20,
+        "retweets": 10,
+        "likes": 134,
+        "summary": "开源技术达到新高度",
+        "key_data": [
+          "open source",
+          "frontier"
+        ],
+        "keywords": [
+          "开源",
+          "技术",
+          "前沿"
+        ]
+      },
+      {
+        "text": "we're live now \n\nInside M3 with \n@togethercompute\n: the model, the MSA architecture, and the inference powering it.\n\ncome hang \n\nhttps://\nx.com/i/spaces/1nxeL\nLDDBEaJX/peek\n…",
+        "url": "https://twitter.com/MiniMax_AI/status/2061613774562635978",
+        "time": "3h",
+        "replies": 1,
+        "retweets": 1,
+        "likes": 23,
+        "summary": "MiniMax直播讨论M3模型与MSA架构。",
+        "key_data": [
+          "M3",
+          "MSA架构"
+        ],
+        "keywords": [
+          "MiniMax",
+          "直播",
+          "M3模型",
+          "MSA架构"
+        ]
+      },
+      {
+        "text": " M3 is live on Vercel's AI Gateway!\n\nOur first long-context model with 1M tokens, multimodal input. \n\nAND 50% off for the week  \n\nLove to see what everyone builds with M3 and \n@vercel_dev\n ",
+        "url": "https://twitter.com/MiniMax_AI/status/2061597897792397397",
+        "time": "4h",
+        "replies": 8,
+        "retweets": 0,
+        "likes": 51,
+        "summary": "M3上线，多模态输入，限时五折。",
+        "key_data": [
+          "1M tokens",
+          "50% off"
+        ],
+        "keywords": [
+          "M3",
+          "Vercel",
+          "AI Gateway",
+          "multimodal",
+          "tokens",
+          "discount"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
