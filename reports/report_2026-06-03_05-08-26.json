@@ -1,0 +1,319 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T05:08:26.174759",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "We’re making Codex more useful for your work by expanding plugins beyond individual tools.\n\nThese plugins turn Codex into a specialist for a specific role with a single install, no coding required.\n\nCodex can access 62 popular apps and 110 skills for work across sales, data",
+        "url": "https://twitter.com/OpenAI/status/2061887650391625870",
+        "time": "9h",
+        "replies": 185,
+        "retweets": 359,
+        "likes": 0,
+        "summary": "扩展插件，使Codex更适用于工作",
+        "key_data": [
+          "62",
+          "110"
+        ],
+        "keywords": [
+          "Codex",
+          "插件",
+          "工作",
+          "销售",
+          "数据"
+        ]
+      },
+      {
+        "text": "Prep faster. Sell smarter.\n\nThe sales plugin for Codex.",
+        "url": "https://twitter.com/OpenAI/status/2061887949516730502",
+        "time": "9h",
+        "replies": 8,
+        "retweets": 19,
+        "likes": 331,
+        "summary": "Codex销售插件提升效率与智慧销售",
+        "key_data": [
+          "销售插件",
+          "Codex"
+        ],
+        "keywords": [
+          "Prep faster",
+          "Sell smarter",
+          "sales plugin",
+          "Codex"
+        ]
+      },
+      {
+        "text": "From question to model.\n\nThe public equity investing plugin for Codex.",
+        "url": "https://twitter.com/OpenAI/status/2061888058459570279",
+        "time": "9h",
+        "replies": 9,
+        "retweets": 44,
+        "likes": 321,
+        "summary": "OpenAI发布Codex公共股权投资插件",
+        "key_data": [
+          "Codex",
+          "公共股权投资"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Codex",
+          "插件",
+          "公共股权投资"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "This Executive Order is an important step in strengthening America’s leadership in AI. \n\nWe look forward to collaborating with the White House to support its implementation.",
+        "url": "https://twitter.com/AnthropicAI/status/2061924580222968183",
+        "time": "7h",
+        "replies": 179,
+        "retweets": 274,
+        "likes": 0,
+        "summary": "Anthropic支持加强美国AI领导力的行政命令",
+        "key_data": [
+          "行政命令"
+        ],
+        "keywords": [
+          "Anthropic",
+          "AI",
+          "美国",
+          "领导力",
+          "合作",
+          "白宫"
+        ]
+      },
+      {
+        "text": "We’re expanding Project Glasswing. We’ve extended access to Claude Mythos Preview to approximately 150 additional organizations, based in more than fifteen countries.\n\nRead more about this expansion and our future plans for Project Glasswing:",
+        "url": "https://twitter.com/AnthropicAI/status/2061796327986454883",
+        "time": "15h",
+        "replies": 289,
+        "retweets": 495,
+        "likes": 0,
+        "summary": "Anthropic扩展Project Glasswing，扩大Claude Mythos Preview访问范围。",
+        "key_data": [
+          "150 additional organizations",
+          "more than fifteen countries"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Project Glasswing",
+          "Claude Mythos Preview",
+          "expansion",
+          "access"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Aleph 2.0 is now available via the Runway API. Bring precise video editing directly into your apps, products and platforms. Edit up to 30 seconds of video at 1080p across multi-shot sequences, changing only what you want.\n\nGet started at the link below.",
+        "url": "https://twitter.com/runwayml/status/2061895998545244342",
+        "time": "9h",
+        "replies": 10,
+        "retweets": 23,
+        "likes": 165,
+        "summary": "Runway推出视频编辑API，支持多镜头序列编辑。",
+        "key_data": [
+          "30秒",
+          "1080p"
+        ],
+        "keywords": [
+          "Runway",
+          "视频编辑API",
+          "多镜头序列"
+        ]
+      },
+      {
+        "text": "Get started at \nhttp://\ndev.runwayml.com",
+        "url": "https://twitter.com/runwayml/status/2061896000646553873",
+        "time": "9h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 4,
+        "summary": "Runway网站启动链接",
+        "key_data": [
+          "dev.runwayml.com"
+        ],
+        "keywords": [
+          "Runway",
+          "网站",
+          "启动",
+          "链接"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Two new ways to bring your health data into Perplexity.\n\nPerplexity now connects to Apple Health on iPhone. Use your sleep, activity, and HRV data in Computer.\n\nFunction is now available in Perplexity Health. Add labs and ask about biomarkers, blood draws, or panel results.",
+        "url": "https://twitter.com/perplexity_ai/status/2061902688686887326",
+        "time": "8h",
+        "replies": 34,
+        "retweets": 40,
+        "likes": 403,
+        "summary": "Perplexity新增健康数据连接功能",
+        "key_data": [
+          "iPhone",
+          "Apple Health",
+          "labs",
+          "biomarkers"
+        ],
+        "keywords": [
+          "Perplexity",
+          "健康数据",
+          "Apple Health",
+          "iPhone",
+          "功能更新"
+        ]
+      },
+      {
+        "text": "Today we're announcing that hybrid agentic inference is coming to Perplexity Computer.\n\nComputer can split tasks between a local model running on your machine and frontier models in the cloud. This keeps private data on your device and maximizes token efficiency.\n\nComing soon.",
+        "url": "https://twitter.com/perplexity_ai/status/2061861293569765847",
+        "time": "11h",
+        "replies": 113,
+        "retweets": 209,
+        "likes": 0,
+        "summary": "Perplexity推出混合智能推理功能。",
+        "key_data": [
+          "本地模型与云端模型",
+          "隐私数据保护"
+        ],
+        "keywords": [
+          "Perplexity",
+          "混合智能推理",
+          "本地模型",
+          "云端模型",
+          "隐私数据"
+        ]
+      },
+      {
+        "text": "Read more about hybrid agentic inference in Perplexity Computer:",
+        "url": "https://twitter.com/perplexity_ai/status/2061861305838149980",
+        "time": "11h",
+        "replies": 2,
+        "retweets": 5,
+        "likes": 51,
+        "summary": "介绍Perplexity计算机中的混合代理推理",
+        "key_data": [
+          "Perplexity Computer"
+        ],
+        "keywords": [
+          "hybrid agentic inference",
+          "Perplexity"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "We heard, and we executed. MiniMax M3 faster than ever.",
+        "url": "https://twitter.com/VictorSuOrtiz/status/2062024383326204200",
+        "time": "53m",
+        "replies": 0,
+        "retweets": 1,
+        "likes": 6,
+        "summary": "MiniMax M3性能升级",
+        "key_data": [
+          "MiniMax M3",
+          "faster"
+        ],
+        "keywords": [
+          "MiniMax",
+          "M3",
+          "执行",
+          "升级"
+        ]
+      },
+      {
+        "text": "M3 brings sparse attention + 1M context + multimodality, and Together did the hard serving work to make it fast.\n\nGreat collaboration with the Together team.",
+        "url": "https://twitter.com/SkylerMiao7/status/2062030819988996472",
+        "time": "27m",
+        "replies": 2,
+        "retweets": 2,
+        "likes": 11,
+        "summary": "MiniMax称赞M3与Together团队的协作成果",
+        "key_data": [
+          "sparse attention",
+          "1M context",
+          "multimodality",
+          "fast"
+        ],
+        "keywords": [
+          "MiniMax",
+          "M3",
+          "Together",
+          "collaboration",
+          "performance"
+        ]
+      },
+      {
+        "text": "timelapse #147 (15.5 hrs)\n- woke up to \n@MiniMax_AI\n M3 launch including my kernelbench-hard (lowest score at below 30% which emphasizes the hardness)\n- did a space with the minimax and together ai folks\n- burned 1.1B tokens\n- got nanogpt at nvfp4 training stability to match bf16.",
+        "url": "https://twitter.com/elliotarledge/status/2061896243258020129",
+        "time": "9h",
+        "replies": 9,
+        "retweets": 9,
+        "likes": 345,
+        "summary": "MiniMax分享M3芯片测试及AI合作成果。",
+        "key_data": [
+          "15.5 hrs",
+          "1.1B tokens",
+          "bf16"
+        ],
+        "keywords": [
+          "timelapse",
+          "M3 launch",
+          "kernelbench",
+          "space",
+          "tokens",
+          "nanogpt",
+          "nvfp4"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
