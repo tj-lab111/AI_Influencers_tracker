@@ -1,0 +1,321 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T05:00:58.827885",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [
+      {
+        "text": "Good Starship highlights video",
+        "url": "https://twitter.com/elonmusk/status/2062071886218219737",
+        "time": "21h",
+        "replies": 0,
+        "retweets": 10000,
+        "likes": 69000,
+        "summary": "Elon Musk分享Starship视频",
+        "key_data": [
+          "Starship"
+        ],
+        "keywords": [
+          "Elon Musk",
+          "Starship",
+          "视频"
+        ]
+      }
+    ],
+    "Demis Hassabis (DeepMind CEO)": [
+      {
+        "text": "Celebrating the milestone of a massive 150+ million downloads of Gemma 4 with the release of the new Gemma 4 12B model! It's incredibly powerful for such a small model and it’s tiny enough to run locally on a laptop with just 16GB VRAM. Apache 2.0 license - happy building!",
+        "url": "https://twitter.com/demishassabis/status/2062241713398149524",
+        "time": "10h",
+        "replies": 95,
+        "retweets": 183,
+        "likes": 0,
+        "summary": "Gemma 4模型更新，下载量超1.5亿。",
+        "key_data": [
+          "150+ million downloads",
+          "Gemma 4 12B",
+          "16GB VRAM"
+        ],
+        "keywords": [
+          "Gemma 4",
+          "下载量",
+          "更新",
+          "Apache 2.0"
+        ]
+      }
+    ],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "It's time to fly.",
+        "url": "https://twitter.com/OpenAI/status/2062249312839434452",
+        "time": "9h",
+        "replies": 815,
+        "retweets": 0,
+        "likes": 0,
+        "summary": "启程时刻",
+        "key_data": [
+          "It's time"
+        ],
+        "keywords": [
+          "fly",
+          "time"
+        ]
+      },
+      {
+        "text": "Look closely. There’s more in the Showcase.",
+        "url": "https://twitter.com/OpenAIDevs/status/2062339834526781768",
+        "time": "3h",
+        "replies": 144,
+        "retweets": 78,
+        "likes": 0,
+        "summary": "展示区有更多内容",
+        "key_data": [
+          "Showcase"
+        ],
+        "keywords": [
+          "Look closely",
+          "more"
+        ]
+      },
+      {
+        "text": "We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at enterprise scale.\n\nIt brings GPT-5.5’s agentic coding and tool use together with stronger intelligence for drug discovery, analysis, design, and experimental workflows.",
+        "url": "https://twitter.com/OpenAI/status/2062281977122996256",
+        "time": "7h",
+        "replies": 170,
+        "retweets": 308,
+        "likes": 0,
+        "summary": "OpenAI发布GPT-Rosalind新功能，助力生命科学。",
+        "key_data": [
+          "GPT-5.5",
+          "企业级"
+        ],
+        "keywords": [
+          "GPT-Rosalind",
+          "生命科学",
+          "药物发现",
+          "分析",
+          "设计",
+          "实验工作流程"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "How well do the security community's techniques hold up against AI-enabled cyberattacks? \n\nWe examined 832 malicious accounts and mapped their activity onto a longstanding database of tactics and techniques used by threat actors.  \n\nHere's what we learned:",
+        "url": "https://twitter.com/AnthropicAI/status/2062243425580367905",
+        "time": "10h",
+        "replies": 100,
+        "retweets": 129,
+        "likes": 767,
+        "summary": "分析AI攻击对安全技术的挑战",
+        "key_data": [
+          "832个恶意账户",
+          "长期数据库"
+        ],
+        "keywords": [
+          "安全社区",
+          "AI攻击",
+          "技术挑战"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [
+      {
+        "text": "Midjourney Weekly Office Hours - 6/3",
+        "url": "https://twitter.com/midjourney/status/2062256120203514016",
+        "time": "9h",
+        "replies": 7,
+        "retweets": 0,
+        "likes": 14,
+        "summary": "本周六举行Midjourney办公时间",
+        "key_data": [
+          "6/3"
+        ],
+        "keywords": [
+          "Midjourney",
+          "Weekly Office Hours"
+        ]
+      }
+    ],
+    "Runway (AI 视频)": [
+      {
+        "text": "Use Aleph 2.0 to turn any video into a green screen asset or clean plate, no rotoscoping required.\n\nLearn how with today's Runway Academy.",
+        "url": "https://twitter.com/runwayml/status/2062202510736085407",
+        "time": "12h",
+        "replies": 9,
+        "retweets": 13,
+        "likes": 93,
+        "summary": "Runway推文推广视频处理工具",
+        "key_data": [
+          "Aleph 2.0",
+          "Runway Academy"
+        ],
+        "keywords": [
+          "视频处理",
+          "绿色屏幕",
+          "无键帧",
+          "Runway"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Personal Computer is coming to Windows.\n\nPersonal Computer for Windows runs on your machine and orchestrates across the apps and files you use every day.\n\nWe'll roll out first to paying Max and Enterprise Max subscribers on the waitlist.",
+        "url": "https://twitter.com/perplexity_ai/status/2062189045728596080",
+        "time": "13h",
+        "replies": 65,
+        "retweets": 64,
+        "likes": 567,
+        "summary": "Windows将推出Personal Computer服务",
+        "key_data": [
+          "Max and Enterprise Max subscribers",
+          "waitlist"
+        ],
+        "keywords": [
+          "Personal Computer",
+          "Windows",
+          "Max subscribers"
+        ]
+      },
+      {
+        "text": "Perplexity Computer is for growing businesses.\n\nComputer connects to 400+ tools for every type of company, including Intuit QuickBooks, Vercel, Shopify, Canva, and more.\n\nLearn more about how people are using Computer for their business:\n\nhttps://\nperplexity.ai/enterprise/use\n-cases/growing-businesses\n…",
+        "url": "https://twitter.com/perplexity_ai/status/2062221423104704753",
+        "time": "11h",
+        "replies": 25,
+        "retweets": 31,
+        "likes": 325,
+        "summary": "Perplexity Computer助力成长型企业连接400+工具。",
+        "key_data": [
+          "400+工具",
+          "成长型企业"
+        ],
+        "keywords": [
+          "Perplexity Computer",
+          "工具连接",
+          "成长型企业"
+        ]
+      },
+      {
+        "text": "Personal Computer is coming to Windows.\n\nPersonal Computer for Windows runs on your machine and orchestrates across the apps and files you use every day.\n\nWe'll roll out first to paying Max and Enterprise Max subscribers on the waitlist.",
+        "url": "https://twitter.com/perplexity_ai/status/2062189045728596080",
+        "time": "13h",
+        "replies": 65,
+        "retweets": 64,
+        "likes": 567,
+        "summary": "Windows将推出Personal Computer服务",
+        "key_data": [
+          "Max and Enterprise Max subscribers",
+          "waitlist"
+        ],
+        "keywords": [
+          "Personal Computer",
+          "Windows",
+          "Max subscribers"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "M3 is back in the free tier on \n@opencode\n \n\nJump in and try it while it lasts!",
+        "url": "https://twitter.com/MiniMax_AI/status/2062353077810897268",
+        "time": "2h",
+        "replies": 15,
+        "retweets": 14,
+        "likes": 318,
+        "summary": "M3免费试用活动回归",
+        "key_data": [
+          "免费试用"
+        ],
+        "keywords": [
+          "M3",
+          "免费",
+          "opencode",
+          "试用"
+        ]
+      },
+      {
+        "text": "15.6× faster decoding at 1M tokens  \n\nThanks \n@FireworksAI_HQ\n for powering the inference behind M3. \n\nTry it now ",
+        "url": "https://twitter.com/MiniMax_AI/status/2062316914618388758",
+        "time": "5h",
+        "replies": 4,
+        "retweets": 4,
+        "likes": 185,
+        "summary": "MiniMax推文宣传FireworksAI_HQ加速M3解码",
+        "key_data": [
+          "15.6× faster",
+          "1M tokens"
+        ],
+        "keywords": [
+          "MiniMax",
+          "FireworksAI_HQ",
+          "M3",
+          "decoding",
+          "inference"
+        ]
+      },
+      {
+        "text": "Mem0 is an official launch partner for MiniMax M3!\n\nM3's 1M token context window + \n@mem0ai\n 's memory layer = AI apps that truly remember.\n\nBuild personalized AI agents with persistent memory, now with 50% off M3 during launch week.\n\nGet started with Minimax →",
+        "url": "https://twitter.com/MiniMax_AI/status/2062288699879252171",
+        "time": "7h",
+        "replies": 5,
+        "retweets": 4,
+        "likes": 96,
+        "summary": "MiniMax M3发布，Mem0合作，50%折扣",
+        "key_data": [
+          "1M token context window",
+          "50% off"
+        ],
+        "keywords": [
+          "MiniMax M3",
+          "Mem0",
+          "AI apps",
+          "personalized AI agents",
+          "persistent memory"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
