@@ -1,0 +1,322 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T04:35:40.051134",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": [
+      {
+        "text": " Round 2 of judging the Vibe Jam of 2026 sponsored  by \n@cursor_ai\n  + \n@boltdotnew\n + \n@heyglif\n + \n@tripoai\n is finished now\n\nAfter going through 945 submissions in Round 1, me and \n@s13k_\n then rated the top 100+ submissions in Round 2 with a rating from 0 to 10, trying the games",
+        "url": "https://twitter.com/levelsio/status/2062644166849622066",
+        "time": "7h",
+        "replies": 21,
+        "retweets": 11,
+        "likes": 91,
+        "summary": "Vibe Jam 2026第二轮评审完成",
+        "key_data": [
+          "945 submissions",
+          "top 100+ submissions"
+        ],
+        "keywords": [
+          "Vibe Jam",
+          "2026",
+          "judging",
+          "submissions",
+          "rating"
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture?\n\nResearchers \n@alexwei_\n, \n@HongxunWu\n, and \n@wjmzbmr1\n shared the story on the OpenAI Podcast with \n@AndrewMayne\n and explained how mathematicians and models can work together to make new",
+        "url": "https://twitter.com/OpenAI/status/2062630454537424930",
+        "time": "8h",
+        "replies": 106,
+        "retweets": 81,
+        "likes": 915,
+        "summary": "OpenAI模型挑战80年数学猜想",
+        "key_data": [
+          "80-year-old Erdős conjecture",
+          "OpenAI Podcast"
+        ],
+        "keywords": [
+          "OpenAI",
+          "Erdős conjecture",
+          "mathematicians",
+          "models",
+          "Podcast"
+        ]
+      },
+      {
+        "text": "Listen to the OpenAI Podcast on—\n\nSpotify\n\nhttps://\nopen.spotify.com/episode/3ca5s3\no53D5xcEKmKgLLGj?si=4a9a555641fa4293\n…\n\nApple\n\nhttps://\npodcasts.apple.com/us/podcast/how\n-a-reasoning-model-cracked-an-80-year-old/id1820330260?i=1000771190131\n…\n\nYouTube\n\nhttps://\nyoutu.be/wNWz5Hbh5VQ",
+        "url": "https://twitter.com/OpenAI/status/2062630458433917126",
+        "time": "8h",
+        "replies": 7,
+        "retweets": 5,
+        "likes": 69,
+        "summary": "OpenAI 推出播客，可在多平台收听",
+        "key_data": [
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ],
+        "keywords": [
+          "OpenAI",
+          "播客",
+          "Spotify",
+          "Apple Podcasts",
+          "YouTube"
+        ]
+      },
+      {
+        "text": "We’ve been researching new ways for ChatGPT memory to carry context across conversations and keep it useful over time.\n\nToday, that work is rolling out as a more capable memory system in ChatGPT.",
+        "url": "https://twitter.com/OpenAI/status/2062567556524003631",
+        "time": "12h",
+        "replies": 495,
+        "retweets": 0,
+        "likes": 0,
+        "summary": "ChatGPT更新记忆系统",
+        "key_data": [
+          "ChatGPT"
+        ],
+        "keywords": [
+          "ChatGPT",
+          "记忆系统",
+          "更新"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Our internal data shows Claude is accelerating AI development—a possible path to recursive self-improvement, or AI autonomously building a more capable successor.\n\nIt’s happening faster than we thought, and the implications deserve greater attention.",
+        "url": "https://twitter.com/AnthropicAI/status/2062568862479208923",
+        "time": "12h",
+        "replies": 955,
+        "retweets": 0,
+        "likes": 16000,
+        "summary": "Anthropic推文：Claude加速AI发展，可能实现自我改进。",
+        "key_data": [
+          "Claude",
+          "AI发展",
+          "自我改进"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude",
+          "AI",
+          "自我改进",
+          "递归",
+          "自主"
+        ]
+      },
+      {
+        "text": "Each time we release a model, we run the same test: give it code that trains a small AI model, ask the new model to speed it up. It takes a skilled human 4-8 hours to reach 4x faster.\n\nIn May 2024, Claude Opus 4 averaged a ~3x speedup. This April, Mythos Preview achieved ~52x.",
+        "url": "https://twitter.com/AnthropicAI/status/2062568869240476050",
+        "time": "12h",
+        "replies": 32,
+        "retweets": 194,
+        "likes": 0,
+        "summary": "Anthropic模型测试速度提升显著",
+        "key_data": [
+          "4-8小时",
+          "3x",
+          "52x"
+        ],
+        "keywords": [
+          "Anthropic",
+          "模型",
+          "测试",
+          "速度",
+          "提升"
+        ]
+      },
+      {
+        "text": "Correction: Claude Opus 4's ~3x average speedup dates to May 2025, not May 2024. \n\nThis evaluation has only existed since September 2024, but we backtested it on earlier models: those from May 2024 showed no speedup whatsoever.",
+        "url": "https://twitter.com/AnthropicAI/status/2062634151556292775",
+        "time": "7h",
+        "replies": 13,
+        "retweets": 6,
+        "likes": 188,
+        "summary": "Anthropic更正：Claude Opus 4速度提升至2025年5月。",
+        "key_data": [
+          "3x速度提升",
+          "2025年5月"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude Opus 4",
+          "速度提升",
+          "更正"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [
+      {
+        "text": "Today we're shipping Nemotron 3 Ultra.\n\nA 550B MoE frontier-intelligence open model built for long-running agents.\n\nIt delivers 5x faster inference and lowers the cost of complex agentic tasks by up to 30% versus other open frontier models.",
+        "url": "https://twitter.com/NVIDIAAI/status/2062521325076299981",
+        "time": "15h",
+        "replies": 134,
+        "retweets": 438,
+        "likes": 0,
+        "summary": "NVIDIA发布Nemotron 3 Ultra，提升推理速度和降低成本。",
+        "key_data": [
+          "550B MoE",
+          "5x",
+          "30%"
+        ],
+        "keywords": [
+          "NVIDIA",
+          "Nemotron 3 Ultra",
+          "推理速度",
+          "成本降低"
+        ]
+      }
+    ],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "The edits you need, made easy. Aleph 2.0 changes just what you want edited, leaving the rest of your shot untouched. Try it in our new Edit Studio.\n\nGet started at the link below.",
+        "url": "https://twitter.com/runwayml/status/2062540015473721682",
+        "time": "14h",
+        "replies": 9,
+        "retweets": 12,
+        "likes": 156,
+        "summary": "一键编辑视频，保留原画。",
+        "key_data": [
+          "Aleph 2.0",
+          "Edit Studio"
+        ],
+        "keywords": [
+          "视频编辑",
+          "一键编辑",
+          "Runway"
+        ]
+      },
+      {
+        "text": "Get started: \nhttps://\napp.runwayml.com/generate?mode=\nedit\n…",
+        "url": "https://twitter.com/runwayml/status/2062540017021407348",
+        "time": "14h",
+        "replies": 0,
+        "retweets": 1,
+        "likes": 3,
+        "summary": "Runway平台编辑模式入口",
+        "key_data": [
+          "app.runwayml.com"
+        ],
+        "keywords": [
+          "Runway",
+          "编辑模式",
+          "入口"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Today we're launching the Main Street AI Accelerator with the U.S. Small Business Administration.\n\nWe're committing $25M in Computer credits, $250 each for up to 100,000 eligible companies, in honor of America's 250th anniversary.\n\nLearn more: \nhttps://\nmain-street-ai-accelerator.pplx.app",
+        "url": "https://twitter.com/perplexity_ai/status/2062556000394379710",
+        "time": "13h",
+        "replies": 45,
+        "retweets": 33,
+        "likes": 371,
+        "summary": "主街AI加速器启动，投入2500万美元支持企业",
+        "key_data": [
+          "$25M",
+          "100,000",
+          "250"
+        ],
+        "keywords": [
+          "Main Street AI Accelerator",
+          "U.S. Small Business Administration",
+          "Computer credits",
+          "America's 250th anniversary"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Build your voice agent with us at the Conversational AI Hackathon \n@ycombinator\n, June 6–7 in SF. \n\n\n@usemoss\n retrieval gets the context back in time. M3 reasons over it. MiniMax Speech 2.8 Turbo gets the response out in time: sub-250ms, and in 40+ languages.\n\nLet's see what you",
+        "url": "https://twitter.com/MiniMax_AI/status/2062491338944463039",
+        "time": "17h",
+        "replies": 7,
+        "retweets": 1,
+        "likes": 76,
+        "summary": "MiniMax发布语音助手技术，参加Hackathon。",
+        "key_data": [
+          "Conversational AI Hackathon",
+          "sub-250ms",
+          "40+ languages"
+        ],
+        "keywords": [
+          "MiniMax",
+          "voice agent",
+          "Hackathon",
+          "Conversational AI",
+          "Speech 2.8 Turbo"
+        ]
+      },
+      {
+        "text": "MiniMax-M3 now is  rank #8 on \n@ArtificialAnlys\n.\nDue to the workload involved in open-sourcing the MSA operator in parallel, the weights will be released to everyone late next week.",
+        "url": "https://twitter.com/RyanLeeMiniMax/status/2062468206535840133",
+        "time": "18h",
+        "replies": 30,
+        "retweets": 26,
+        "likes": 413,
+        "summary": "MiniMax-M3排名上升，权重下周发布。",
+        "key_data": [
+          "#8",
+          "next week"
+        ],
+        "keywords": [
+          "MiniMax-M3",
+          "rank",
+          "ArtificialAnlys",
+          "open-sourcing",
+          "MSA operator",
+          "weights"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
