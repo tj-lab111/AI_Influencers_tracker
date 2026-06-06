@@ -1,0 +1,189 @@
+{
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T04:17:32.679754",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "An issue caused some user accounts to be incorrectly suspended. \n\nWe’re restoring access and working through related subscription and credit issues.",
+        "url": "https://twitter.com/OpenAI/status/2062927046448431587",
+        "time": "12h",
+        "replies": 368,
+        "retweets": 449,
+        "likes": 0,
+        "summary": "用户账户误封，正在恢复。",
+        "key_data": [
+          "用户账户",
+          "恢复"
+        ],
+        "keywords": [
+          "OpenAI",
+          "账户",
+          "误封",
+          "恢复",
+          "订阅",
+          "信用"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New Anthropic Science Blog: Making Claude a chemist.\n\nTo manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy.\n\nWe found Opus 4.7 matches—and on some tasks beats—dedicated NMR software. Read more:",
+        "url": "https://twitter.com/AnthropicAI/status/2062979607448682731",
+        "time": "8h",
+        "replies": 146,
+        "retweets": 273,
+        "likes": 0,
+        "summary": "Anthropic发布新博客，介绍Claude在化学领域的应用。",
+        "key_data": [
+          "Opus 4.7",
+          "NMR spectroscopy"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude",
+          "chemist",
+          "NMR spectroscopy",
+          "Opus 4.7"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Here’s this week’s shipping recap \n\n— Nano Banana 2 & Nano Banana Pro are now GA and available via the Gemini Enterprise Agent Platform, Gemini API, and in \n@GoogleAIStudio\n\n\n—Co-Scientist, our new multi-agent system for structured scientific thinking, generates and refines novel",
+        "url": "https://twitter.com/GoogleAI/status/2062942864288387430",
+        "time": "11h",
+        "replies": 34,
+        "retweets": 24,
+        "likes": 194,
+        "summary": "发布新产品，推出新系统",
+        "key_data": [
+          "Nano Banana 2 & Nano Banana Pro",
+          "Co-Scientist"
+        ],
+        "keywords": [
+          "新产品",
+          "新系统",
+          "GoogleAIStudio",
+          "Gemini Enterprise Agent Platform",
+          "Gemini API"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "50 Crowns. A fully AI-generated in-game cinematic following two bounty hunters on the road.\n\nCreated with Runway in less than a week by just one person. If you have an idea, you can make it.",
+        "url": "https://twitter.com/runwayml/status/2062898193126302111",
+        "time": "14h",
+        "replies": 23,
+        "retweets": 18,
+        "likes": 151,
+        "summary": "一周内用Runway制作AI游戏电影。",
+        "key_data": [
+          "50 Crowns",
+          "less than a week",
+          "one person"
+        ],
+        "keywords": [
+          "Runway",
+          "AI-generated",
+          "cinematic",
+          "bounty hunters",
+          "in-game"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Nemotron 3 Ultra is now available for Pro and Max subscribers on Perplexity and Computer.\n\nIt's \n@nvidia\n's new open model built for long-running agents.",
+        "url": "https://twitter.com/perplexity_ai/status/2062976272436002825",
+        "time": "8h",
+        "replies": 50,
+        "retweets": 45,
+        "likes": 586,
+        "summary": "Nemotron 3 Ultra上线，面向Pro和Max用户。",
+        "key_data": [
+          "Nemotron 3 Ultra",
+          "Pro and Max subscribers"
+        ],
+        "keywords": [
+          "Nemotron 3 Ultra",
+          "Perplexity",
+          "Computer",
+          "NVIDIA",
+          "open model",
+          "long-running agents"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "Excited to bring M3 to more developers through \n@dgrid_ai\n \n\nFrontier coding, native multimodality, and 1M-token context — now available on DGrid.",
+        "url": "https://twitter.com/MiniMax_AI/status/2062812746379333936",
+        "time": "19h",
+        "replies": 17,
+        "retweets": 4,
+        "likes": 122,
+        "summary": "MiniMax与DGrid合作推出M3",
+        "key_data": [
+          "M3",
+          "1M-token",
+          "DGrid"
+        ],
+        "keywords": [
+          "MiniMax",
+          "DGrid",
+          "M3",
+          "开发",
+          "多模态",
+          "上下文"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
