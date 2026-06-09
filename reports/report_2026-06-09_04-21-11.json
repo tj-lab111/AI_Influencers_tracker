@@ -1,0 +1,221 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T04:21:11.648917",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [
+      {
+        "text": "The north stars we're working towards at OpenAI all center around the mission: ensure AGI benefits all of humanity. AI should expand human agency, not make people less consequential to the future.",
+        "url": "https://twitter.com/merettm/status/2064092423740174582",
+        "time": "7h",
+        "replies": 37,
+        "retweets": 24,
+        "likes": 267,
+        "summary": "OpenAI 致力于确保 AGI 为人类带来益处。",
+        "key_data": [
+          "AGI",
+          "人类"
+        ],
+        "keywords": [
+          "OpenAI",
+          "AGI",
+          "人类",
+          "益处",
+          "人类代理"
+        ]
+      }
+    ],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "New Science Blog: Why has AI advanced faster in coding than in biology? \n\nTo agents, bio databases are like cities built before cars—maddening to drive in because they're designed for different traffic. \n\nHow do we build infrastructure agents can use?",
+        "url": "https://twitter.com/AnthropicAI/status/2064054837294354677",
+        "time": "9h",
+        "replies": 194,
+        "retweets": 398,
+        "likes": 0,
+        "summary": "AI在编码领域发展迅速，但在生物学领域缓慢，探讨如何构建适合的数据库。",
+        "key_data": [
+          "AI发展速度比较"
+        ],
+        "keywords": [
+          "AI",
+          "生物学",
+          "数据库",
+          "基础设施"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "One video, now made for every feed and format. Upload your existing video, choose your desired aspect ratio and watch our editing model, Aleph 2.0, fill in the rest of the scene as if you made it that way from the start.\n\nTry it on our desktop web app at the link below.",
+        "url": "https://twitter.com/runwayml/status/2064012425884569627",
+        "time": "12h",
+        "replies": 20,
+        "retweets": 25,
+        "likes": 155,
+        "summary": "Runway推文介绍视频编辑新功能。",
+        "key_data": [
+          "视频编辑模型Aleph 2.0"
+        ],
+        "keywords": [
+          "Runway",
+          "视频编辑",
+          "Aleph 2.0",
+          "桌面应用"
+        ]
+      },
+      {
+        "text": "Try it now: \nhttps://\napp.runwayml.com/generate?mode=\nedit\n…",
+        "url": "https://twitter.com/runwayml/status/2064012427461603646",
+        "time": "12h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 5,
+        "summary": "体验Runway编辑模式",
+        "key_data": [
+          "app.runwayml.com"
+        ],
+        "keywords": [
+          "Runway",
+          "编辑模式",
+          "体验"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "1,500 teams entered the Billion Dollar Build and have been building for 7 weeks.\n\n8 finalists present live on June 9 to our judges \n@LewisHamilton\n (7x World Champion Driver), \n@AravSrinivas\n (CEO, Perplexity), and \n@richminer\n (Co-Founder, Android).\n\nRegister: \nhttp://\nluma.com/bdb-livereveal",
+        "url": "https://twitter.com/perplexity_ai/status/2064050181004542414",
+        "time": "9h",
+        "replies": 43,
+        "retweets": 44,
+        "likes": 419,
+        "summary": "Billion Dollar Build比赛进入决赛阶段。",
+        "key_data": [
+          "1,500 teams",
+          "7 weeks",
+          "8 finalists",
+          "June 9"
+        ],
+        "keywords": [
+          "Billion Dollar Build",
+          "finalists",
+          "Lewis Hamilton",
+          "Arav Srinivas",
+          "richminer",
+          "Android"
+        ]
+      },
+      {
+        "text": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like Computer.\n\nOver 3 months, findings show workers using Computer finish tasks in 87% less time at 94% lower cost than Search alone, with higher satisfaction.\n\n\nhttps://\nresearch.perplexity.ai/articles/how-a\ni-agents-reshape-knowledge-work\n…",
+        "url": "https://twitter.com/perplexity_ai/status/2064023455453110286",
+        "time": "11h",
+        "replies": 76,
+        "retweets": 62,
+        "likes": 429,
+        "summary": "研究显示，使用Computer比单独使用Search效率高87%，成本低94%，满意度更高。",
+        "key_data": [
+          "87% less time",
+          "94% lower cost",
+          "higher satisfaction"
+        ],
+        "keywords": [
+          "Harvard",
+          "autonomous agents",
+          "Computer",
+          "knowledge work"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "After using \n@MiniMax_AI\n M3 quite extensively for 2 days, I would say I can use it as the main model for coding. I have been testing mostly with medium-sized task (up to 1250 lines of code). Not sure how much Roo Code harness is affecting it, but the combo seems to work really",
+        "url": "https://twitter.com/juminoz/status/2064186709018030114",
+        "time": "53m",
+        "replies": 1,
+        "retweets": 1,
+        "likes": 2,
+        "summary": "用户评价MiniMax AI M3模型在编码任务中的表现",
+        "key_data": [
+          "2 days",
+          "1250 lines of code"
+        ],
+        "keywords": [
+          "MiniMax AI",
+          "M3",
+          "coding",
+          "testing",
+          "Roo Code harness"
+        ]
+      },
+      {
+        "text": "Pick M3 as your base model on AgentBox to deploy with frontier coding, 1M-token context, and native multimodality all in one click.",
+        "url": "https://twitter.com/MiniMax_AI/status/2064165060323557530",
+        "time": "2h",
+        "replies": 8,
+        "retweets": 3,
+        "likes": 45,
+        "summary": "推荐使用MiniMax的M3模型进行部署",
+        "key_data": [
+          "AgentBox",
+          "1M-token",
+          "native multimodality"
+        ],
+        "keywords": [
+          "MiniMax",
+          "M3模型",
+          "部署",
+          "AgentBox",
+          "frontier coding",
+          "multimodality"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
