@@ -1,0 +1,282 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T04:33:11.342885",
+  "personal": {
+    "Sam Altman (OpenAI CEO)": [],
+    "Elon Musk (xAI 创始人)": [],
+    "Demis Hassabis (DeepMind CEO)": [],
+    "Sergey Levine (DeepMind 研究员)": [],
+    "Yann LeCun (Meta AI 首席科学家)": [],
+    "Andrej Karpathy (AI 教育网红)": [],
+    "Ilya Sutskever (OpenAI 联合创始人)": [],
+    "Dario Amodei (Anthropic CEO)": [],
+    "Ashish Vaswani (Transformer 作者)": [],
+    "Aidan Gomez (Cohere CEO)": [],
+    "Clement Delangue (Hugging Face CEO)": [],
+    "Thomas Wolf (Hugging Face 联合创始人)": [],
+    "Jim Fan (NVIDIA 高级科学家)": [],
+    "Rowan Cheung (The Rundown AI 创始人)": [
+      {
+        "text": "NEWS:\n\nThe Rundown just took its first strategic investment from Electrify (behind brands like Veritasium, Fireship, and more)!\n\nThrough this partnership, we can scale significantly faster toward our mission of educating 1B people on AI.\n\nThe story below:",
+        "url": "https://twitter.com/rowancheung/status/2064334363622244824",
+        "time": "15h",
+        "replies": 34,
+        "retweets": 16,
+        "likes": 94,
+        "summary": "Rundown获得Electrify战略投资，加速AI教育目标",
+        "key_data": [
+          "Electrify",
+          "1B"
+        ],
+        "keywords": [
+          "Rundown",
+          "战略投资",
+          "Electrify",
+          "AI教育"
+        ]
+      }
+    ],
+    "Matt Shumer (AI 产品开发者)": [],
+    "Geoffrey Hinton (AI 教父、诺贝尔奖得主)": [],
+    "Andrew Ng (DeepLearning.AI 创始人)": [],
+    "Pieter Levels (独立开发者)": []
+  },
+  "organizations": {
+    "OpenAI (GPT、ChatGPT、DALL-E)": [],
+    "Anthropic (Claude 模型)": [
+      {
+        "text": "Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use.\n\nIts capabilities exceed those of any model we’ve ever made generally available.",
+        "url": "https://twitter.com/claudeai/status/2064394146916229443",
+        "time": "11h",
+        "replies": 0,
+        "retweets": 20000,
+        "likes": 86000,
+        "summary": "Anthropic发布新模型Claude Fable 5",
+        "key_data": [
+          "Mythos-class",
+          "超越以往模型"
+        ],
+        "keywords": [
+          "Anthropic",
+          "Claude Fable 5",
+          "Mythos-class",
+          "模型",
+          "发布"
+        ]
+      }
+    ],
+    "Google DeepMind (AlphaGo、Gemini)": [],
+    "Google AI (Google AI 研究)": [
+      {
+        "text": "Today, we released Gemini 3.5 Live Translate, our latest audio model for live speech-to-speech translation.\n\nIt supports over 70 languages and starts translating as soon as you start talking, streaming translations while listening to what you say next. No awkward pauses or choppy",
+        "url": "https://twitter.com/GoogleAI/status/2064366504112505266",
+        "time": "13h",
+        "replies": 70,
+        "retweets": 331,
+        "likes": 2000,
+        "summary": "发布Gemini 3.5实时翻译模型",
+        "key_data": [
+          "70+ languages",
+          "Live speech-to-speech"
+        ],
+        "keywords": [
+          "Gemini 3.5",
+          "Live Translate",
+          "audio model",
+          "speech-to-speech translation"
+        ]
+      },
+      {
+        "text": "Today, we released Gemini 3.5 Live Translate, our latest audio model for live speech-to-speech translation.\n\nIt supports over 70 languages and starts translating as soon as you start talking, streaming translations while listening to what you say next. No awkward pauses or choppy",
+        "url": "https://twitter.com/GoogleAI/status/2064366504112505266",
+        "time": "13h",
+        "replies": 70,
+        "retweets": 331,
+        "likes": 2000,
+        "summary": "发布最新语音翻译模型，支持70多种语言。",
+        "key_data": [
+          "70+ languages",
+          "Live Translate"
+        ],
+        "keywords": [
+          "Gemini 3.5",
+          "Live Translate",
+          "audio model",
+          "speech-to-speech translation"
+        ]
+      },
+      {
+        "text": "Read the blog to learn more:",
+        "url": "https://twitter.com/GoogleAI/status/2064366505630802081",
+        "time": "13h",
+        "replies": 3,
+        "retweets": 2,
+        "likes": 45,
+        "summary": "阅读博客获取更多信息",
+        "key_data": [],
+        "keywords": [
+          "博客",
+          "更多信息"
+        ]
+      }
+    ],
+    "Meta AI (LLaMA、PyTorch)": [],
+    "xAI (Grok 模型)": [],
+    "Mistral AI (Mistral、Mixtral)": [],
+    "Cohere (企业大模型)": [],
+    "Hugging Face (开源 AI 社区)": [],
+    "Stability AI (Stable Diffusion)": [],
+    "NVIDIA AI (GPU、CUDA、AI 芯片)": [],
+    "AWS AI (云端 AI 服务)": [],
+    "Midjourney (AI 绘图)": [],
+    "Runway (AI 视频)": [
+      {
+        "text": "Easily reformat your videos to different aspect ratios, so you can show up everywhere that matters.\n\nGet started at the link below.",
+        "url": "https://twitter.com/runwayml/status/2064350871048077756",
+        "time": "14h",
+        "replies": 9,
+        "retweets": 16,
+        "likes": 110,
+        "summary": "视频格式转换，多平台展示。",
+        "key_data": [
+          "视频格式转换",
+          "多平台展示"
+        ],
+        "keywords": [
+          "视频格式",
+          "多平台",
+          "Runway"
+        ]
+      },
+      {
+        "text": "Get started:",
+        "url": "https://twitter.com/runwayml/status/2064350872868380705",
+        "time": "14h",
+        "replies": 1,
+        "retweets": 0,
+        "likes": 10,
+        "summary": "Runway推文引导开始",
+        "key_data": [
+          "Get started"
+        ],
+        "keywords": [
+          "Runway",
+          "开始",
+          "引导"
+        ]
+      }
+    ],
+    "Perplexity (AI 搜索引擎)": [
+      {
+        "text": "Yesterday at London Tech Week we announced the Billion Pound Build competition.\n\nTeams can enter to secure a share of £1M in Computer credits by using Perplexity Computer to build their company.\n\nThe pitch phase is open now and closes on 6 July.",
+        "url": "https://twitter.com/perplexity_ai/status/2064247043250639341",
+        "time": "21h",
+        "replies": 42,
+        "retweets": 25,
+        "likes": 203,
+        "summary": "伦敦Tech Week发布Billion Pound Build竞赛。",
+        "key_data": [
+          "£1M",
+          "6 July"
+        ],
+        "keywords": [
+          "London Tech Week",
+          "Billion Pound Build",
+          "Perplexity Computer",
+          "Computer credits",
+          "pitch phase"
+        ]
+      },
+      {
+        "text": "Submit your pitch:\n\n\nhttps://\nbillionpoundbuild.pplx.app",
+        "url": "https://twitter.com/perplexity_ai/status/2064247055976149024",
+        "time": "21h",
+        "replies": 6,
+        "retweets": 2,
+        "likes": 25,
+        "summary": "提交你的提案链接。",
+        "key_data": [
+          "billionpoundbuild.pplx.app"
+        ],
+        "keywords": [
+          "提交",
+          "提案",
+          "链接"
+        ]
+      }
+    ],
+    "Character.AI (AI 虚拟角色)": [],
+    "智谱 AI (GLM 模型)": [],
+    "月之暗面 (Kimi)": [],
+    "MiniMax (海螺 AI)": [
+      {
+        "text": "You can run Hermes 100x cheaper with MiniMax m3\n\nBut most people still don't know how to set this up\n\nIn this 20 min video, i show you exactly how:",
+        "url": "https://twitter.com/DavidOndrej1/status/2064279608191582424",
+        "time": "18h",
+        "replies": 9,
+        "retweets": 22,
+        "likes": 309,
+        "summary": "MiniMax使Hermes运行成本降低100倍。",
+        "key_data": [
+          "100x cheaper",
+          "20 min video"
+        ],
+        "keywords": [
+          "MiniMax",
+          "Hermes",
+          "cost reduction",
+          "setup",
+          "video"
+        ]
+      },
+      {
+        "text": "MiniMax is live on \n@RespanAI\n Gateway\n\nDevelopers now have another easy way to access our models.\n\nas more teams ship AI products across text, speech, image, video, and music, we want our models right there when you need them.\n\nlink in comments \n#MiniMax #Respan #AIGateway",
+        "url": "https://twitter.com/MiniMax_AI/status/2064428120489546014",
+        "time": "9h",
+        "replies": 10,
+        "retweets": 4,
+        "likes": 52,
+        "summary": "MiniMax上线，开发者便捷接入AI模型。",
+        "key_data": [
+          "@RespanAI",
+          "Gateway"
+        ],
+        "keywords": [
+          "MiniMax",
+          "Respan",
+          "AIGateway"
+        ]
+      },
+      {
+        "text": "Try it today",
+        "url": "https://twitter.com/MiniMax_AI/status/2064428329219051943",
+        "time": "9h",
+        "replies": 0,
+        "retweets": 0,
+        "likes": 3,
+        "summary": "体验MiniMax产品",
+        "key_data": [
+          "Try it today"
+        ],
+        "keywords": [
+          "MiniMax",
+          "体验",
+          "今天"
+        ]
+      }
+    ],
+    "百川智能 (Baichuan 模型)": [],
+    "阶跃星辰 (Step 模型)": [],
+    "01.AI (Yi 模型)": [],
+    "百度 AI (文心一言)": [],
+    "阿里通义 (通义千问)": [],
+    "腾讯混元 (混元大模型)": [],
+    "字节豆包 (豆包、云雀)": [],
+    "华为云 (盘古大模型)": [],
+    "科大讯飞 (星火大模型)": [],
+    "理想汽车 (理想 AD 智驾)": [],
+    "小鹏汽车 (XNGP 智驾)": [],
+    "蔚来 (NIO Pilot)": [],
+    "商汤科技 (商汤大模型)": []
+  }
+}
